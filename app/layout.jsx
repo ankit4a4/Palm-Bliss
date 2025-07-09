@@ -1,41 +1,39 @@
+
+
 import './globals.css';
-import type { Metadata } from 'next';
-import { Inter, Playfair_Display,Tangerine } from 'next/font/google';
+import { Inter, Playfair_Display, Tangerine } from 'next/font/google';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { subscribe } from 'node:diagnostics_channel';
+
 
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 });
+
 const tangerine = Tangerine(
   {
-     weight: '400',
-  subsets: ['latin'],
-   variable: '--font-tangerine'
+    weight: '400',
+    subsets: ['latin'],
+    variable: '--font-tangerine'
   }
-)
-
-
-
+);
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
 });
 
-export const metadata: Metadata = {
+// Metadata object remains the same, just without the TypeScript type annotation
+export const metadata = {
   title: 'Palm Bliss Resort - Premium Luxury Resort Experience',
   description: 'Experience the ultimate luxury at Palm Bliss Resort. Wellness, yoga, natural pools, and world-class amenities in a serene natural setting.',
 };
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} ${tangerine.variable} `}>
