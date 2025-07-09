@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/home/HeroSection.jsx", "app/contact/page.js, "app/natural-pool/page, "app/rooms/page.jsx".jsx"x", "app/wellness/page.jsx", "app/about/page.jsx", "app/yoga/page.jsx", "app/layout.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/home/HeroSection.jsx", "app/contact/page.js", "app/natural-pool/page", "app/rooms/page.jsx", "app/wellness/page.jsx", "app/about/page.jsx", "app/yoga/page.jsx", "app/layout.jsx"],
   "exclude": ["node_modules"]
 }
