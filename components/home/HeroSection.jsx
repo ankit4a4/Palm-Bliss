@@ -4,10 +4,15 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { CalendarDays } from "lucide-react";
 import BlurText from "../ui/BlurText";
+
 import RotatingText from "../ui/RotatingText";
 
 // Removed TypeScript type definition for props
-const HeroSection = ({ welcomeHeading, subtitle = "The Palm Bliss" }) => {
+const HeroSection = ({
+  welcomeHeading,
+  subtitle = "The Palm Bliss",
+  showHeading,
+}) => {
   const [showMobileForm, setShowMobileForm] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -64,7 +69,8 @@ const HeroSection = ({ welcomeHeading, subtitle = "The Palm Bliss" }) => {
         >
           {welcomeHeading}
         </motion.h1>
-        <h1 className="text-white text-xl">To</h1>
+        {showHeading=="true" && <h1 className="text-white text-xl">To</h1>}
+
         <div className="flex flex-col justify-center mb-2 items-center">
           <BlurText
             text="The Palm Bliss Resort"
@@ -74,7 +80,9 @@ const HeroSection = ({ welcomeHeading, subtitle = "The Palm Bliss" }) => {
             onAnimationComplete={handleAnimationComplete}
             className="text-4xl text-white font-playfair tracking-widest"
           />
-          <h1 className="text-gray-200 text-4xl font-tangerine mt-1">Adventure in jungle</h1>
+          <h1 className="text-gray-200 text-4xl font-tangerine mt-1">
+            Adventure in jungle
+          </h1>
         </div>
 
         {/* <RotatingText
