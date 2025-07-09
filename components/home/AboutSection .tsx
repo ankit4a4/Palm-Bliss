@@ -15,7 +15,7 @@ const AboutSection = () => {
             </span>
           </p>
           <p className="text-3xl md:text-5xl font-tangerine text-[#7c6b56] leading-none">
-            adventure in jungle
+            Adventure in jungle
           </p>
           <p className="text-2xl md:text-3xl font-bold text-gray-800">
             Atharva Ayurvedic Wellness Retreat

@@ -1,20 +1,14 @@
-'use client';
+"use client";
 
-
-import RoomsGrid from '@/components/rooms/RoomsGrid';
-import RoomFeature from '@/components/rooms/RoomFeature';
-import HeroSection from '@/components/home/HeroSection';
+import RoomsGrid from "@/components/rooms/RoomsGrid";
+import RoomFeature from "@/components/rooms/RoomFeature";
+import HeroSection from "@/components/home/HeroSection";
 
 export default function Rooms() {
-
-
   return (
     <div>
       {/* Hero Section */}
-      <HeroSection
-      
-        welcomeHeading="ROOMS"
-      />
+      <HeroSection showHeading="false" welcomeHeading="Accomidation" />
 
       {/* Rooms Grid */}
       <RoomsGrid />

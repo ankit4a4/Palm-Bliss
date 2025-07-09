@@ -14,7 +14,8 @@ export default function About() {
   return (
     <>
       <HeroSection
-        welcomeHeading="ABOUT US"
+        welcomeHeading="Our Legecy"
+        showHeading="false"
       />
       <StorySection />
       <ValuesSection />
