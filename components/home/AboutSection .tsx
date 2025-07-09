@@ -4,47 +4,74 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <section className="bg-[#fbf7f0] md:py-[14vh] py-10 px-6 md:px-[10vw]">
-      <div className=" mx-auto text-center space-y-[6vh]">
-        <div>
-          <h1 className="font-bold font-inter text-gray-600 text-lg"><span className="text-xl font-bold text-black">THE PALM 🌴 BLISS RESORT</span> adventure in jungle</h1>
-          <h1 className="font-inter text-3xl font-bold mt-1 text-gray-900 capitalize">ATHARVA AYURVEDIC WELLNESS RETREAT</h1>
+    <section className="bg-[#fbf7f0] md:py-[14vh] py-12 px-6 md:px-[10vw] font-inter">
+      <div className="max-w-6xl mx-auto text-center space-y-12">
+
+        {/* Brand Section */}
+        <div className="space-y-2">
+          <p className="text-xl md:text-2xl text-gray-600 font-semibold">
+            <span className="text-3xl md:text-4xl font-bold text-black tracking-tight">
+              THE PALM 🌴 BLISS RESORT
+            </span>
+          </p>
+          <p className="text-3xl md:text-5xl font-tangerine text-[#7c6b56] leading-none">
+            adventure in jungle
+          </p>
+          <p className="text-2xl md:text-3xl font-bold text-gray-800">
+            Atharva Ayurvedic Wellness Retreat
+          </p>
         </div>
 
-        {/* Heading */}
+        {/* Main Heading */}
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-[6.3vw] md:text-[3vw] font-playfair font-bold text-[#3c2f23] leading-tight"
+          className="text-[8vw] md:text-[2.5vw] font-playfair font-bold text-[#3c2f23] leading-snug tracking-tight"
         >
-          Experience the soul of shivalik ranges & Lesser HIMALAYAN <br />
-          <span className="text-[#C9A062]">
+          Experience the soul of Shivalik ranges & Lesser HIMALAYAN <br />
+          <span className="text-[#C9A062] block mt-1">
             Ayurveda, Nature & Wellness in Harmony
           </span>
         </motion.h2>
 
-        {/* Paragraph */}
+        {/* Intro Paragraph */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-[2vh] md:text-[1.2vw] text-[#5c5344] leading-relaxed mx-auto"
+          className="text-base md:text-lg text-[#5c5344] leading-relaxed max-w-6xl mx-auto"
         >
           Nestled in the sacred foothills of the Himalayas, our retreat is more
           than a place — it’s an experience. Discover inner balance through the
-          timeless wisdom of Ayurveda, pristine nature and soulful living.
+          timeless wisdom of Ayurveda, pristine nature, and soulful living.
           Whether you're seeking physical rejuvenation, mental clarity or
           spiritual awakening, every element here is aligned to support your
           transformation.
         </motion.p>
 
-        {/* Quote */}
-        {/* <motion.blockquote
+        {/* Founders Paragraph */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="text-base md:text-lg text-[#4a3b2a] leading-relaxed max-w-6xl mx-auto"
+        >
+          Founder <strong>Ms. Shivani Agarwal</strong>, along with co-founder{" "}
+          <strong>Mr. Path Garg</strong> and strategic insights from{" "}
+          <strong>Mr. Kamlesh Singh</strong>, leads Atharva Ayurvedic Wellness Retreat — a space rooted in
+          holistic healing, conscious design, and a deep reverence for ancient
+          Ayurvedic wisdom. Our vision is to help guests not only unwind but
+          also awaken to a higher state of being.
+        </motion.p>
+
+        {/* Optional Quote Block */}
+        {/* 
+        <motion.blockquote
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="border-l-[0.3vw] border-[#C9A062] bg-[#fff8ec] text-[#4a3b2a] p-6 md:p-8 rounded-md shadow-sm text-[2vh] md:text-[1.1vw] italic mx-auto"
+          className="border-l-4 border-[#C9A062] bg-[#fff8ec] text-[#4a3b2a] p-6 md:p-8 rounded-md shadow-md text-base md:text-lg italic max-w-3xl mx-auto"
         >
           “You don’t just stay here —{" "}
           <span className="text-[#C9A062] font-semibold not-italic">
@@ -52,22 +79,8 @@ const AboutSection = () => {
           </span>
           . Every space is crafted to reconnect you with nature, with healing,
           and with peace.”
-        </motion.blockquote> */}
-
- <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-[2vh] md:text-[1.15vw] text-[#4a3b2a] leading-relaxed mx-auto"
-        >
-          Founder <strong>Ms. Shivani Agarwal</strong>, along with co-founder{" "}
-          <strong>Mr. Path Garg</strong> and with strategic insights from{" "}
-          <strong>Mr. Kamlesh Singh</strong>, leads Atharva Ayurvedic Wellness Retreat, which is built on the
-          foundations of holistic healing, conscious design, and a deep
-          reverence for ancient Ayurvedic wisdom. Our vision is to create a
-          sacred space where guests not only unwind but also awaken to a higher
-          state of being.
-        </motion.p>
+        </motion.blockquote>
+        */}
       </div>
     </section>
   );

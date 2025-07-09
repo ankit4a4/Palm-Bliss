@@ -60,28 +60,27 @@ const HeroSection = ({ welcomeHeading, subtitle = "The Palm Bliss" }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-white text-[8vh] md:text-[8vw] font-bold drop-shadow-lg"
+          className="text-white text-[8vh] md:text-[6vw] font-bold drop-shadow-lg"
         >
           {welcomeHeading}
         </motion.h1>
         <h1 className="text-white text-xl">To</h1>
         <div className="flex flex-col justify-center mb-2 items-center">
           <BlurText
-            text="The Palm Bliss"
+            text="The Palm Bliss Resort"
             delay={150}
             animateBy="words"
             direction="top"
             onAnimationComplete={handleAnimationComplete}
-            className="text-3xl text-white font-playfair tracking-widest"
+            className="text-4xl text-white font-playfair tracking-widest"
           />
-          <h1 className="text-gray-200 font-inter">Adventure in jungle</h1>
+          <h1 className="text-gray-200 text-4xl font-tangerine mt-1">Adventure in jungle</h1>
         </div>
 
-        <RotatingText
+        {/* <RotatingText
           texts={[
-            "Atharva Ayurvedic",
-            "Wellness Retreat",
-            "Where Healing Begins Within",
+            
+           
           ]}
           mainClassName="px-2 sm:px-2 md:px-3 bg-yellow-600/20 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
           staggerFrom={"last"}
@@ -92,7 +91,11 @@ const HeroSection = ({ welcomeHeading, subtitle = "The Palm Bliss" }) => {
           splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
           transition={{ type: "spring", damping: 60, stiffness: 400 }}
           rotationInterval={3000}
-        />
+        /> */}
+        <div className="flex text-white gap-2">
+          <p>Atharva Ayurvedic</p>
+          <p> Wellness Retreat</p>
+        </div>
       </div>
 
       {/* Mobile Toggle */}

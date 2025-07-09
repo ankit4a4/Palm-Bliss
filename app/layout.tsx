@@ -1,15 +1,26 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Inter, Playfair_Display,Tangerine } from 'next/font/google';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { subscribe } from 'node:diagnostics_channel';
 
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 });
+const tangerine = Tangerine(
+  {
+     weight: '400',
+  subsets: ['latin'],
+   variable: '--font-tangerine'
+  }
+)
+
+
+
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -27,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} ${tangerine.variable} `}>
       <body className={`${inter.className} antialiased`}>
         <Navbar />
         <main>{children}</main>
