@@ -12,6 +12,7 @@ const config: Config = {
       fontFamily: {
         'inter': ['var(--font-inter)', 'sans-serif'],
         'playfair': ['var(--font-playfair)', 'serif'],
+        
       },
       colors: {
         'royal-gold': '#D4AF37',
