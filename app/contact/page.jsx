@@ -15,14 +15,14 @@ export default function Contact() {
         !id ? (
           <>
             <HeroSection
-            
+
               welcomeHeading="CONTACT"
             />
           </>
         ) : (
           <>
             <HeroSection
-              
+
               welcomeHeading="Book Room"
             />
           </>

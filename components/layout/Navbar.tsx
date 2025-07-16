@@ -35,16 +35,16 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Our Legecy", href: "/about" },
     { name: "Accomidation", href: "/rooms" },
-    { name: "Ayush Dining", href: "/wellness" },
+    { name: "Ayush Dining", href: "/ayush-dining" },
   ];
 
   const navItemsRight = [
     { name: "Ayush Wellness", href: "/wellness" },
-    { name: "Wellness Packages", href: "/wellness" },
+    { name: "Wellness Packages", href: "/wellness-packages" },
 
     // { name: 'Ayush Wellness', href: '/yoga' },
     // { name: 'Natural Pool', href: '/natural-pool' },
-    { name: "Gallery", href: "/contact" },
+    { name: "Gallery", href: "/gallery" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -53,11 +53,10 @@ const Navbar = () => {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? "bg-white backdrop-blur-sm shadow-lg"
           : " backdrop-blur-sm bg-black/10"
-      }`}
+        }`}
     >
       <div className="mx-auto px-4 md:px-[10vw] md:py-[2vw] py-3 ">
         {/* Desktop Nav */}
@@ -68,9 +67,8 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`${
-                  isScrolled ? "text-black" : "text-white"
-                } font-normal hover:text-royal-gold transition-colors text-[1vw]`}
+                className={`${isScrolled ? "text-black" : "text-white"
+                  } font-normal hover:text-royal-gold transition-colors text-[1vw]`}
                 style={{
                   color: pathname === item.href ? "#d4af37" : "",
                 }}
@@ -93,9 +91,8 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`${
-                  isScrolled ? "text-black" : "text-white"
-                } font-normal hover:text-royal-gold transition-colors text-[1vw]`}
+                className={`${isScrolled ? "text-black" : "text-white"
+                  } font-normal hover:text-royal-gold transition-colors text-[1vw]`}
                 style={{
                   color: pathname === item.href ? "#d4af37" : "",
                 }}
@@ -112,16 +109,15 @@ const Navbar = () => {
             <Image
               src={logo}
               alt="Logo"
-              className="absolute left-[12%] transform -translate-x-1/2 w-[30%] object-contain"
+              className=" transform  w-[25%] object-contain"
             />
           </Link>
 
           <Button
             variant="ghost"
             size="icon"
-            className={`${
-              isScrolled ? "text-black" : "text-white"
-            } hover:text-royal-gold`}
+            className={`${isScrolled ? "text-black" : "text-white"
+              } hover:text-royal-gold`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
