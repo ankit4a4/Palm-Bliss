@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/home/HeroSection.jsx", "app/contact/page.js", "app/natural-pool/page", "app/rooms/page.jsx", "app/wellness/page.jsx", "app/about/page.jsx", "app/yoga/page.jsx", "app/layout.jsx", "components/home/FacilitiesGrid.jsx", "components/home/HomeRooms.jsx", "components/rooms/RoomsGrid.jsx"],
+  "exclude": ["node_modules"]
+}

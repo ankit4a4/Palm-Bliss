@@ -1,0 +1,155 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { GiLotus, GiFlowerPot } from "react-icons/gi";
+import { FaLeaf } from "react-icons/fa";
+import { WiDaySunny } from "react-icons/wi";
+import { PiDiamondsFourFill } from "react-icons/pi";
+
+
+const AboutSection = () => {
+  return (
+    <section className="bg-[#fbf7f0] md:py-[14vh] py-12 px-6 md:px-[10vw] font-inter">
+      <div className="max-w-6xl mx-auto text-center space-y-12">
+        {/* Brand Section */}
+        <div className="space-y-3">
+          <p className="text-xl md:text-2xl text-gray-700 font-semibold">
+            <span className="text-3xl md:text-4xl font-playfair text-yellow-700/90">
+              THE PALM BLISS RESORT
+            </span>
+          </p>
+          <p className="text-3xl md:text-5xl font-tangerine text-black leading-none">
+            {/* <GiFlowerPot className="inline-block mb-1 mr-2 text-yellow-700" size={38}/>  */}
+            Adventure in jungle
+          </p>
+          <p className="text-2xl md:text-3xl text-yellow-700/90  font-alegreya italic text-gray-900">
+            Atharva Ayurvedic Wellness Retreat
+          </p>
+        </div>
+
+        {/* Main Heading */}
+        {/* Uncomment if needed, updated colors for modern feel
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-[8vw] md:text-[2.5vw] font-playfair font-bold text-[#3c2f23] leading-snug tracking-tight"
+        >
+          Experience The Soul Of Shivalik Ranges & Lesser Himalyan <br />
+          <span className="text-black block mt-1">
+            Ayurveda, Nature & Wellness In Harmony
+          </span>
+        </motion.h2>
+        */}
+
+        {/* Intro Paragraph */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="text-base md:text-lg text-[#4b3e2f] leading-relaxed max-w-6xl mx-auto font-medium"
+        >
+          {/* <FaLeaf className="inline-block mb-1 mr-1 text-yellow-700" size={24}/> */}
+          Welcome to Palm Bliss Resort & Atharva Ayurveda Wellness Retreat Where
+          Harmony Finds a Home Tucked away in the green folds of the Shivalik
+          ranges, Palm Bliss and Atharva Retreat invite you to a space where the
+          soul exhales, the body renews, and the mind gently quiets. Here,
+          luxury breathes through simplicity, and every detail — from mud
+          cottages to healing rituals — is woven with love, nature, and ancient
+          wisdom.
+        </motion.p>
+
+        <h1 className="text-xl text-yellow-700/90 uppercase font-alegreya italic font-medium md:text-2xl  tracking-normal  flex items-center justify-center gap-2">
+          <GiLotus className="text-yellow-700 " size={26} />A Journey Into
+          Tranquility
+        </h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="text-base md:text-lg text-[#4b3e2f] leading-relaxed max-w-6xl mx-auto font-medium"
+        >
+          Wake to birdsong and the golden touch of sunrise. Feel the cool earth
+          underfoot as you walk through gardens of soft grasses and sacred
+          silence. Surrender to the rhythm of Abhyanga, Shirodhara, and warm
+          herbal oils. Dine on pure, organic food that nourishes from within —
+          grown with care, served with love.
+        </motion.p>
+
+        <h1 className="text-xl md:text-2xl uppercase text-yellow-700/90 font-alegreya italic font-medium tracking-normal  flex items-center justify-center gap-2">
+          <WiDaySunny className="text-yellow-700" size={26} />
+          Stay, Breathe, Become
+        </h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="text-base md:text-lg text-[#4b3e2f] leading-relaxed max-w-6xl mx-auto font-medium"
+        >
+          At Palm Bliss, your stay is more than a getaway — It’s a return to
+          your natural self. Let the mud walls embrace you in comfort, Let the
+          winds whisper peace through every breath. Here, every sunset is a
+          reminder to rest, And every dawn, a promise of renewal.
+        </motion.p>
+
+        <h1 className="text-xl md:text-2xl uppercase text-yellow-700/90 font-alegreya italic font-medium tracking-normal flex items-center justify-center gap-2">
+          <PiDiamondsFourFill  className="text-yellow-700" size={26} />
+          Our Philosophy
+        </h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="text-base md:text-lg text-[#4b3e2f] leading-relaxed max-w-6xl mx-auto font-medium"
+        >
+          We believe in the silent strength of nature, The wisdom of Ayurveda,
+          The healing touch of simplicity, And the power of syndrome silence — a
+          state where stillness speaks and stress dissolves.
+          <ul>
+            <p>Palm Bliss and Atharva are not just destinations —</p>
+            <li className="font-alegreya italic text-xl font-light mt-2">They are experiences.</li>
+            <li className="font-alegreya italic text-xl font-light">They are memories waiting to be lived,</li>
+            <li className="font-alegreya italic text-xl font-light">Stories written in soil, soul, and serenity.</li>
+          </ul>
+        </motion.p>
+
+        {/* Founders Paragraph */}
+        {/* <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="text-base md:text-lg text-[#583e27] leading-relaxed max-w-6xl mx-auto font-medium"
+        >
+          Founder <strong>Ms. Shivani Agarwal</strong>,and strategic insights
+          from <strong>Mr. Kamlesh Singh</strong>, leads Atharva Ayurvedic
+          Wellness Retreat — a space rooted in holistic healing, conscious
+          design, and a deep reverence for ancient Ayurvedic wisdom. Our vision
+          is to help guests not only unwind but also awaken to a higher state of
+          being.
+        </motion.p> */}
+
+        {/* Optional Quote Block */}
+        {/* 
+        <motion.blockquote
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="border-l-4 border-[#C9A062] bg-[#fff8ec] text-[#4a3b2a] p-6 md:p-8 rounded-md shadow-md text-base md:text-lg italic max-w-3xl mx-auto"
+        >
+          “You don’t just stay here —{" "}
+          <span className="text-[#C9A062] font-semibold not-italic">
+            you return to yourself
+          </span>
+          . Every space is crafted to reconnect you with nature, with healing,
+          and with peace.”
+        </motion.blockquote>
+        */}
+      </div>
+    </section>
+  );
+};
+
+export default AboutSection;
