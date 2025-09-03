@@ -475,8 +475,28 @@ const FacilitiesGrid = () => {
                 <p className="text-sm text-gray-200 leading-relaxed drop-shadow-sm">
                   {item.description}
                 </p>
-                <button className="px-2 py-1 text-sm bg-yellow-700 mt-2 text-white rounded">
+                <button
+                  className="px-2 py-1 text-sm bg-yellow-700 mt-2 text-white rounded"
+                  style={{
+                    animation: "blink 1s infinite",
+                    // Optional: fallback for smooth opacity change
+                    WebkitAnimation: "blink 1s infinite",
+                  }}
+                >
                   Learn More
+                  <style jsx>{`
+                    @keyframes blink {
+                      0%,
+                      50%,
+                      100% {
+                        opacity: 1;
+                      }
+                      25%,
+                      75% {
+                        opacity: 0.5;
+                      }
+                    }
+                  `}</style>
                 </button>
               </div>
             </div>

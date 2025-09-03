@@ -55,7 +55,7 @@ const AboutSection = () => {
           ranges, Palm Bliss and Atharva Retreat invite you to a space where the
           soul exhales, the body renews, and the mind gently quiets. Here,
           luxury breathes through simplicity, and every detail — from mud
-          cottages to healing rituals — is woven with love, nature, and ancient
+          cottages to healing rituals — is woven with love, nature and ancient
           wisdom.
         </motion.p>
 
@@ -73,7 +73,7 @@ const AboutSection = () => {
           Wake to birdsong and the golden touch of sunrise. Feel the cool earth
           underfoot as you walk through gardens of soft grasses and sacred
           silence. Surrender to the rhythm of Abhyanga, Shirodhara, and warm
-          herbal oils. Dine on pure, organic food that nourishes from within —
+          herbal oils. Dine on pure, Natural food that nourishes from within —
           grown with care, served with love.
         </motion.p>
 
@@ -90,8 +90,8 @@ const AboutSection = () => {
         >
           At Palm Bliss, your stay is more than a getaway — It’s a return to
           your natural self. Let the mud walls embrace you in comfort, Let the
-          winds whisper peace through every breath. Here, every sunset is a
-          reminder to rest, And every dawn, a promise of renewal.
+          winds whisper peace through every breath. Here every sunset is a
+          reminder to rest And every dawn a promise of renewal.
         </motion.p>
 
         <h1 className="text-xl md:text-2xl uppercase text-yellow-700/90 font-alegreya italic font-medium tracking-normal flex items-center justify-center gap-2">
@@ -109,7 +109,7 @@ const AboutSection = () => {
           The healing touch of simplicity, And the power of syndrome silence — a
           state where stillness speaks and stress dissolves.
           <ul>
-            <p>Palm Bliss and Atharva are not just destinations —</p>
+            <p>Palm Bliss and Atharva wellness are not just destinations —</p>
             <li className="font-alegreya italic text-xl font-light mt-2">They are experiences.</li>
             <li className="font-alegreya italic text-xl font-light">They are memories waiting to be lived,</li>
             <li className="font-alegreya italic text-xl font-light">Stories written in soil, soul, and serenity.</li>

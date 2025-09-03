@@ -126,11 +126,11 @@ export default function HomeWellness() {
                   {index === 0 ? (
                     `Ancient Healing for the Modern Soul
 
-Step into a sanctuary where time-honored Ayurvedic wisdom meets contemporary wellness. Our Signature Ayurvedic Rituals are more than treatments — they are soulful experiences designed to restore balance, energize the body, and soothe the spirit.
+Step into a sanctuary where time-honored Ayurvedic wisdom meets contemporary wellness. Our Signature Ayurvedic Rituals are more than treatments — they are soulful experiences designed to restore balance, energize the body and soothe the spirit.
 
-Rooted in centuries-old practices, each ritual is thoughtfully customized to your unique dosha (body constitution) and guided by our seasoned Ayurvedic practitioners. Using pure, natural ingredients, therapeutic oils, and traditional techniques, these rituals invoke deep healing from within.
+Rooted in centuries-old practices, each ritual is thoughtfully customized to your unique dosha (body constitution) and guided by our seasoned Ayurvedic practitioners. Using pure, natural ingredients, therapeutic oils and traditional techniques, these rituals invoke deep healing from within.
 
-Each journey begins with a personalized consultation to understand your body's needs, followed by rituals crafted using traditional methods and plant-based remedies that honor the authentic soulof Ayurveda.
+Each journey begins with a personalized consultation to understand your body's needs, followed by rituals crafted using traditional methods and plant-based remedies that honor the authentic soul of Ayurveda.
 
 Reconnect. Rebalance. Rejuvenate.
 
@@ -139,9 +139,9 @@ Let our Signature Ayurvedic Rituals guide you back to your natural state of well
                     `
 At Palm Bliss Resort and Atharva Ayurveda Wellness Retreat, we don’t offer therapies — we offer sacred healing journeys. Rooted in the divine knowledge of Ayurveda, our Ancient Healing Therapies are time-honored rituals of purification, renewal, and inner awakening — meticulously preserved and passed down through generations of Ayurvedic masters.
 
-These are not fleeting indulgences, but soul-touching experiences that realign your energies, detoxify the body, and elevate the spirit. Each ritual is artfully tailored to your unique prakriti (constitutional blueprint), harmonizing your doshas and restoring your connection with the five elements — earth, water, fire, air, and ether.
+These are not fleeting indulgences, but soul-touching experiences that realign your energies, detoxify the body and elevate the spirit. Each ritual is artfully tailored to your unique prakriti (constitutional blueprint), harmonizing your doshas and restoring your connection with the five elements — earth, water, fire, air and ether.
 
-In the calm silence of the Shivalik foothills, where prana (life force) pulses through the air and nature whispers in every breeze, these therapies become transformational ceremonies, guiding you gently back to your original, balanced self.`
+In the calm silence of the Shivalik foothills, where prana (life force) pulses through the air and nature whispers in every breeze these therapies become transformational ceremonies, guiding you gently back to your original balanced self.`
                   ) : (
                     <>
                       A Journey Back to Wholeness at The Palm Bliss Resort &
