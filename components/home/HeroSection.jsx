@@ -65,11 +65,11 @@ const HeroSection = ({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-white text-[6vh] md:text-[6vw] font-bold drop-shadow-lg"
+          className="text-white text-[6vh] md:text-[5vw] font-bold drop-shadow-lg"
         >
           {welcomeHeading}
         </motion.h1>
-        {showHeading=="true" && <h1 className="text-white text-xl">To</h1>}
+        {showHeading=="true" && <h1 className="text-white text-xl -mt-2">To <br/></h1>}
 
         <div className="flex flex-col justify-center mb-2 items-center">
           {/* <BlurText
@@ -88,7 +88,6 @@ const HeroSection = ({
 
         {/* <RotatingText
           texts={[
-            
            
           ]}
           mainClassName="px-2 sm:px-2 md:px-3 bg-yellow-600/20 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
@@ -101,9 +100,9 @@ const HeroSection = ({
           transition={{ type: "spring", damping: 60, stiffness: 400 }}
           rotationInterval={3000}
         /> */}
-        <div className="flex text-white gap-2">
-          <p>Atharva Ayurvedic</p>
-          <p> Wellness Retreat</p>
+        <div className="flex text-white gap-1 -mt-2 ">
+          <p className="font-playfair text-[39px]">Atharva Ayurvedic</p>
+          <p className="font-playfair text-[39px]"> Wellness Retreat</p>
         </div>
       </div>
 
