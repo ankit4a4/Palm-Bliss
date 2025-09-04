@@ -47,7 +47,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-base md:text-lg text-[#4b3e2f] font-alegreya italic leading-relaxed max-w-6xl mx-auto font-medium"
+          className="text-base md:text-lg text-[#4b3e2f] font-alegreya  leading-relaxed max-w-6xl mx-auto font-medium"
         >
           {/* <FaLeaf className="inline-block mb-1 mr-1 text-yellow-700" size={24}/> */}
           Welcome to Palm Bliss Resort & Atharva Ayurveda Wellness Retreat Where
@@ -67,7 +67,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-base md:text-lg text-[#4b3e2f] font-alegreya italic leading-relaxed max-w-6xl mx-auto font-medium"
+          className="text-base md:text-lg text-[#4b3e2f] font-alegreya  leading-relaxed max-w-6xl mx-auto font-medium"
         >
           Wake to birdsong and the golden touch of sunrise. Feel the cool earth
           underfoot as you walk through gardens of soft grasses and sacred
@@ -88,7 +88,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-base md:text-lg font-alegreya italic text-[#4b3e2f] leading-relaxed max-w-6xl mx-auto font-medium"
+          className="text-base md:text-lg font-alegreya  text-[#4b3e2f] leading-relaxed max-w-6xl mx-auto font-medium"
         >
           At Palm Bliss, your stay is more than a getaway — It’s a return to
           your natural self. Let the mud walls embrace you in comfort, Let the
@@ -107,7 +107,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-base md:text-lg text-[#4b3e2f] font-alegreya italic leading-relaxed max-w-6xl mx-auto font-medium"
+          className="text-base md:text-lg text-[#4b3e2f] font-alegreya  leading-relaxed max-w-6xl mx-auto font-medium"
         >
           We believe in the silent strength of nature, The wisdom of Ayurveda,
           The healing touch of simplicity, And the power of syndrome silence — a

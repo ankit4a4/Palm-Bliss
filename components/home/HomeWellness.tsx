@@ -15,9 +15,14 @@ import {
   FaFeatherAlt,
   FaRegLightbulb,
   FaYinYang,
+  FaHotTub,
+  FaTint,
+  FaLungs,
+  FaHandsHelping,
+  FaBalanceScale,
 } from "react-icons/fa";
 import { PiFlowerLotus } from "react-icons/pi";
-import { GiMeditation } from "react-icons/gi";
+import { GiLotusFlower, GiMeditation } from "react-icons/gi";
 
 import { MdOutlineSelfImprovement } from "react-icons/md";
 
@@ -126,17 +131,17 @@ export default function HomeWellness() {
                 </h3>
                 <p className="text-[2vh] md:text-[1.05vw] text-[#5c5344] leading-relaxed mb-4 font-medium whitespace-pre-line">
                   {index === 0 ? (
-                    `Ancient Healing for the Modern Soul
+                    <><h2 className="text-yellow-900/90 text-lg my-3">Ancient Healing for the Modern Soul</h2>
 
-Step into a sanctuary where time-honored Ayurvedic wisdom meets contemporary wellness. Our Signature Ayurvedic Rituals are more than treatments — they are soulful experiences designed to restore balance, energize the body and soothe the spirit.
+                      <p>Step into a sanctuary where time-honored Ayurvedic wisdom meets contemporary wellness. Our Signature Ayurvedic Rituals are more than treatments — they are soulful experiences designed to restore balance, energize the body and soothe the spirit.</p>
 
-Rooted in centuries-old practices, each ritual is thoughtfully customized to your unique dosha (body constitution) and guided by our seasoned Ayurvedic practitioners. Using pure, natural ingredients, therapeutic oils and traditional techniques, these rituals invoke deep healing from within.
+                      <p>   Rooted in centuries-old practices, each ritual is thoughtfully customized to your unique dosha (body constitution) and guided by our seasoned Ayurvedic practitioners. Using pure, natural ingredients, therapeutic oils and traditional techniques, these rituals invoke deep healing from within.</p>
 
-Each journey begins with a personalized consultation to understand your body's needs, followed by rituals crafted using traditional methods and plant-based remedies that honor the authentic soul of Ayurveda.
+                      <p> Each journey begins with a personalized consultation to understand your body's needs, followed by rituals crafted using traditional methods and plant-based remedies that honor the authentic soul of Ayurveda.
+                      </p>
+                      <h2 className="text-yellow-900/90 text-lg my-3"> Reconnect. Rebalance. Rejuvenate.</h2>
 
-Reconnect. Rebalance. Rejuvenate.
-
-Let our Signature Ayurvedic Rituals guide you back to your natural state of wellness — where ancient traditions meet modern serenity.`
+                      Let our Signature Ayurvedic Rituals guide you back to your natural state of wellness — where ancient traditions meet modern serenity.</>
                   ) : index === 1 ? (
                     `
 At Palm Bliss Resort and Atharva Ayurveda Wellness Retreat, we don’t offer therapies — we offer sacred healing journeys. Rooted in the divine knowledge of Ayurveda, our Ancient Healing Therapies are time-honored rituals of purification, renewal, and inner awakening — meticulously preserved and passed down through generations of Ayurvedic masters.
@@ -166,25 +171,37 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       <div className="mt-2 mb-2 flex flex-col gap-1">
                         <div className="">
                           {/* <MdOutlineSelfImprovement className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong>Abhyanga –</strong> A full-body synchronized
+                          <div className="flex items-center gap-2 text-yellow-700/90 italic  my-4 text-[18px]">
+                          <GiLotusFlower className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            Abhyanga
+                          </div>
+                          A full-body synchronized
                           oil massage to detoxify, nourish, and energize.
                         </div>
                         <div className="">
                           {/* <FaFeatherAlt className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong> Udwarthanam – </strong> A dry herbal
+                          <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
+                           <FaLeaf className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            Udwarthanam
+                          </div>
+                          A dry herbal
                           exfoliation that stimulates metabolism and tones the
                           skin.
                         </div>
                         <div className="">
                           {/* <FaPrayingHands className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong>Pinda Sweda –</strong> Warm herbal poultices
+                          <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
+                           <FaHotTub className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            Pinda Sweda
+                          </div>
+                          Warm herbal poultices
                           applied to relieve joint pain, muscular stiffness, and
                           fatigue.
                         </div>
                       </div>
                       Let your body feel light, open, and deeply nourished.
                       <div className="mt-4 mb-3">
-                        <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
+                        <div className="flex items-center gap-2  text-yellow-700/90 italic  text-[18px]">
                           <FaBrain className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
                           Mind Clarity
                         </div>
@@ -194,14 +211,23 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       directly to your mind’s center.
                       <div className="mt-2 mb-2 flex flex-col gap-1">
                         <div className="">
+                          <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
+                          <FaTint className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            Shirodhara
+                          </div>
                           {/* <FaRegLightbulb className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong>Shirodhara –</strong> A gentle stream of
+
+                          A gentle stream of
                           medicated oil over the third eye to ease anxiety and
                           restore clarity.
                         </div>
                         <div className="">
                           {/* <FaRegSmileBeam className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong>Nasya Karma –</strong> Purification of the
+                          <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
+                           <FaLungs className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            Nasya Karma
+                          </div>
+                          Purification of the
                           nasal passages to awaken the senses and relieve
                           emotional congestion.
                         </div>
@@ -219,21 +245,29 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       <div className="mt-2 mb-2 flex flex-col gap-1">
                         <div className="">
                           {/* <FaYinYang className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong>Marma Chikitsa – </strong> Activation of vital
+                          <div className="flex items-center my-4 gap-2 text-yellow-700/90 italic  text-[18px]">
+                             <FaHandsHelping className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            Marma Chikitsa
+                          </div>
+                          Activation of vital
                           energy points to unlock deep healing and restore
                           pranic flow.
                         </div>
                         <div className="">
                           {/* <FaLeaf className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
-                          <strong>Breathwork & Aromatherapy –</strong> Guided
+
+                          <div className="flex items-center my-4 gap-2 text-yellow-700/90 italic  text-[18px]">
+                            Breathwork & Aromatherapy
+                          </div>
+                          Guided
                           breathing paired with healing scents to ground and
                           uplift the spirit.
                         </div>
                       </div>
                       Feel joy rise, purpose return, and your soul realign with
                       serenity.
-                      <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
-                        <FaSpa className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 font-tangerine  text-[18px]" />{" "}
+                      <div className="flex items-center my-4 gap-2 text-yellow-700/90 italic  text-[18px]">
+                        <FaBalanceScale className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 font-tangerine  text-[18px]" />{" "}
                         Personalized for Your Inner Balance
                       </div>
                       Every journey begins with a one-on-one Ayurvedic
@@ -242,7 +276,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       then carefully tailored using pure, organic, and ethically
                       sourced ingredients, prepared according to ancient
                       Ayurvedic texts and seasonal rhythms.
-                      <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
+                      <div className="flex items-center gap-2 text-yellow-700/90 italic my-4  text-[18px]">
                         <PiFlowerLotus className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 font-tangerine  text-[18px]" />
                         This is not just therapy — it’s your sacred return.
                       </div>
