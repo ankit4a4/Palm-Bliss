@@ -69,7 +69,11 @@ const HeroSection = ({
         >
           {welcomeHeading}
         </motion.h1>
-        {showHeading=="true" && <h1 className="text-white text-xl -mt-2">To <br/></h1>}
+        {showHeading == "true" && (
+          <h1 className="text-white text-xl -mt-2">
+            To <br />
+          </h1>
+        )}
 
         <div className="flex flex-col justify-center mb-2 items-center">
           {/* <BlurText
@@ -80,7 +84,9 @@ const HeroSection = ({
             onAnimationComplete={handleAnimationComplete}
             className="text-4xl text-white font-playfair text-center tracking-widest"
           /> */}
-          <h1 className="text-2xl lg:text-4xl text-white font-playfair text-center tracking-widest">The Palm Bliss Resort</h1>
+          <h1 className="text-2xl lg:text-4xl text-white font-playfair text-center tracking-widest">
+            The Palm Bliss Resort
+          </h1>
           <h1 className="text-gray-200 text-4xl text-center font-tangerine mt-1">
             Adventure in jungle
           </h1>
@@ -101,8 +107,13 @@ const HeroSection = ({
           rotationInterval={3000}
         /> */}
         <div className="flex text-white gap-1 -mt-2 ">
-          <p className="font-playfair text-[39px]">Atharva Ayurvedic</p>
-          <p className="font-playfair text-[39px]"> Wellness Retreat</p>
+          <p className="font-playfair text-[39px] ">
+            Atharva Ayurvedic
+          </p>
+          <p className="font-playfair text-[39px] ">
+            {" "}
+            Wellness Retreat
+          </p>
         </div>
       </div>
 

@@ -103,8 +103,11 @@ export default function HomeWellness() {
                 )}
               </div>
 
+              
+
+
               <div className="w-full md:w-1/2">
-                <h3 className="text-[4.8vw]  md:text-[2vw]  font-alegreya italic font-medium text-yellow-700/90 mb-4 flex items-center gap-2">
+                <h3 className="text-[4.8vw]  md:text-[2.2vw] italic  font-playfair font-[800] text-yellow-700/90 mb-4 flex items-center gap-2">
                   {index === 0 ? (
                     <>
                       <FaSpa className="text-[#A67A35] mb-1 w-7 h-7 md:w-8 md:h-8 lg:w-9 lg:h-9" />
@@ -153,8 +156,8 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       the body, calm the mind, and reawaken the soul — creating
                       a harmonious balance that radiates from within.
                       <div className="mt-4 mb-3">
-                        <div className="flex items-center gap-2 text-yellow-700/90 font-semibold">
-                          <FaLeaf className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
+                        <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
+                          <FaLeaf className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
                           Body Renewal
                         </div>
                       </div>
@@ -182,7 +185,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       </div>
                       Let your body feel light, open, and deeply nourished.
                       <div className="mt-4 mb-3">
-                        <div className="flex text-yellow-700/90 items-center gap-2 font-semibold">
+                        <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
                           <FaBrain className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
                           Mind Clarity
                         </div>
@@ -207,8 +210,8 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       A gentle reset for your thoughts, your focus, and your
                       emotional peace.
                       <div className="mt-4 mb-3">
-                        <div className="flex text-yellow-700/90 items-center gap-2 font-semibold">
-                          <GiMeditation className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
+                        <div className="flex items-center gap-2 text-yellow-700/90  italic  text-[18px]">
+                          <GiMeditation className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 italic  text-[18px]" />{" "}
                           Soul Nourishment
                         </div>
                       </div>
@@ -230,8 +233,8 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       </div>
                       Feel joy rise, purpose return, and your soul realign with
                       serenity.
-                      <div className="mt-4 mb-3 font-semibold flex items-center gap-2 text-yellow-700/90">
-                        <FaSpa className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
+                      <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
+                        <FaSpa className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 font-tangerine  text-[18px]" />{" "}
                         Personalized for Your Inner Balance
                       </div>
                       Every journey begins with a one-on-one Ayurvedic
@@ -240,8 +243,8 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       then carefully tailored using pure, organic, and ethically
                       sourced ingredients, prepared according to ancient
                       Ayurvedic texts and seasonal rhythms.
-                      <div className="mt-4 flex items-center gap-2 font-semibold">
-                        <PiFlowerLotus className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                      <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
+                        <PiFlowerLotus className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 font-tangerine  text-[18px]" />
                         This is not just therapy — it’s your sacred return.
                       </div>
                       Let go of the noise. Breathe in stillness. Heal

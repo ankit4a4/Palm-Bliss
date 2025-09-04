@@ -22,7 +22,7 @@ const AboutSection = () => {
             {/* <GiFlowerPot className="inline-block mb-1 mr-2 text-yellow-700" size={38}/>  */}
             Adventure in jungle
           </p>
-          <p className="text-2xl md:text-3xl text-yellow-700/90  font-alegreya italic text-gray-900">
+          <p className="text-2xl md:text-3xl text-yellow-700/90  italic   text-gray-900">
             Atharva Ayurvedic Wellness Retreat
           </p>
         </div>
@@ -59,9 +59,8 @@ const AboutSection = () => {
           wisdom.
         </motion.p>
 
-        <h1 className="text-xl text-yellow-700/90 uppercase font-alegreya italic font-medium md:text-2xl  tracking-normal  flex items-center justify-center gap-2">
-          <GiLotus className="text-yellow-700 " size={26} />A Journey Into
-          Tranquility
+        <h1 className="text-xl text-yellow-700/90   italic font-medium md:text-2xl  tracking-normal  flex items-center justify-center gap-2">
+          <GiLotus className="text-yellow-700 " size={26} /> <span className=" md:text-3xl">A </span>  <span><span className=" md:text-3xl">J</span  >ourney <span className=" md:text-3xl">I</span>nto <span className=" md:text-3xl">T</span>ranquility</span>
         </h1>
 
         <motion.p
@@ -77,9 +76,12 @@ const AboutSection = () => {
           grown with care, served with love.
         </motion.p>
 
-        <h1 className="text-xl md:text-2xl uppercase text-yellow-700/90 font-alegreya italic font-medium tracking-normal  flex items-center justify-center gap-2">
+        <h1 className="text-xl md:text-2xl  text-yellow-700/90  italic font-medium tracking-normal  flex items-center justify-center gap-2">
           <WiDaySunny className="text-yellow-700" size={26} />
-          Stay, Breathe, Become
+          <span>
+            <span className=" md:text-3xl">S</span>tay,  <span className=" md:text-3xl">B</span>reathe, <span className=" md:text-3xl">B</span>ecome
+          </span>
+
         </h1>
 
         <motion.p
@@ -94,9 +96,11 @@ const AboutSection = () => {
           reminder to rest And every dawn a promise of renewal.
         </motion.p>
 
-        <h1 className="text-xl md:text-2xl uppercase text-yellow-700/90 font-alegreya italic font-medium tracking-normal flex items-center justify-center gap-2">
-          <PiDiamondsFourFill  className="text-yellow-700" size={26} />
-          Our Philosophy
+        <h1 className="text-xl md:text-2xl  text-yellow-700/90  italic font-medium tracking-normal flex items-center justify-center gap-2">
+          <PiDiamondsFourFill className="text-yellow-700" size={26} />
+          <span>
+            <span className=" md:text-3xl">O</span>ur <span className=" md:text-3xl">P</span>hilosophy
+          </span>
         </h1>
 
         <motion.p

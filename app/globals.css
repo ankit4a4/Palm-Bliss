@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --royal-gold: #D4AF37;
-  --royal-gold-light: #F4E4BC;
-  --royal-gold-dark: #B8941F;
+  --royal-gold: #d4af37;
+  --royal-gold-light: #f4e4bc;
+  --royal-gold-dark: #b8941f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,6 +76,10 @@
     --chart-5: 340 75% 55%;
   }
 }
+:root {
+  --cursive-font: "Merienda", "Segoe UI", system-ui, -apple-system, "Verdana",
+    cursive;
+}
 
 @layer base {
   * {
@@ -85,20 +88,25 @@
   body {
     @apply bg-background text-foreground font-inter;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-playfair;
   }
 }
 
 @layer utilities {
   .font-playfair {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
   }
-    .font-tangerine {
-    font-family: 'Tangerine', serif;
+  .font-tangerine {
+    font-family: "Tangerine", serif;
   }
   .font-inter {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
   .text-royal-gold {
     color: var(--royal-gold);
@@ -142,7 +150,11 @@ html {
 
 /* Overlay */
 .overlay {
-  background: linear-gradient(45deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 100%);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
 }
 
 /* Custom scrollbar */
@@ -162,8 +174,6 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--royal-gold-dark);
 }
-
-
 
 .text-rotate {
   display: flex;
@@ -200,4 +210,12 @@ html {
 
 .text-rotate-space {
   white-space: pre;
+}
+@font-face {
+  font-family: "ShanoliaRegular";
+  src: url("../public/font/ShanoliaRegular-MAr8n.ttf") format("truetype");
+}
+
+p {
+  font-family: "ShanoliaRegular", cursive;
 }
