@@ -221,7 +221,7 @@ const ContactForm = () => {
           >
             <Card className="bg-white border-gray-200 shadow-lg">
               <CardContent className="p-8">
-                <h2 className="text-3xl font-playfair font-bold text-yellow-700/90 mb-6">
+                <h2 className="text-3xl font-alegreya  italic  font-bold text-yellow-700/90 mb-6">
                   {selectedRoom ? (
                     <>
                       Book{" "}
@@ -240,15 +240,15 @@ const ContactForm = () => {
                   {selectedRoom && (
                     <>
                       <div className="space-y-2">
-                        <Label>Room Name</Label>
+                        <Label className="font-alegreya  italic" >Room Name</Label>
                         <Input disabled value={selectedRoom.title} />
                       </div>
                       <div className="space-y-2">
-                        <Label>Price</Label>
+                        <Label className="font-alegreya  italic" >Price</Label>
                         <Input disabled value={selectedRoom.price} />
                       </div>
                       <div className="space-y-2">
-                        <Label>Capacity</Label>
+                        <Label className="font-alegreya  italic" >Capacity</Label>
                         <Input disabled value={selectedRoom.capacity} />
                       </div>
                     </>
@@ -256,7 +256,7 @@ const ContactForm = () => {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="firstName">First Name</Label>
+                      <Label htmlFor="firstName" className="font-alegreya  italic" >First Name</Label>
                       <Input
                         id="firstName"
                         value={formData.firstName}
@@ -265,7 +265,7 @@ const ContactForm = () => {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="lastName">Last Name</Label>
+                      <Label htmlFor="lastName" className="font-alegreya  italic" >Last Name</Label>
                       <Input
                         id="lastName"
                         value={formData.lastName}
@@ -276,7 +276,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email" className="font-alegreya  italic" >Email</Label>
                     <Input
                       id="email"
                       type="email"
@@ -287,7 +287,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="phone">Phone Number</Label>
+                    <Label htmlFor="phone" className="font-alegreya  italic" >Phone Number</Label>
                     <Input
                       id="phone"
                       type="tel"
@@ -298,7 +298,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="subject">Subject</Label>
+                    <Label htmlFor="subject" className="font-alegreya  italic" >Subject</Label>
                     <Input
                       id="subject"
                       value={formData.subject}
@@ -308,7 +308,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="message">Message</Label>
+                    <Label htmlFor="message" className="font-alegreya  italic">Message</Label>
                     <Textarea
                       id="message"
                       value={formData.message}
@@ -321,7 +321,7 @@ const ContactForm = () => {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full bg-yellow-700/90 text-white font-semibold"
+                    className="w-full font-alegreya  italic bg-yellow-700/90 text-white font-semibold"
                   >
                     {selectedRoom ? "Book Now" : "Send Message"}
                   </Button>
@@ -338,7 +338,7 @@ const ContactForm = () => {
             className="space-y-8"
           >
             <div>
-              <h2 className="text-3xl font-playfair font-bold text-yellow-700/90 mb-6">
+              <h2 className="text-3xl font-alegreya  italic font-bold text-yellow-700/90 mb-6">
                 Get in <span className="">Touch</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -360,7 +360,7 @@ const ContactForm = () => {
                         <div className="w-10 h-10 bg-yellow-700/90 rounded-full flex items-center justify-center">
                           <info.icon className="h-5 w-5 text-white" />
                         </div>
-                        <h3 className="text-lg font-playfair font-bold text-black">
+                        <h3 className="text-lg font-alegreya  italic font-bold text-black">
                           {info.title}
                         </h3>
                       </div>

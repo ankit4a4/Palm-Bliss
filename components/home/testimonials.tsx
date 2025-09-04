@@ -74,7 +74,7 @@ export default function Testimonials() {
           transition={{ duration: 0.7 }}
           className="text-center mb-[6vh]"
         >
-          <h2 className="text-[6vw] md:text-[3vw] font-playfair font-bold text-yellow-700/90 mb-[1.5vh]">
+          <h2 className="text-[6vw] italic md:text-[3vw] font-playfair font-bold text-yellow-700/90 mb-[1.5vh]">
             What People <span className="">Say</span>
           </h2>
           <p className="text-[3.5vw] md:text-[1.3vw] text-gray-700 max-w-[80vw] md:max-w-[50vw] mx-auto">

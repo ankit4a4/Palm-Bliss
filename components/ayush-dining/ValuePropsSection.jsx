@@ -52,10 +52,10 @@ export default function ValuePropsSection() {
     <section className="py-20 px-4 sm:px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700">
+          <h2 className="text-4xl md:text-5xl font-alegreya  italic  font-semibold text-yellow-700">
             Nourishment for Body
           </h2>
-          <h2 className="text-4xl md:text-5xl pt-1 font-playfair font-semibold text-yellow-700">
+          <h2 className="text-4xl md:text-5xl pt-1 font-alegreya  italic font-semibold text-yellow-700">
             Medicine for Soul
           </h2>
 
@@ -93,7 +93,7 @@ export default function ValuePropsSection() {
                   <span className="h-11 w-11 flex items-center justify-center rounded-full bg-white shadow ring-2 ring-white/50 mr-4">
                     <Icon className="text-[#A67A35] text-2xl" />
                   </span>
-                  <h3 className="text-xl font-semibold text-yellow-700/90">
+                  <h3 className="text-xl font-semibold font-alegreya  italic text-yellow-700/90">
                     {title}
                   </h3>
                 </div>

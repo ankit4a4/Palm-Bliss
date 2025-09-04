@@ -383,7 +383,7 @@ export default function RoomsSection() {
   return (
     <section className="bg-[#FBF7F0] py-[3vh] md:py-[12vh] px-3 md:px-[4vw]">
       <div className="text-center space-y-[5vh] mx-auto mb-12">
-        <h2 className="text-[6vw] md:text-[2.8vw] capitalize text-yellow-700/90 font-playfair font-semibold  leading-tight">
+        <h2 className="text-[6vw] md:text-[2.8vw] font-alegreya  italic capitalize text-yellow-700/90  font-semibold  leading-tight">
           Stay In <span>Harmony & Comfort</span>
         </h2>
         <div className="font-alegreya italic md:text-[1.2vw]">
@@ -410,7 +410,7 @@ export default function RoomsSection() {
             <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
               <RoomImageSlider images={room.images} />
               <CardContent className="p-6">
-                <h3 className="text-xl md:text-2xl font-playfair font-bold text-yellow-700/90 mb-2">
+                <h3 className="text-xl md:text-2xl font-alegreya  italic font-bold text-yellow-700/90 mb-2">
                   {room.title}
                 </h3>
                 <div className="mb-2">
@@ -426,7 +426,7 @@ export default function RoomsSection() {
                   <span className="text-sm text-gray-600">{room.capacity}</span>
                 </div>
                 <div className="mb-4">
-                  <h4 className="font-semibold text-black mb-2">Amenities</h4>
+                  <h4 className="font-semibold font-alegreya  italic text-black mb-2">Amenities</h4>
                   <div className="flex flex-wrap gap-1">
                     {room.amenities.slice(0, 4).map((am, i) => (
                       <Badge key={i} variant="outline" className="text-xs">

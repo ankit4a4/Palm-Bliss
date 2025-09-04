@@ -36,15 +36,15 @@ export default function AyushDiningSection() {
           >
             {/* Main Heading */}
             <div className="space-y-6 flex justify-center items-center flex-col">
-              <h1 className="text-yellow-700/90 text-5xl lg:text-7xl font-bold leading-[0.9] tracking-tight">
+              <h1 className="text-yellow-700/90 text-5xl font-alegreya  italic lg:text-7xl font-bold leading-[0.9] tracking-tight">
                 Ayush Dining
               </h1>
               <GiLotus className="text-3xl text-yellow-700/90" />
               <div className="space-y-2">
-                <h2 className="text-yellow-700/80 text-2xl lg:text-3xl font-semibold leading-tight">
+                <h2 className="text-yellow-700/80 text-2xl font-alegreya  italic lg:text-3xl font-semibold leading-tight">
                   A Sacred Meal
                 </h2>
-                <h2 className="text-yellow-700/80 text-2xl lg:text-3xl font-semibold leading-tight">
+                <h2 className="text-yellow-700/80 text-2xl font-alegreya  italic lg:text-3xl font-semibold leading-tight">
                   A Healing Moment
                 </h2>
               </div>
@@ -136,7 +136,7 @@ export default function AyushDiningSection() {
                   />
                 </div>
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-2xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold leading-tight mb-6">
                     Pure, Wholesome, Natural
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
@@ -155,7 +155,7 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-2xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold leading-tight mb-6">
                     Where Wellness Meets Flavors
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
@@ -198,7 +198,7 @@ export default function AyushDiningSection() {
                   />
                 </div>
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-xl font-bold leading-tight mb-6">
                     Flavors That Heal
                   </h4>
                   <p className="text-gray-800 text-base leading-relaxed tracking-wide">
@@ -217,7 +217,7 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-xl font-bold leading-tight mb-6">
                     Dining in Harmony
                   </h4>
                   <p className="text-gray-800 text-base leading-relaxed tracking-wide">
@@ -250,7 +250,7 @@ export default function AyushDiningSection() {
                   />
                 </div>
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-xl font-bold leading-tight mb-6">
                     A Feast for the Senses
                   </h4>
                   <p className="text-gray-800 text-base leading-relaxed tracking-wide">
@@ -286,7 +286,7 @@ export default function AyushDiningSection() {
                   />
                 </div>
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-2xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold leading-tight mb-6">
                     A Taste of Wellness
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
@@ -304,7 +304,7 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5">
-                  <h4 className="text-yellow-700/90 text-2xl font-bold leading-tight mb-6">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold leading-tight mb-6">
                     Nature-Inspired Flavors
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">

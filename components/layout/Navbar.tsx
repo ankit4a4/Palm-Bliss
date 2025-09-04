@@ -43,8 +43,8 @@ const Navbar = () => {
     { name: "Wellness Packages", href: "/wellness-packages" },
 
     // { name: 'Ayush Wellness', href: '/yoga' },
-    // { name: 'Natural Pool', href: '/natural-pool' },
     { name: "Gallery", href: "/gallery" },
+    { name: 'Blogs', href: '/blogs' },
     { name: "Contact", href: "/contact" },
   ];
 

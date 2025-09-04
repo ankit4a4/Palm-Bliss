@@ -21,9 +21,9 @@ const StorySection = () => (
       >
         <div className="inline-flex items-center gap-3 mb-4 px-6 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-[#E8D5B5]">
           <Crown className="w-5 h-5 text-[#C0A46B]" />
-          <span className="text-sm font-medium text-[#8A6D3B] tracking-wider">LEGACY OF ELEGANCE</span>
+          <span className="text-sm font-medium text-[#8A6D3B] tracking-wider italic">LEGACY OF ELEGANCE</span>
         </div>
-        <h2 className="text-4xl md:text-6xl font-playfair font-bold text-yellow-700/90">
+        <h2 className="text-4xl md:text-6xl font-playfair italic font-bold text-yellow-700/90">
           Our <span className="">Story</span>
         </h2>
       </motion.div>
@@ -38,7 +38,7 @@ const StorySection = () => (
           className="lg:col-span-2"
         >
           <div className="bg-white/80 backdrop-blur-md border border-[#E8D5B5] p-8 rounded-xl shadow-lg h-full">
-            <h3 className="text-xl font-semibold text-[#333333] mb-6 flex items-center gap-2">
+            <h3 className="text-xl font-semibold text-[#333333] font-playfair italic mb-6 flex items-center gap-2">
               <Calendar className="w-5 h-5 text-[#C0A46B]" />
               Reconnect, Rejuvenate, Realign.
             </h3>

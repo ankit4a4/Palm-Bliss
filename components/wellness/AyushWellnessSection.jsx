@@ -90,7 +90,7 @@ const AyushWellnessSection = () => {
 
                 <div className="py-5 absolute bottom-0 left-5 right-2 bg-transparent backdrop-blur-sm">
                   <div className="relative">
-                    <h3 className="absolute -top-10 left-0 text-2xl font-playfair font-bold text-white mb-2">
+                    <h3 className="absolute font-alegreya  italic -top-10 left-0 text-2xl  font-bold text-white mb-2">
                       {item.title}
                     </h3>
                     <p className="text-gray-200 text-base leading-relaxed">
@@ -133,7 +133,7 @@ const AyushWellnessSection = () => {
         >
           <Link
             href="/contact"
-            className="text-xl flex items-center gap-2 md:text-2xl font-sans font-medium mb-2 border rounded-sm my-2 px-6 border-yellow-700 py-3 hover:bg-yellow-700 hover:text-white transition-all duration-300 mx-auto w-fit"
+            className="text-xl flex font-alegreya  italic items-center gap-2 md:text-2xl  font-medium mb-2 border rounded-sm my-2 px-6 border-yellow-700 py-3 hover:bg-yellow-700 hover:text-white transition-all duration-300 mx-auto w-fit"
           >
             Begin Your Ayush Journey
             <ExternalLink />

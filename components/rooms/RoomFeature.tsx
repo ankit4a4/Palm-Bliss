@@ -54,7 +54,7 @@ const RoomFeature = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl  font-bold font-alegreya  italic text-white mb-4">
             Room <span>Features</span>
           </h2>
           <p className="text-lg text-white/90 max-w-2xl mx-auto">
@@ -74,7 +74,7 @@ const RoomFeature = () => {
               <div className="flex items-center justify-center w-14 h-14 mx-auto mb-4 bg-royal-gold/10 rounded-full">
                 <feature.icon className="h-6 w-6 text-royal-gold" />
               </div>
-              <h3 className="text-xl font-playfair font-bold text-gray-800 mb-2">
+              <h3 className="text-xl font-alegreya  italic font-bold text-gray-800 mb-2">
                 {feature.title}
               </h3>
               <p className="text-gray-600">{feature.description}</p>

@@ -13,8 +13,8 @@ export default function FounderVisions({ founders }) {
             className="rounded-xl shadow-lg max-h-72 object-cover"
           />
         </div>
-        <h1 className="text-center">Ms. Shivani Agarwal</h1>
-        <h2 className="font-black text-4xl text-center mb-6 text-yellow-700/90 tracking-tight leading-tight">
+        <h1 className="text-center italic font-alegreya">Ms. Shivani Agarwal</h1>
+        <h2 className="font-black font-alegreya  italic text-4xl text-center mb-6 text-yellow-700/90 tracking-tight leading-tight">
           Vision of the Founder
         </h2>
         <p className="text-center text-2xl font-alegreya italic mb-6 text-yellow-700 tracking-wide">

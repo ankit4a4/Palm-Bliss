@@ -58,7 +58,7 @@ export default function WellnessFacilitiesSection() {
     <section className="bg-[#A67A35] py-20 px-4 sm:px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto text-white">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-playfair font-semibold">
+          <h2 className="text-4xl md:text-5xl font-alegreya  italic font-semibold">
             Holistic Wellness Treatments
           </h2>
           <div
@@ -82,7 +82,7 @@ export default function WellnessFacilitiesSection() {
                 <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white text-[#A67A35] text-xl group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                   <Icon className="group-hover:text-[#8a5c1a]" />
                 </div>
-                <h3 className="text-lg font-semibold group-hover:text-gold-100">
+                <h3 className="text-lg font-alegreya  italic font-semibold group-hover:text-gold-100">
                   {title}
                 </h3>
               </div>

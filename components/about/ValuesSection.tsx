@@ -40,7 +40,7 @@ const ValuesSection = () => (
         transition={{ duration: 0.7 }}
         className="text-center mb-20"
       >
-        <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-4">
+        <h2 className="text-4xl md:text-5xl font-alegreya  italic font-bold text-white mb-4">
           Our <span className="text-white/80 drop-shadow-md">Core Values</span>
         </h2>
         <p className="text-lg text-white/90 max-w-2xl mx-auto">
@@ -66,7 +66,7 @@ const ValuesSection = () => (
                   <value.icon className="h-7 w-7 text-royal-gold" />
                 </div>
                 <div className="pl-12">
-                  <h3 className="text-2xl font-semibold font-playfair text-yellow-700/90 mb-2">
+                  <h3 className="text-2xl font-alegreya  italic font-semibold  text-yellow-700/90 mb-2">
                     {value.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed whitespace-pre-line">

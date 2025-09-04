@@ -79,7 +79,7 @@ export default function GallerySection() {
           transition={{ duration: 0.8 }}
           className="text-center space-y-[5vh] mx-auto mb-12"
         >
-          <h2 className="text-[6vw] md:text-[2.8vw] capitalize text-yellow-700/90 font-playfair font-semibold leading-tight">
+          <h2 className="text-[6vw] md:text-[2.8vw] capitalize text-yellow-700/90 italic font-semibold leading-tight">
             Stay In <span>Harmony & Comfort</span>
           </h2>
           <div className="font-alegreya italic md:text-[1.2vw]">

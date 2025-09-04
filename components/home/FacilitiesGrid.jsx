@@ -332,7 +332,7 @@ const FacilitiesGrid = () => {
   return (
     <section className="p-4 md:p-8 overflow-hidden" id="facilities">
       <div className=" w-full md:max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl  font-semibold text-yellow-700/90 mb-2 text-center  tracking-tight leading-tight">
+        <h2 className="text-4xl md:text-5xl italic  font-semibold text-yellow-700/90 mb-2 text-center  tracking-tight leading-tight">
           Discover The Unique Experiences At <br className="md:hidden" />
           <span>Palm Bliss</span>
         </h2>

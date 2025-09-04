@@ -113,7 +113,7 @@ export default function GallerySection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-center mb-16 text-yellow-700/90"
+          className="text-4xl font-bold font-alegreya  italic text-center mb-16 text-yellow-700/90"
         >
           Our Gallery
         </motion.h2>

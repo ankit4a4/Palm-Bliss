@@ -18,10 +18,10 @@ export default function AyushWellnessProgramSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-yellow-700/90 text-4xl lg:text-6xl font-bold leading-tight mb-4">
+          <h1 className="text-yellow-700/90 font-alegreya  italic text-4xl lg:text-6xl font-bold leading-tight mb-4">
             Ayush Wellness Program
           </h1>
-          <h2 className="text-yellow-600 text-2xl lg:text-3xl font-alegreya italic  mb-8">
+          <h2 className="text-yellow-600 font-alegreya  italic text-2xl lg:text-3xl font-alegreya italic  mb-8">
             A Journey Into Balance, Born From The Roots Of Nature
           </h2>
         </motion.div>
@@ -52,7 +52,7 @@ export default function AyushWellnessProgramSection() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h3 className="text-yellow-600 text-3xl lg:text-4xl font-semibold text-center mb-10">
+            <h3 className="text-yellow-600 font-alegreya  italic text-3xl lg:text-4xl font-semibold text-center mb-10">
              What Awaits You:
             </h3>
 
@@ -70,7 +70,7 @@ export default function AyushWellnessProgramSection() {
                     <MdSpa className="w-6 h-6 text-yellow-700" />
                   </div>
                   <div>
-                    <h4 className="text-yellow-600 font-semibold text-lg mb-2">
+                    <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
                        Personal Wellness Consultations
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
@@ -101,7 +101,7 @@ export default function AyushWellnessProgramSection() {
                     <GiMeditation className="w-6 h-6 text-yellow-700" />
                   </div>
                   <div>
-                    <h4 className="text-yellow-600 font-semibold text-lg mb-2">
+                    <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
                        Daily Yoga & Meditation
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
@@ -132,7 +132,7 @@ export default function AyushWellnessProgramSection() {
                     <GiLotus className="w-6 h-6 text-yellow-700" />
                   </div>
                   <div>
-                    <h4 className="text-yellow-600 font-semibold text-lg mb-2">
+                    <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
                        Detox Rituals & Panchakarma
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
@@ -163,7 +163,7 @@ export default function AyushWellnessProgramSection() {
                     <GiBowlOfRice className="w-6 h-6 text-yellow-700" />
                   </div>
                   <div>
-                    <h4 className="text-yellow-600 font-semibold text-lg mb-2">
+                    <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
                        Ayush Dining
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
@@ -194,7 +194,7 @@ export default function AyushWellnessProgramSection() {
                     <FaLeaf className="w-6 h-6 text-yellow-700" />
                   </div>
                   <div>
-                    <h4 className="text-yellow-600 font-semibold text-lg mb-2">
+                    <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
                        Herbal Remedies & Healing Therapies
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
@@ -225,7 +225,7 @@ export default function AyushWellnessProgramSection() {
                     <MdNaturePeople className="w-6 h-6 text-yellow-700" />
                   </div>
                   <div>
-                    <h4 className="text-yellow-600 font-semibold text-lg mb-2">
+                    <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
                        Forest Walks, Mud Therapy, Sound Healing
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
@@ -258,7 +258,7 @@ export default function AyushWellnessProgramSection() {
             </p>
             
             <div className="border-t border-yellow-200 pt-8">
-              <h4 className="text-yellow-600 text-2xl lg:text-3xl font-semibold mb-4">
+              <h4 className="text-yellow-600 text-2xl font-alegreya  italic lg:text-3xl font-semibold mb-4">
                 Let The Ayush Wellness Program Be Your Sacred Pause.
               </h4>
               <p className="text-black/70 text-lg lg:text-xl leading-relaxed">

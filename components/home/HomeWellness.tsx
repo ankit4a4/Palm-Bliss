@@ -50,9 +50,8 @@ export default function HomeWellness() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: index * 0.1 }}
-              className={`flex flex-col md:flex-row ${
-                index % 2 === 1 ? "md:flex-row-reverse" : ""
-              } items-center gap-10 bg-white shadow-xl rounded-3xl overflow-hidden p-6 md:p-12`}
+              className={`flex flex-col md:flex-row ${index % 2 === 1 ? "md:flex-row-reverse" : ""
+                } items-center gap-10 bg-white shadow-xl rounded-3xl overflow-hidden p-6 md:p-12`}
             >
               <div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-md">
                 {index === 2 ? (
@@ -103,7 +102,7 @@ export default function HomeWellness() {
                 )}
               </div>
 
-              
+
 
 
               <div className="w-full md:w-1/2">

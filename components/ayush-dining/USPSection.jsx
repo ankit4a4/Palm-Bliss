@@ -64,7 +64,7 @@ export default function USPSection() {
 
             <div className="max-w-7xl mx-auto text-center relative z-10">
                 <h2
-                    className="text-4xl md:text-5xl font-playfair font-bold text-white mb-6"
+                    className="text-4xl md:text-5xl font-alegreya  italic font-bold text-white mb-6"
                     data-aos="fade-down"
                     data-aos-delay="100"
                 >
@@ -92,7 +92,7 @@ export default function USPSection() {
                                     <Icon className={`text-3xl ${iconColor} transition-transform duration-500 group-hover:scale-125`} />
                                 </div>
                             </div>
-                            <h4 className="text-2xl font-extrabold text-gray-800 mb-4 transition-colors duration-300 group-hover:text-[#A67A35]">
+                            <h4 className="text-2xl font-alegreya  italic font-extrabold text-gray-800 mb-4 transition-colors duration-300 group-hover:text-[#A67A35]">
                                 {title}
                             </h4>
                             <p className="text-gray-600 leading-relaxed transition-colors duration-300 group-hover:text-gray-800">

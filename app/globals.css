@@ -216,6 +216,6 @@ html {
   src: url("../public/font/ShanoliaRegular-MAr8n.ttf") format("truetype");
 }
 
-p {
-  font-family: "ShanoliaRegular", cursive;
+p{
+  font-family: "ShanoliaRegular" , cursive;
 }

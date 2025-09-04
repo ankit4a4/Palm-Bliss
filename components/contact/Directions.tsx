@@ -30,11 +30,11 @@ const Directions = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-yellow-700/90 mb-4">
+            <h2 className="text-4xl md:text-5xl font-alegreya  italic font-bold text-yellow-700/90 mb-4">
               Directions To{" "}
               <span className="">The Palm Bliss Resort</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 font-alegreya  italic max-w-2xl mx-auto">
               Find your way to The Palm Bliss Resort in Uttarakhand with our
               detailed directions
             </p>
@@ -55,7 +55,7 @@ const Directions = () => {
                         <direction.icon className="h-6 w-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-playfair font-bold text-black">
+                        <h3 className="text-xl font-alegreya  italic font-bold text-black">
                           {direction.title}
                         </h3>
                         <p className="text-yellow-700/90 font-semibold">

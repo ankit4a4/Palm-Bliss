@@ -82,7 +82,7 @@ const AyushDishesShowcase = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-yellow-700/90 text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
+          <h2 className="text-yellow-700/90 font-alegreya  italic text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
             Our Sacred Menu
           </h2>
           <p className="text-gray-700 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
@@ -112,7 +112,7 @@ const AyushDishesShowcase = () => {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-yellow-700/90 text-xl font-bold mb-3 leading-tight">
+                <h3 className="text-yellow-700/90 font-alegreya  italic text-xl font-bold mb-3 leading-tight">
                   {dish.name}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -126,7 +126,7 @@ const AyushDishesShowcase = () => {
         {/* Bottom Section */}
         <div className="mt-20 text-center">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50 max-w-4xl mx-auto">
-            <h3 className="text-yellow-700/90 text-2xl font-bold mb-4">
+            <h3 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold mb-4">
               A Journey of Wellness Through Food
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed">

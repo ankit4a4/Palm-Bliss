@@ -111,7 +111,7 @@ export default function WellnessPackagesSection() {
                     data-aos-delay="50"
                     data-aos-anchor-placement="top-bottom"
                 >
-                    <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700/90 mb-4">
+                    <h2 className="text-4xl font-alegreya  italic md:text-5xl font-playfair font-semibold text-yellow-700/90 mb-4">
                         Wellness Packages
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -159,7 +159,7 @@ export default function WellnessPackagesSection() {
                                             group-hover:bg-[#D4AF37] transition-colors duration-300">
                                             {duration}
                                         </span>
-                                        <h3 className="text-xl font-bold mt-2 drop-shadow-md group-hover:text-[#F5E6C8] transition-colors duration-300">
+                                        <h3 className="text-xl font-bold mt-2 drop-shadow-md group-hover:text-[#F5E6C8] font-alegreya  italic transition-colors duration-300">
                                             {title}
                                         </h3>
                                     </div>
