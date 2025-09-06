@@ -172,7 +172,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         <div className="">
                           {/* <MdOutlineSelfImprovement className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
                           <div className="flex items-center gap-2 text-yellow-700/90 italic  my-4 text-[18px]">
-                          <GiLotusFlower className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            <GiLotusFlower className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
                             Abhyanga
                           </div>
                           A full-body synchronized
@@ -181,7 +181,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         <div className="">
                           {/* <FaFeatherAlt className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
                           <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
-                           <FaLeaf className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            <FaLeaf className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
                             Udwarthanam
                           </div>
                           A dry herbal
@@ -191,7 +191,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         <div className="">
                           {/* <FaPrayingHands className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
                           <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
-                           <FaHotTub className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            <FaHotTub className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
                             Pinda Sweda
                           </div>
                           Warm herbal poultices
@@ -212,7 +212,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       <div className="mt-2 mb-2 flex flex-col gap-1">
                         <div className="">
                           <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
-                          <FaTint className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            <FaTint className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
                             Shirodhara
                           </div>
                           {/* <FaRegLightbulb className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
@@ -224,7 +224,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         <div className="">
                           {/* <FaRegSmileBeam className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
                           <div className="flex items-center gap-2 my-4 text-yellow-700/90 italic  text-[18px]">
-                           <FaLungs className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            <FaLungs className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
                             Nasya Karma
                           </div>
                           Purification of the
@@ -246,7 +246,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         <div className="">
                           {/* <FaYinYang className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
                           <div className="flex items-center my-4 gap-2 text-yellow-700/90 italic  text-[18px]">
-                             <FaHandsHelping className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+                            <FaHandsHelping className="text-[#A67A35]   w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
                             Marma Chikitsa
                           </div>
                           Activation of vital
