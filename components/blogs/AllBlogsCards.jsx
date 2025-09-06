@@ -180,7 +180,7 @@ const AllBlogsCards = () => {
             <img
               src={blog.image.src}
               alt={blog.title}
-              className="h-full w-full object-cover"
+              className="h-64 w-full object-cover"
             />
 
             {/* Blog Content */}
@@ -188,7 +188,7 @@ const AllBlogsCards = () => {
               <h2 className="text-xl font-alegreya  italic font-semibold text-yellow-700/90 mb-2">
                 {blog.title}
               </h2>
-              <p className="text-gray-600 text-sm flex-1">{blog.excerpt}</p>
+              <p className="text-gray-600 text-sm flex-1 line-clamp-2">{blog.excerpt}</p>
 
               <button
                 type="button"   // 👈 isse reload nahi hoga
