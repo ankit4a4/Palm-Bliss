@@ -76,7 +76,7 @@ export default function page() {
               <img
                 src={blog.image}
                 alt={blog.title}
-                className="w-full h-64 object-cover rounded-lg mb-6"
+                className="w-full  object-cover rounded-lg mb-6"
               />
 
               <div className="flex flex-wrap items-center text-sm text-gray-600 mb-4">

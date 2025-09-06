@@ -7,7 +7,7 @@ const page = () => {
     <div>
        <HeroSection
              
-              welcomeHeading="Blogs"
+              welcomeHeading="WELCOME"
             />
 
             <AllBlogsCards />

@@ -4,45 +4,57 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-import img1 from "@/public/Images/gallery/1.webp";
 
-import img2 from "@/public/Images/gallery/2.webp";
-import img3 from "@/public/Images/gallery/3.webp";
-import img4 from "@/public/Images/gallery/4.webp";
-import img5 from "@/public/Images/gallery/5.webp";
-import img6 from "@/public/Images/gallery/6.webp";
-import img7 from "@/public/Images/gallery/7.webp";
-import img8 from "@/public/Images/gallery/8.webp";
-import img9 from "@/public/Images/gallery/9.webp";
-import img10 from "@/public/Images/gallery/10.webp";
-import img11 from "@/public/Images/gallery/11.webp";
-import img12 from "@/public/Images/gallery/12.webp";
-import img13 from "@/public/Images/gallery/13.webp";
-import img14 from "@/public/Images/gallery/14.webp";
-import img15 from "@/public/Images/gallery/15.webp";
-import img16 from "@/public/Images/gallery/16.webp";
-import img17 from "@/public/Images/gallery/17.webp";
-import img18 from "@/public/Images/gallery/18.webp";
-import img19 from "@/public/Images/familyRoom/5.webp";
-import img20 from "@/public/Images/familyRoom/3.webp";
-import img21 from "@/public/Images/gallery/2.webp";
-import img22 from "@/public/Images/mudHouse/1.jpg";
-import img23 from "@/public/Images/mudHouse/2.jpg";
-import img24 from "@/public/Images/mudHouse/3.jpg";
-import img25 from "@/public/Images/gallery/19.jpg";
-import img26 from "@/public/Images/gallery/20.jpg";
-import img27 from "@/public/Images/gallery/21.jpg";
-import img28 from "@/public/Images/gallery/22.jpg";
-import img29 from "@/public/Images/gallery/23.jpg";
-import img30 from "@/public/Images/gallery/24.jpg";
-import img31 from "@/public/Images/gallery/25.jpg";
-import img32 from "@/public/Images/gallery/26.jpg";
-import img33 from "@/public/Images/gallery/27.jpg";
-import img34 from "@/public/Images/gallery/28.jpg";
-import img35 from "@/public/Images/gallery/29.jpg";
-import img36 from "@/public/Images/gallery/30.jpg";
-import img37 from "@/public/Images/gallery/31.jpg";
-import img38 from "@/public/Images/gallery/32.jpg";
+import img1 from "../../public/Images/galleryPage/1.jpg";
+import img2 from "../../public/Images/galleryPage/2.jpg";
+import img3 from "../../public/Images/galleryPage/3.jpg";
+import img4 from "../../public/Images/galleryPage/4.jpg";
+import img5 from "../../public/Images/galleryPage/5.jpg";
+import img6 from "../../public/Images/galleryPage/6.jpg";
+import img7 from "../../public/Images/galleryPage/7.jpg";
+import img8 from "../../public/Images/galleryPage/8.jpg";
+import img9 from "../../public/Images/galleryPage/9.jpg";
+import img10 from "../../public/Images/galleryPage/10.jpg";
+import img11 from "../../public/Images/galleryPage/11.jpg";
+import img12 from "../../public/Images/galleryPage/12.jpg";
+import img13 from "../../public/Images/galleryPage/13.jpg";
+import img14 from "../../public/Images/galleryPage/14.jpg";
+import img15 from "../../public/Images/galleryPage/15.jpg";
+import img16 from "../../public/Images/galleryPage/16.jpg";
+import img17 from "../../public/Images/galleryPage/17.jpg";
+import img18 from "../../public/Images/galleryPage/18.jpg";
+import img19 from "../../public/Images/galleryPage/19.jpg";
+import img20 from "../../public/Images/galleryPage/20.jpg";
+import img21 from "../../public/Images/galleryPage/21.jpg";
+import img22 from "../../public/Images/galleryPage/22.jpg";
+import img23 from "../../public/Images/galleryPage/23.jpg";
+import img24 from "../../public/Images/galleryPage/24.jpg";
+import img25 from "../../public/Images/galleryPage/25.jpg";
+import img26 from "../../public/Images/galleryPage/26.jpg";
+import img27 from "../../public/Images/galleryPage/27.jpg";
+import img28 from "../../public/Images/galleryPage/28.jpg";
+import img29 from "../../public/Images/galleryPage/29.jpg";
+import img30 from "../../public/Images/galleryPage/30.jpg";
+import img31 from "../../public/Images/galleryPage/31.jpg";
+import img32 from "../../public/Images/galleryPage/32.jpg";
+import img33 from "../../public/Images/galleryPage/33.jpg";
+import img34 from "../../public/Images/galleryPage/34.jpg";
+import img35 from "../../public/Images/galleryPage/35.jpg";
+import img36 from "../../public/Images/galleryPage/36.jpg";
+import img37 from "../../public/Images/galleryPage/37.jpg";
+import img38 from "../../public/Images/galleryPage/38.jpg";
+import img39 from "../../public/Images/galleryPage/39.jpg";
+import img40 from "../../public/Images/galleryPage/40.jpg";
+import img41 from "../../public/Images/galleryPage/41.jpg";
+import img42 from "../../public/Images/galleryPage/42.jpg";
+import img43 from "../../public/Images/galleryPage/43.jpg";
+import img44 from "../../public/Images/galleryPage/44.jpg";
+import img45 from "../../public/Images/galleryPage/45.jpg";
+import img46 from "../../public/Images/galleryPage/46.jpg";
+import img47 from "../../public/Images/galleryPage/47.jpg";
+import img48 from "../../public/Images/galleryPage/48.jpg";
+import img49 from "../../public/Images/galleryPage/49.jpg";
+import img50 from "../../public/Images/galleryPage/50.jpg";
 
 const galleryImages = [
   { src: img1, width: 800, height: 600, size: "medium" },
@@ -83,10 +95,23 @@ const galleryImages = [
   { src: img36, width: 700, height: 900, size: "tall" },
   { src: img37, width: 900, height: 600, size: "wide" },
   { src: img38, width: 800, height: 600, size: "medium" },
+  { src: img39, width: 800, height: 500, size: "wide" },
+  { src: img40, width: 700, height: 700, size: "medium" },
+  { src: img41, width: 600, height: 800, size: "tall" },
+  { src: img42, width: 900, height: 600, size: "wide" },
+  { src: img43, width: 800, height: 600, size: "medium" },
+  { src: img44, width: 700, height: 900, size: "tall" },
+  { src: img45, width: 700, height: 900, size: "tall" },
+  { src: img46, width: 700, height: 900, size: "tall" },
+  { src: img47, width: 900, height: 600, size: "wide" },
+  { src: img48, width: 800, height: 600, size: "medium" },
+  { src: img49, width: 700, height: 900, size: "tall" },
+  { src: img50, width: 800, height: 600, size: "medium" },
 ].map((img) => ({
   ...img,
   aspect: img.height / img.width,
 }));
+
 
 export default function GallerySection() {
   const [visibleCount, setVisibleCount] = useState(6);
