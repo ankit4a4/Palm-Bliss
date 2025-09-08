@@ -18,7 +18,6 @@ export default function Home() {
       <AboutSection />
       <HomeWellness />
       {/* <HomeRooms /> */}
-      <GallerySection/>
       {/* <HomeYoga /> */}
       <FacilitiesGrid />
       <HomeNaturalPool />
