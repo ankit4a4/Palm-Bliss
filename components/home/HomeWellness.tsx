@@ -56,13 +56,22 @@ export default function HomeWellness() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: index * 0.1 }}
               className={`flex flex-col md:flex-row ${index % 2 === 1 ? "md:flex-row-reverse" : ""
-                } items-center gap-10 bg-white shadow-xl rounded-3xl overflow-hidden p-6 md:p-12`}
+                } items-center gap-10 bg-[#fbf7f0] shadow-xl rounded-3xl overflow-hidden p-6 md:p-12`}
             >
               <div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-md">
                 {index === 2 ? (
                   // Three images grid for the last section
                   <div className="space-y-4">
                     {/* Main large image */}
+                    <div className="w-full">
+                      <Image
+                        src="/images/blogs/4.jpg"
+                        alt="Body Mind soulRejuvenation"
+                        width={800}
+                        height={400}
+                        className="object-cover bg-center w-full h-[20vh] md:h-[50vh] rounded-xl"
+                      />
+                    </div>
                     <div className="w-full">
                       <Image
                         src="https://images.pexels.com/photos/3985254/pexels-photo-3985254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -144,7 +153,7 @@ export default function HomeWellness() {
                       Let our Signature Ayurvedic Rituals guide you back to your natural state of wellness — where ancient traditions meet modern serenity.</>
                   ) : index === 1 ? (
                     `
-At Palm Bliss Resort and Atharva Ayurveda Wellness Retreat, we don’t offer therapies — we offer sacred healing journeys. Rooted in the divine knowledge of Ayurveda, our Ancient Healing Therapies are time-honored rituals of purification, renewal, and inner awakening — meticulously preserved and passed down through generations of Ayurvedic masters.
+At Palm Bliss Resort and Atharva Ayurveda Wellness Retreat, we don’t offer therapies — we offer sacred healing journeys. Rooted in the divine knowledge of Ayurveda, our Ancient Healing Therapies are time-honored rituals of purification, renewal and inner awakening — meticulously preserved and passed down through generations of Ayurvedic masters.
 
 These are not fleeting indulgences, but soul-touching experiences that realign your energies, detoxify the body and elevate the spirit. Each ritual is artfully tailored to your unique prakriti (constitutional blueprint), harmonizing your doshas and restoring your connection with the five elements — earth, water, fire, air and ether.
 
@@ -157,7 +166,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       Here, healing is not just a treatment — it is a gentle
                       unfolding, a return to your most authentic, vibrant self.
                       Our Signature Rejuvenation Rituals are crafted to realign
-                      the body, calm the mind, and reawaken the soul — creating
+                      the body, calm the mind and reawaken the soul — creating
                       a harmonious balance that radiates from within.
                       <div className="mt-4 mb-3">
                         <div className="flex items-center gap-2 text-yellow-700/90 italic  text-[18px]">
@@ -166,7 +175,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         </div>
                       </div>
                       Ground yourself in physical harmony. Through touch, herbal
-                      medicine, and rhythmic flow, our body therapies release
+                      medicine and rhythmic flow, our body therapies release
                       what no longer serves you.
                       <div className="mt-2 mb-2 flex flex-col gap-1">
                         <div className="">
@@ -176,7 +185,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                             Abhyanga
                           </div>
                           A full-body synchronized
-                          oil massage to detoxify, nourish, and energize.
+                          oil massage to detoxify, nourish and energize.
                         </div>
                         <div className="">
                           {/* <FaFeatherAlt className="text-[#A67A35] w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" /> */}
@@ -195,11 +204,11 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                             Pinda Sweda
                           </div>
                           Warm herbal poultices
-                          applied to relieve joint pain, muscular stiffness, and
+                          applied to relieve joint pain, muscular stiffness and
                           fatigue.
                         </div>
                       </div>
-                      Let your body feel light, open, and deeply nourished.
+                      Let your body feel light, open and deeply nourished.
                       <div className="mt-4 mb-3">
                         <div className="flex items-center gap-2  text-yellow-700/90 italic  text-[18px]">
                           <FaBrain className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />{" "}
@@ -232,7 +241,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                           emotional congestion.
                         </div>
                       </div>
-                      A gentle reset for your thoughts, your focus, and your
+                      A gentle reset for your thoughts, your focus and your
                       emotional peace.
                       <div className="mt-4 mb-3">
                         <div className="flex items-center gap-2 text-yellow-700/90  italic  text-[18px]">
@@ -264,7 +273,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                           uplift the spirit.
                         </div>
                       </div>
-                      Feel joy rise, purpose return, and your soul realign with
+                      Feel joy rise, purpose return and your soul realign with
                       serenity.
                       <div className="flex items-center my-4 gap-2 text-yellow-700/90 italic  text-[18px]">
                         <FaBalanceScale className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 font-tangerine  text-[18px]" />{" "}
@@ -273,7 +282,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                       Every journey begins with a one-on-one Ayurvedic
                       consultation, where your dosha (constitution) and
                       elemental imbalances are assessed. Your treatments are
-                      then carefully tailored using pure, organic, and ethically
+                      then carefully tailored using pure, organic and ethically
                       sourced ingredients, prepared according to ancient
                       Ayurvedic texts and seasonal rhythms.
                       <div className="flex items-center gap-2 text-yellow-700/90 italic my-4  text-[18px]">

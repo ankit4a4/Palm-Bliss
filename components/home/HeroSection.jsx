@@ -138,7 +138,7 @@ const HeroSection = ({
       >
         <form
           onSubmit={handleSubmit}
-          className="grid grid-cols-2 md:grid-cols-8 gap-px overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-[2vh] md:rounded-[1vw] shadow-[0_4px_30px_rgba(0,0,0,0.4)] text-white font-medium text-[1.6vh] md:text-[1vw]"
+          className="grid grid-cols-2 md:grid-cols-8 gap-px overflow-hidden bg-[#fbf7f0]/5 backdrop-blur-md border border-white/10 rounded-[2vh] md:rounded-[1vw] shadow-[0_4px_30px_rgba(0,0,0,0.4)] text-white font-medium text-[1.6vh] md:text-[1vw]"
         >
           {/* Name & Phone */}
           {[

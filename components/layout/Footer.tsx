@@ -17,7 +17,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 text-black pt-[10vh]">
+    <footer className="bg-yellow-700/70 text-black pt-[10vh]">
       <div className="w-[90vw] max-w-[120vw] mx-auto px-[2vw]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[4vw]">
           {/* Brand */}
@@ -34,7 +34,7 @@ const Footer = () => {
                 className=" object-contain h-[100px] "
               />
             </Link>
-            <p className="text-gray-600 text-[3.5vw] md:text-[1.1vw] leading-relaxed">
+            <p className="text-gray-200 text-[3.5vw] md:text-[1.1vw] leading-relaxed">
               Experience luxury and tranquility in our world-class resort, where
               every moment is crafted to perfection.
             </p>
@@ -47,7 +47,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-[2vh]"
           >
-            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-yellow-700/90">
+            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-white">
               Quick Links
             </h3>
             <ul className="space-y-[1vh]">
@@ -61,7 +61,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-600 hover:text-royal-gold transition-colors duration-300 text-[3.5vw] md:text-[1.1vw]"
+                    className="text-gray-200 hover:text-royal-gold transition-colors duration-300 text-[3.5vw] md:text-[1.1vw]"
                   >
                     {link.name}
                   </Link>
@@ -77,13 +77,13 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="space-y-[2vh]"
           >
-            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-yellow-700/90">
+            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-white">
               Contact Info
             </h3>
             <div className="space-y-[1.5vh]">
               <div className="flex items-center space-x-[1vw]">
                 <MapPin className="h-[4vw] w-[4vw] md:h-[1.2vw] md:w-[1.2vw] text-royal-gold" />
-                <span className="text-gray-600 text-[3.5vw] md:text-[1.1vw]">
+                <span className="text-gray-200 text-[3.5vw] md:text-[1.1vw]">
                   Khasra No 20, Siron, Road Village Mauja, Chauki, Thano,
                   Uttarakhand 248143
                 </span>
@@ -91,20 +91,20 @@ const Footer = () => {
               <div className="flex items-center space-x-[1vw]">
                 <Phone className="h-[4vw] w-[4vw] md:h-[1.2vw] md:w-[1.2vw] text-royal-gold" />
                 <div className="flex flex-col">
-                  <span className="text-gray-600 text-[3.5vw] md:text-[1.1vw]">
+                  <span className="text-gray-200 text-[3.5vw] md:text-[1.1vw]">
                     +91 906 888 5323 (Booking)
                   </span>
-                  <span className="text-gray-600 text-[3.5vw] md:text-[1.1vw]">
+                  <span className="text-gray-200 text-[3.5vw] md:text-[1.1vw]">
                     +91 94567 39672 (Manager)
                   </span>
-                  <span className="text-gray-600 text-[3.5vw] md:text-[1.1vw]">
+                  <span className="text-gray-200 text-[3.5vw] md:text-[1.1vw]">
                     +91 945 672 3756 (HelpLine)
                   </span>
                 </div>
               </div>
               <div className="flex items-center space-x-[1vw]">
                 <Mail className="h-[4vw] w-[4vw] md:h-[1.2vw] md:w-[1.2vw] text-royal-gold" />
-                <span className="text-gray-600 text-[3.5vw] md:text-[1.1vw]">
+                <span className="text-gray-200 text-[3.5vw] md:text-[1.1vw]">
                   thepalmblissresort@gmail.com
                 </span>
               </div>
@@ -118,7 +118,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="space-y-[2vh]"
           >
-            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-yellow-700/90">
+            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-white">
               Follow Us
             </h3>
             <div className="flex space-x-[2vw]">
@@ -136,7 +136,7 @@ const Footer = () => {
                 </Link>
               ))}
             </div>
-            <p className="text-gray-600 text-[3vw] md:text-[1vw]">
+            <p className="text-gray-200 text-[3vw] md:text-[1vw]">
               Stay connected for exclusive offers and updates from Palm Bliss
               Resort.
             </p>

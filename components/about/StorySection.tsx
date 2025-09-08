@@ -19,7 +19,7 @@ const StorySection = () => (
         transition={{ duration: 0.8 }}
         className="text-center mb-20"
       >
-        <div className="inline-flex items-center gap-3 mb-4 px-6 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-[#E8D5B5]">
+        <div className="inline-flex items-center gap-3 mb-4 px-6 py-2 bg-[#fbf7f0]/80 backdrop-blur-sm rounded-full border border-[#E8D5B5]">
           <Crown className="w-5 h-5 text-[#C0A46B]" />
           <span className="text-sm font-medium text-[#8A6D3B] tracking-wider italic">LEGACY OF ELEGANCE</span>
         </div>
@@ -37,21 +37,21 @@ const StorySection = () => (
           transition={{ duration: 0.6 }}
           className="lg:col-span-2"
         >
-          <div className="bg-white/80 backdrop-blur-md border border-[#E8D5B5] p-8 rounded-xl shadow-lg h-full">
+          <div className="bg-[#fbf7f0]/80 backdrop-blur-md border border-[#E8D5B5] p-8 rounded-xl shadow-lg h-full">
             <h3 className="text-xl font-semibold text-[#333333] font-playfair italic mb-6 flex items-center gap-2">
               <Calendar className="w-5 h-5 text-[#C0A46B]" />
               Reconnect, Rejuvenate, Realign.
             </h3>
             <p className="text-[#555555] leading-relaxed mb-6">
-              Step into a sanctuary where profound healing begins from within. Our retreat is a soulful journey blending mindfulness, movement, nourishing nutrition, and deep emotional well-being. 
+              Step into a sanctuary where profound healing begins from within. Our retreat is a soulful journey blending mindfulness, movement, nourishing nutrition and deep emotional well-being. 
             </p>
             <p className="text-[#8A6D3B] font-medium mb-6">
-              Through expertly guided sessions, immersive experiences in nature, and the power of community, we invite you to explore the full spectrum of what it truly means to feel whole—not just healthy.
+              Through expertly guided sessions, immersive experiences in nature and the power of community, we invite you to explore the full spectrum of what it truly means to feel whole—not just healthy.
             </p>
             <div className="relative pl-8">
               <Quote className="absolute left-0 top-0 w-6 h-6 text-[#333333]" />
               <blockquote className="text-[#8A6D3B] italic font-serif text-lg">
-                "You don’t just stay here — you return to yourself. Every space reconnects you with nature, healing, and peace."
+                "You don’t just stay here — you return to yourself. Every space reconnects you with nature, healing and peace."
               </blockquote>
               <div className="flex gap-2 items-center mt-4">
                 <div className="w-1 h-8 bg-[#8A6D3B] rounded-full"></div>
@@ -77,7 +77,7 @@ const StorySection = () => (
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-            <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2 shadow-md">
+            <div className="absolute bottom-6 left-6 bg-[#fbf7f0]/90 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2 shadow-md">
               <MapPin className="w-4 h-4 text-[#8A6D3B]" />
               <span className="text-sm font-medium text-gray-800">Himalayan Foothills</span>
             </div>

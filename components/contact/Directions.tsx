@@ -48,7 +48,7 @@ const Directions = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
               >
-                <Card className="h-full bg-white border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-8">
                     <div className="flex items-center gap-4 mb-6">
                       <div className="w-12 h-12 bg-yellow-700/80 rounded-full flex items-center justify-center">

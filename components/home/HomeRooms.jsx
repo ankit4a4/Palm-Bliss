@@ -43,7 +43,7 @@ const ALL_ROOMS = [
     detailedContent: {
       title: "Embrace Earth, Embrace Peace",
       description:
-        "Step into our handcrafted mud houses, where tradition meets comfort. Built with natural materials that breathe with you, these earthy sanctuaries remain cool in summer and warm in winter, connecting you deeply to nature's rhythm. The soft scent of clay, gentle textures, and calming silence create a cocoon of peace, letting you slow down, sleep deeply, and wake to birdsong and fresh air.\n\nHere, you don't just stay—you return to the earth, to yourself.",
+        "Step into our handcrafted mud houses, where tradition meets comfort. Built with natural materials that breathe with you, these earthy sanctuaries remain cool in summer and warm in winter, connecting you deeply to nature's rhythm. The soft scent of clay, gentle textures and calming silence create a cocoon of peace, letting you slow down, sleep deeply and wake to birdsong and fresh air.\n\nHere, you don't just stay—you return to the earth, to yourself.",
       poetry:
         "Within these walls of living clay,\nSoft winds sing and petals sway.\nSunlight dances on earthen hues,\nCradling dreams in morning dews.\n\nCool as dawn, warm as dusk,\nBreathing earth in every musk.\nA nest where silence softly weaves,\nStories of rain and rustling leaves.\n\nHere, time unfolds like jasmine bloom,\nStars pour light into your room.\nBarefoot heart upon soft sod,\nYou touch the earth, you touch God.\n\nIn these quiet mud homes you'll find,\nA gentle stillness for your mind—\nA hush that heals, a breath so deep,\nHere, the earth will rock you to sleep.",
       subtitle: "Earthen Sanctuaries, Whispering Calm",
@@ -53,7 +53,7 @@ const ALL_ROOMS = [
     id: 4,
     title: "Swiss Cottages",
     description:
-      "Relax in our luxurious Swiss cottages, where you'll find a comfortable bed, exclusive experiences, and all modern amenities.",
+      "Relax in our luxurious Swiss cottages, where you'll find a comfortable bed, exclusive experiences and all modern amenities.",
     price: "₹5,999",
     capacity: "2 Adults",
     amenities: ["Yoga Mat", "Meditation Corner", "Tv", "Sound System"],
@@ -62,7 +62,7 @@ const ALL_ROOMS = [
     detailedContent: {
       title: "Swiss Cottage at Palm Bliss Resort",
       description:
-        "Discover the timeless elegance of our Swiss Cottage, where Alpine warmth meets tropical tranquility. Crafted with rich wooden interiors and vaulted ceilings, each cottage welcomes you with a sense of serene comfort and understated luxury. Sunlight streams through large windows, illuminating handcrafted furniture and creating a warm, inviting glow throughout the space.\n\nStep onto your private balcony, where the gentle rustle of palms and songs of birds create a natural symphony, perfect for a quiet sunrise tea or an evening under the stars. Inside, a plush king-sized bed with soft linens awaits, complemented by cozy seating nooks ideal for reading or reflection. Thoughtfully curated details—woven rugs, soft lighting, and earthy textures—bring the soulof the Swiss Alps to the heart of your island retreat.\n\n Your en-suite bathroom offers a spa-like experience with a rain shower, premium amenities, and calming design, allowing you to refresh and rejuvenate in privacy.\n\nWhether you are seeking a romantic escape, a slow morning with nature, \n\nTucked amidst whispering palms and fragrant breezes, our Swiss Cottage invites you into a world where alpine warmth meets tropical calm. Crafted with sloping wooden ceilings and sun-kissed windows, each cottage feels like a comforting embrace, welcoming you to slow down and simply be. \n\nWake to soft light filtering through linen drapes as birdsong gently calls you into the day. Step onto your private balcony, where the rustle of leaves and distant mountain whispers create the perfect setting for your morning tea. Inside, the room blends rustic charm with gentle elegance—a plush king-sized bed dressed in crisp linens, handcrafted furniture, and cozy corners designed for quiet reflection or a good book.",
+        "Discover the timeless elegance of our Swiss Cottage, where Alpine warmth meets tropical tranquility. Crafted with rich wooden interiors and vaulted ceilings, each cottage welcomes you with a sense of serene comfort and understated luxury. Sunlight streams through large windows, illuminating handcrafted furniture and creating a warm, inviting glow throughout the space.\n\nStep onto your private balcony, where the gentle rustle of palms and songs of birds create a natural symphony, perfect for a quiet sunrise tea or an evening under the stars. Inside, a plush king-sized bed with soft linens awaits, complemented by cozy seating nooks ideal for reading or reflection. Thoughtfully curated details—woven rugs, soft lighting and earthy textures—bring the soulof the Swiss Alps to the heart of your island retreat.\n\n Your en-suite bathroom offers a spa-like experience with a rain shower, premium amenities and calming design, allowing you to refresh and rejuvenate in privacy.\n\nWhether you are seeking a romantic escape, a slow morning with nature, \n\nTucked amidst whispering palms and fragrant breezes, our Swiss Cottage invites you into a world where alpine warmth meets tropical calm. Crafted with sloping wooden ceilings and sun-kissed windows, each cottage feels like a comforting embrace, welcoming you to slow down and simply be. \n\nWake to soft light filtering through linen drapes as birdsong gently calls you into the day. Step onto your private balcony, where the rustle of leaves and distant mountain whispers create the perfect setting for your morning tea. Inside, the room blends rustic charm with gentle elegance—a plush king-sized bed dressed in crisp linens, handcrafted furniture and cozy corners designed for quiet reflection or a good book.",
       poetry:
         "Whispers of wood and morning light,\nPalms sway softly, hearts feel right.\nA quiet nest where dreams take flight,\nIn cottage calm, the soul grows bright.",
     },
@@ -85,7 +85,7 @@ const ALL_ROOMS = [
     detailedContent: {
       title: "Family Room – Twin Comfort, Triple Joy at Palm Bliss Resort",
       description:
-        "Perfect for families seeking space and serenity,\nour Family Room offers two interconnected rooms with a total of three comfortable beds, ideal for a relaxed and harmonious stay.\n\nSurrounded by the calming greenery of the resort, this setup ensures both privacy and togetherness — a balance every family appreciates.Whether you're traveling with kids, parents, or close companions, there’s room for everyone to unwind, laugh, and make memories.\n\nDesigned for bonding, built for comfort.Our Family Room is a spacious haven nestled in nature — where every corner invites laughter, warmth, and connection.\nEnjoy plush bedding, cozy interiors, and soothing natural tones that reflect the calm of the surrounding forest.\nLarge windows welcome fresh mountain air and serene views, while thoughtful amenities ensure every family member feels at home.\n\nWhether you're sharing stories over tea or waking up to birdsong together, the Family Room is your perfect retreat to reconnect, relax, and rejoice — all under one roof.\n\nThoughtful interiors, natural light, and modern amenities complete your stay — where every moment feels like home, just more peaceful with great pahadi touch.",
+        "Perfect for families seeking space and serenity,\nour Family Room offers two interconnected rooms with a total of three comfortable beds, ideal for a relaxed and harmonious stay.\n\nSurrounded by the calming greenery of the resort, this setup ensures both privacy and togetherness — a balance every family appreciates.Whether you're traveling with kids, parents, or close companions, there’s room for everyone to unwind, laugh and make memories.\n\nDesigned for bonding, built for comfort.Our Family Room is a spacious haven nestled in nature — where every corner invites laughter, warmth and connection.\nEnjoy plush bedding, cozy interiors and soothing natural tones that reflect the calm of the surrounding forest.\nLarge windows welcome fresh mountain air and serene views, while thoughtful amenities ensure every family member feels at home.\n\nWhether you're sharing stories over tea or waking up to birdsong together, the Family Room is your perfect retreat to reconnect, relax and rejoice — all under one roof.\n\nThoughtful interiors, natural light and modern amenities complete your stay — where every moment feels like home, just more peaceful with great pahadi touch.",
       // features: [
       //   // "Spacious connecting rooms for privacy and togetherness",
       //   // "Child-safe furniture and fittings throughout",
@@ -102,7 +102,7 @@ const ALL_ROOMS = [
     id: 8,
     title: "Luxury Room",
     description:
-      "Finest comfort with breathtaking mountain views, modern interiors, and exquisite service.",
+      "Finest comfort with breathtaking mountain views, modern interiors and exquisite service.",
     price: "₹8,999",
     capacity: "2 Adults",
     amenities: ["Mountain View", "Balcony", "King Bed", "Sitting Area"],
@@ -111,7 +111,7 @@ const ALL_ROOMS = [
     detailedContent: {
       title: "Luxury Room at Palm Bliss - Where Comfort Meets Sophistication",
       description:
-        "Step into a world of refined elegance with our Luxury Rooms at Palm Bliss. Thoughtfully designed for discerning travelers, each room is a blend of contemporary style and serene comfort. Large windows invite natural light and open up to lush green views, while interiors are crafted with soothing tones and premium furnishings.\n\nUnwind on a plush bed, enjoy modern amenities like smart TVs and high-speed Wi-Fi, and rejuvenate in a spacious en-suite bathroom with herbal toiletries. Whether you're here for a wellness retreat or a relaxing escape, the Luxury Room offers a perfect balance of privacy, calm, and understated opulence.",
+        "Step into a world of refined elegance with our Luxury Rooms at Palm Bliss. Thoughtfully designed for discerning travelers, each room is a blend of contemporary style and serene comfort. Large windows invite natural light and open up to lush green views, while interiors are crafted with soothing tones and premium furnishings.\n\nUnwind on a plush bed, enjoy modern amenities like smart TVs and high-speed Wi-Fi and rejuvenate in a spacious en-suite bathroom with herbal toiletries. Whether you're here for a wellness retreat or a relaxing escape, the Luxury Room offers a perfect balance of privacy, calm and understated opulence.",
       keyFeatures: [
         "King-size bed with premium bedding",
         "Windows with garden or forest views",
@@ -166,7 +166,7 @@ function RoomImageSlider({ images }) {
           e.stopPropagation();
           prevImage();
         }}
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white bg-opacity-70 rounded-full p-2 hover:bg-opacity-100 transition"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-[#fbf7f0] bg-opacity-70 rounded-full p-2 hover:bg-opacity-100 transition"
       >
         &#8678;
       </button>
@@ -176,7 +176,7 @@ function RoomImageSlider({ images }) {
           e.stopPropagation();
           nextImage();
         }}
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white bg-opacity-70 rounded-full p-2 hover:bg-opacity-100 transition"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-[#fbf7f0] bg-opacity-70 rounded-full p-2 hover:bg-opacity-100 transition"
       >
         &#8680;
       </button>
@@ -192,7 +192,7 @@ function RoomDetailModal({ room, open, onClose }) {
         initial={{ scale: 0.94, opacity: 0, y: 100 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.94, opacity: 0, y: 100 }}
-        className="bg-white shadow-2xl rounded-2xl w-full md:w-[80vw] lg:w-[60vw] max-w-4xl md:max-w-4xl p-0 overflow-hidden relative flex flex-col"
+        className="bg-[#fbf7f0] shadow-2xl rounded-2xl w-full md:w-[80vw] lg:w-[60vw] max-w-4xl md:max-w-4xl p-0 overflow-hidden relative flex flex-col"
         style={{ maxHeight: "90vh" }}
       >
         <button
@@ -258,7 +258,7 @@ function RoomDetailedModal({ room, open, onClose }) {
           initial={{ scale: 0.94, opacity: 0, y: 100 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.94, opacity: 0, y: 100 }}
-          className="bg-white shadow-2xl rounded-2xl w-full md:w-[85vw] lg:w-[70vw] max-w-5xl relative my-8"
+          className="bg-[#fbf7f0] shadow-2xl rounded-2xl w-full md:w-[85vw] lg:w-[70vw] max-w-5xl relative my-8"
         >
           <button
             onClick={onClose}
@@ -391,7 +391,7 @@ export default function RoomsSection() {
             Our rooms are more than a place to rest —
           </p>
           <p >they're sanctuaries for deep sleep</p>
-          <p>holistic healing, and spiritual calm.</p>
+          <p>holistic healing and spiritual calm.</p>
         </div>
       </div>
 
@@ -407,7 +407,7 @@ export default function RoomsSection() {
               setDetailedOpenIdx(idx);
             }}
           >
-            <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
               <RoomImageSlider images={room.images} />
               <CardContent className="p-6">
                 <h3 className="text-xl md:text-2xl font-alegreya  italic font-bold text-yellow-700/90 mb-2">

@@ -43,6 +43,30 @@ Nice ambience❤️`,
     message:
       "Very cozy and warm hospitality, delicious food, middle of jungle and Relaxing spa facilities",
   },
+  {
+    rated: "5/5",
+    name: "SUDHAKER SHARMA",
+    title: "",
+    image: "/Images/reviews/6.png",
+    message:
+      "I recently stayed at Palm Bliss Resort, Thano, and it was an unforgettable experience! The serene location amidst lush greenery provides the perfect escape from city life. ",
+  },
+  {
+    rated: "5/5",
+    name: "PRIYANKA NEGI",
+    title: "",
+    image: "/Images/reviews/7.png",
+    message:
+      "Palm Bliss Resort is a hidden gem in Thano, Dehradun! From the moment we arrived, the warm welcome made us feel at home. ",
+  },
+  {
+    rated: "5/5",
+    name: "Makar Bisht",
+    title: "",
+    image: "/Images/reviews/8.png",
+    message:
+      "The Palm Bliss Resort is a very nice resort, very well maintained resort, food is also very tasty and good, staff are very helpful and polite. ",
+  },
 ];
 
 export default function Testimonials() {
@@ -66,7 +90,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-10 md:py-[10vh] bg-white">
+    <section className="py-10 md:py-[10vh] bg-[#fbf7f0]">
       <div className="w-[90vw] max-w-[120vw] mx-auto px-[2vw]">
         <motion.div
           initial={{ opacity: 0, y: 5 }}
@@ -78,7 +102,7 @@ export default function Testimonials() {
             What People <span className="">Say</span>
           </h2>
           <p className="text-[3.5vw] md:text-[1.3vw] text-gray-700 max-w-[80vw] md:max-w-[50vw] mx-auto">
-            Hear from our valued guests who have experienced peace, beauty, and
+            Hear from our valued guests who have experienced peace, beauty and
             rejuvenation
           </p>
         </motion.div>
@@ -92,7 +116,7 @@ export default function Testimonials() {
               transition={{ duration: 0.5 }}
               className="px-[2vw] h-full"
             >
-              <div className="bg-white rounded-[2vw] p-[4vw] md:p-[2vw] shadow-lg h-[450px] md:h-[350px] flex flex-col">
+              <div className="bg-[#fbf7f0] rounded-[2vw] p-[4vw] md:p-[2vw] shadow-lg h-[450px] md:h-[350px] flex flex-col">
                 <div className="flex items-center gap-[2vw] mb-[2vh] flex-shrink-0">
                   <div className="w-[10vw] h-[10vw] md:w-[3vw] md:h-[3vw] rounded-full overflow-hidden flex-shrink-0">
                     <Image

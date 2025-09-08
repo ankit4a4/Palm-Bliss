@@ -51,29 +51,29 @@ export default function AyushDiningSection() {
             </div>
 
             {/* Main Description */}
-            <div className="bg-white/60 backdrop-blur-sm px-8 py-3 rounded-2xl shadow-lg border border-white/70 max-w-4xl">
+            <div className="bg-[#fbf7f0]/60 backdrop-blur-sm px-8 py-3 rounded-2xl shadow-lg border border-white/70 max-w-4xl">
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed tracking-wide">
-                Step into Ayush Dining, where food becomes healthy, memory, and
+                Step into Ayush Dining, where food becomes healthy, memory and
                 meditation.
               </p>
               <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
                 At Ayush Dining, every meal is a soulful ritual. Set against the
                 tranquil embrace of the Shivalik ranges, our open-air dining
                 space welcomes you with the scent of fresh herbs, the golden
-                glow of evening light, and the gentle hum of nature
+                glow of evening light and the gentle hum of nature
               </p>
               <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
                 Each plate is a work of art—organic vegetables picked at their
-                freshest, whole grains rich in earth’s energy, and spices chosen
+                freshest, whole grains rich in earth’s energy and spices chosen
                 for their healing touch. Guided by the ancient wisdom of
                 Ayurveda, our chefs craft dishes that balance body, awaken the
-                senses, and uplift the spirit.
+                senses and uplift the spirit.
               </p>
               <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
                 Here, dining becomes a meditation. You savor slowly, listen
-                deeply—to the laughter around you, the rustle of leaves, and the
+                deeply—to the laughter around you, the rustle of leaves and the
                 whisper of the mountain breeze. Every sip of herbal tea warms
-                the soul, every bite nourishes from within, and every shared
+                the soul, every bite nourishes from within and every shared
                 moment becomes a memory of peace.
               </p>
               <p className="text-yellow-700 text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
@@ -126,7 +126,7 @@ export default function AyushDiningSection() {
             {/* First Card - Image on Left, Content on Right */}
             {/* <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
+              className="bg-[#fbf7f0]/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
@@ -141,7 +141,7 @@ export default function AyushDiningSection() {
                     Indian Vegan Menu for Wellness Programs
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
-                    This menu blends traditional Indian flavors, regional specialties, and modern vegan cuisine while ensuring health-conscious options are available. All dishes are designed to align with the wellness retreat’s values, offering innovative, wholesome meals for Indian tourists.
+                    This menu blends traditional Indian flavors, regional specialties and modern vegan cuisine while ensuring health-conscious options are available. All dishes are designed to align with the wellness retreat’s values, offering innovative, wholesome meals for Indian tourists.
                   </p>
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function AyushDiningSection() {
             {/* Second Card - Content on Left, Image on Right */}
             {/* <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
+              className="bg-[#fbf7f0]/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5">
@@ -158,7 +158,7 @@ export default function AyushDiningSection() {
                     Global Vegan Delights for Wellness Programs
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
-                    A curated menu featuring famous and innovative vegan dishes from around the world tailored for international guests visiting Uttarakhand. The menu blends wellness-focused meals, global flavours, and regional specialties, offering a balanced and inclusive dining experience.
+                    A curated menu featuring famous and innovative vegan dishes from around the world tailored for international guests visiting Uttarakhand. The menu blends wellness-focused meals, global flavours and regional specialties, offering a balanced and inclusive dining experience.
                   </p>
                 </div>
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
@@ -174,7 +174,7 @@ export default function AyushDiningSection() {
             {/* First Card - Image on Left, Content on Right */}
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
+              className="bg-[#fbf7f0]/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
@@ -190,7 +190,7 @@ export default function AyushDiningSection() {
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
                     Experience the goodness of nature on your plate – pure
-                    vegetarian, natural, and soul-satisfying meals that
+                    vegetarian, natural and soul-satisfying meals that
                     celebrate the art of mindful eating.
                   </p>
                 </div>
@@ -200,7 +200,7 @@ export default function AyushDiningSection() {
             {/* Second Card - Content on Left, Image on Right */}
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
+              className="bg-[#fbf7f0]/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5">
@@ -252,7 +252,7 @@ export default function AyushDiningSection() {
                   </h4>
                   <p className="text-gray-800 text-base leading-relaxed tracking-wide">
                     Here, every bite whispers wellness, every sip carries the
-                    breath of the mountains, and every plate is a poem of
+                    breath of the mountains and every plate is a poem of
                     nourishment.
                   </p>
                 </div>
@@ -271,7 +271,7 @@ export default function AyushDiningSection() {
                   </h4>
                   <p className="text-gray-800 text-base leading-relaxed tracking-wide">
                     Beneath the gentle embrace of the Shivalik ranges, we serve
-                    not just food, but a celebration of balance, vitality, and
+                    not just food, but a celebration of balance, vitality and
                     peace.
                   </p>
                 </div>
@@ -324,7 +324,7 @@ export default function AyushDiningSection() {
             {/* First Card - Image on Left, Content on Right */}
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-white/60 backdrop-blur-sm rounded-3xl shadow-xl border border-white/70 overflow-hidden"
+              className="bg-[#fbf7f0]/60 backdrop-blur-sm rounded-3xl shadow-xl border border-white/70 overflow-hidden"
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
@@ -340,7 +340,7 @@ export default function AyushDiningSection() {
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
                     From sunrise breakfasts to serene sunset dinners, Ayush
-                    Dining offers flavors that heal, energize, and delight.
+                    Dining offers flavors that heal, energize and delight.
                   </p>
                 </div>
               </div>
@@ -349,7 +349,7 @@ export default function AyushDiningSection() {
             {/* Second Card - Content on Left, Image on Right */}
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-white/60 backdrop-blur-sm rounded-3xl shadow-xl border border-white/70 overflow-hidden"
+              className="bg-[#fbf7f0]/60 backdrop-blur-sm rounded-3xl shadow-xl border border-white/70 overflow-hidden"
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5">

@@ -16,7 +16,7 @@ import { MdOutlineNature } from "react-icons/md";
 const items = [
   {
     title: "Mud House Stay",
-    image: "/Images/AllPhotos/mud-house.webp",
+     image: ["/Images/AllPhotos/mud1.webp", "/"],
     description:
       "Experience traditional living in eco-friendly mud houses, blending comfort with nature's embrace.",
     detailedDescription:
@@ -32,7 +32,7 @@ const items = [
           sanctuaries remain cool in summer and warm in winter, connecting you
           deeply to nature's rhythm. The soft scent of clay, gentle textures,
           and calming silence create a cocoon of peace, letting you slow down,
-          sleep deeply, and wake to birdsong and fresh air.
+          sleep deeply and wake to birdsong and fresh air.
         </p>
 
         <p className="mb-6 font-medium text-gray-900">
@@ -140,12 +140,12 @@ const items = [
           At Palm Bliss Resort & Atharva Ayurveda Wellness Retreat
         </p>
         <p className="my-1">
-          Step into Ayush Dining, where food becomes medicine, memory, and
+          Step into Ayush Dining, where food becomes medicine, memory and
           meditation. Rooted in Ayurvedic principles and crafted with love, each
-          meal is a celebration of purity, balance, and seasonal nourishment.
+          meal is a celebration of purity, balance and seasonal nourishment.
         </p>
         <p className="my-1">
-          Savor traditional Pahadi thalis, sattvic delicacies, and herbal
+          Savor traditional Pahadi thalis, sattvic delicacies and herbal
           infusions — all prepared with fresh, local ingredients, infused with
           healing intent. From copper vessels to clay pots, every detail honors
           ancient wisdom and mindful living.
@@ -153,7 +153,7 @@ const items = [
 
         <p className="my-1">
           Dine under the open sky or in calming, earth-toned interiors — where
-          every bite restores your body, quiets your mind, and uplifts your
+          every bite restores your body, quiets your mind and uplifts your
           soul.
         </p>
 
@@ -175,7 +175,7 @@ const items = [
     description:
       "Explore the pristine nature trails and embark on thrilling jungle safaris (available upon request).",
     detailedDescription:
-      "Embark on a serene tracking journey into the lush jungle hills of Thano, where mist-laced trails wind through ancient sal forests, echoing with birdsong and the whispers of the breeze. Just steps from Palm Bliss Resort, this walk into the wild leads you through emerald canopies, hidden streams, and the earthy scent of rain-kissed leaves, reconnecting your soul with the untouched rhythms of nature.",
+      "Embark on a serene tracking journey into the lush jungle hills of Thano, where mist-laced trails wind through ancient sal forests, echoing with birdsong and the whispers of the breeze. Just steps from Palm Bliss Resort, this walk into the wild leads you through emerald canopies, hidden streams and the earthy scent of rain-kissed leaves, reconnecting your soul with the untouched rhythms of nature.",
     size: "col-span-2 row-span-2",
     delay: "0.3s",
     // Example: Custom adventure-themed content
@@ -212,7 +212,7 @@ const items = [
 
         <blockquote className="italic text-gray-600  pl-4">
           "Just steps from Palm Bliss Resort, this walk into the wild leads you
-          through emerald canopies, hidden streams, and the earthy scent of
+          through emerald canopies, hidden streams and the earthy scent of
           rain-kissed leaves, reconnecting your soul with the untouched rhythms
           of nature."
         </blockquote>
@@ -225,7 +225,7 @@ const items = [
     image: "/Images/AllPhotos/indoorGame1.webp",
     description: "Fun activities for all ages — indoor and outdoor!",
     detailedDescription:
-      "Indulge in fun-filled moments at The Palm Bliss with a variety of indoor and outdoor games. Enjoy a friendly match of chess, carrom, or table tennis indoors, or step outside for badminton, volleyball, cricket, and open-lawn activities under the fresh skies. Perfect for families, friends, and all who wish to add a spark of play to their stay",
+      "Indulge in fun-filled moments at The Palm Bliss with a variety of indoor and outdoor games. Enjoy a friendly match of chess, carrom, or table tennis indoors, or step outside for badminton, volleyball, cricket and open-lawn activities under the fresh skies. Perfect for families, friends and all who wish to add a spark of play to their stay",
     size: "col-span-1 row-span-2",
     delay: "0.4s",
   },
@@ -242,7 +242,7 @@ const items = [
     title: "Cycling Through Serenity",
     image: "/Images/cycling.webp",
     description:
-      "Cycle through the serene jungle paths and find peace, freshness, and freedom with every ride.",
+      "Cycle through the serene jungle paths and find peace, freshness and freedom with every ride.",
 
     modalContent: (
       <div className="text-gray-800 leading-relaxed">
@@ -259,11 +259,11 @@ const items = [
 
         <p>
           Feel the cool breeze kiss your face as you ride past bamboo groves,
-          chirping birds, and whispering trees.
+          chirping birds and whispering trees.
         </p>
         <p>
           Whether you're an early riser seeking a sunrise trail or a sunset
-          explorer chasing golden light, each ride brings peace, freshness, and
+          explorer chasing golden light, each ride brings peace, freshness and
           a deep breath of freedom.
         </p>
       </div>
@@ -288,7 +288,7 @@ const DetailModal = ({ item, onClose }) => {
       }}
     >
       <div
-        className="bg-white rounded-lg max-w-4xl w-full p-6 relative max-h-[90vh] overflow-y-auto"
+        className="bg-[#fbf7f0] rounded-lg max-w-4xl w-full p-6 relative max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -299,7 +299,7 @@ const DetailModal = ({ item, onClose }) => {
           <X size={24} />
         </button>
 
-        <h3 className="text-3xl font-bold mb-6 text-yellow-700/90 pr-10">
+        <h3 className="text-3xl italic font-bold mb-6 text-yellow-700/90 pr-10">
           {item.title}
         </h3>
 
@@ -339,7 +339,7 @@ const FacilitiesGrid = () => {
         <div className="lg:px-10 py-2 font-inter text-lg leading-relaxed space-y-3 text-start">
           <p className="text-gray-800 leading-loose text-center tracking-wide">
             At Palm Bliss Resort with Atharva Ayurveda Wellness Step into a
-            sanctuary where every moment is a celebration of stillness, And
+            sanctuary where every moment is a celebration of stillness and
             every experience whispers the promise of renewal.
           </p>
 
@@ -433,7 +433,7 @@ const FacilitiesGrid = () => {
 
           <p className="text-gray-800 leading-loose tracking-wide font-medium text-center py-4">
             This is more than a stay. It's a return to balance. A rediscovery of
-            self. A journey woven with wisdom, warmth, and quiet joy.
+            self. A journey woven with wisdom, warmth and quiet joy.
           </p>
         </div>
 

@@ -9,7 +9,7 @@ const packages = [
     {
         title: "7‑Day Detox & Yoga Retreat",
         desc:
-            "Cleanse your body and mind with guided yoga, organic meals, and herbal therapies.",
+            "Cleanse your body and mind with guided yoga, organic meals and herbal therapies.",
         image:
             "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1470&q=80",
         duration: "7 Days",
@@ -48,7 +48,7 @@ const packages = [
     // {
     //     title: "Holistic Wellness for Seniors",
     //     desc:
-    //         "Safe and relaxing wellness for 60+ with arthritis yoga, soft diet, and Ayurveda massage.",
+    //         "Safe and relaxing wellness for 60+ with arthritis yoga, soft diet and Ayurveda massage.",
     //     image:
     //         "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1470&q=80",
     //     duration: "10 Days",
@@ -115,7 +115,7 @@ export default function WellnessPackagesSection() {
                         Wellness Packages
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Discover our carefully curated wellness programs designed to nourish your body, mind, and soul
+                        Discover our carefully curated wellness programs designed to nourish your body, mind and soul
                     </p>
                     <div className="mt-6 w-24 h-1.5 mx-auto bg-gradient-to-r from-[#A67A35] to-[#D4AF37] rounded-full" />
                 </div>
@@ -127,7 +127,7 @@ export default function WellnessPackagesSection() {
                             data-aos="zoom-in-up"
                             data-aos-delay={index * 100}
                             data-aos-anchor-placement="top-bottom"
-                            className="group relative bg-white rounded-xl shadow-lg overflow-hidden border border-[#e0d5c5] hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
+                            className="group relative bg-[#fbf7f0] rounded-xl shadow-lg overflow-hidden border border-[#e0d5c5] hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
                         >
                             {/* Glow effect */}
                             <div className="absolute inset-0 bg-gradient-to-br from-[#A67A35]/10 to-[#D4AF37]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl" />

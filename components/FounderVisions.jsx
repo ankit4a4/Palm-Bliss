@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FounderVisions({ founders }) {
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-[#fbf7f0]">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="mb-2 flex justify-center">
           <img
@@ -21,7 +21,7 @@ export default function FounderVisions({ founders }) {
           The Palm Bliss Resort  “Arivandha – Where Peace Finds You.
         </p>
         <p className="text-justify text-md md:text-lg text-black leading-relaxed mb-5 font-normal">
-          At the heart of every leaf, every breeze, and every sunrise within
+          At the heart of every leaf, every breeze and every sunrise within
           Palm Bliss Resort lies the vision of its founder — a dreamer deeply
           rooted in nature, inspired by the healing silence of the jungle.
           Established with the essence of Arivandha, a soulful path toward
@@ -61,7 +61,7 @@ export default function FounderVisions({ founders }) {
                 className="w-6 h-6"
               />
               <span className="font-semibold text-black">
-                Healing through stillness, simplicity, and soulful care
+                Healing through stillness, simplicity and soulful care
               </span>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function FounderVisions({ founders }) {
           <p className="text-md md:text-lg text-black leading-relaxed font-normal mt-4">
             Palm Bliss isn’t just a retreat. It’s a soul reset — Built not just
             with mud and stone, but with conscious intention and deep-rooted
-            love for wellness, purity, and peace.
+            love for wellness, purity and peace.
           </p>
           <div className="mt-4 space-y-1">
             <p className="text-black font-semibold">
@@ -104,12 +104,12 @@ export default function FounderVisions({ founders }) {
             In Silence, You Heal. In Nature, You Awaken.
           </span>{" "}
           Palm Bliss Resort was born from the vision of its founder — a soul
-          deeply moved by the ancient wisdom of Yoga and Naturopathy, and the
+          deeply moved by the ancient wisdom of Yoga and Naturopathy and the
           need for true stillness in today’s chaotic world. Set deep within a
           jungle sanctuary, the resort breathes peace, offering a Syndrome
-          Silence Area where the only sounds are those of birdsong, wind, and
+          Silence Area where the only sounds are those of birdsong, wind and
           your own heartbeat. The founder’s dream was simple yet profound: To
-          create a space where the body rests, the mind clears, and the soul
+          create a space where the body rests, the mind clears and the soul
           realigns.
         </p>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-10 mt-6">

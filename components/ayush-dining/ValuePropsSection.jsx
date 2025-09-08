@@ -20,7 +20,7 @@ const values = [
   {
     icon: FaLeaf,
     title: "Traditional Pahadi Thalis & Sattvic Delicacies",
-    desc: "Savor traditional Pahadi thalis, sattvic delicacies, and herbal infusions — all prepared with fresh, local ingredients, infused with healing intent.",
+    desc: "Savor traditional Pahadi thalis, sattvic delicacies and herbal infusions — all prepared with fresh, local ingredients, infused with healing intent.",
     img: "https://i.pinimg.com/1200x/de/12/58/de125845a48533cfa066aedb279bf5db.jpg",
   },
   {
@@ -32,13 +32,13 @@ const values = [
   {
     icon: GiWorld,
     title: "Sacred Dining Experience",
-    desc: "Dine under the open sky or in calming, earth-toned interiors — where every bite restores your body, quiets your mind, and uplifts your soul.",
+    desc: "Dine under the open sky or in calming, earth-toned interiors — where every bite restores your body, quiets your mind and uplifts your soul.",
     img: "/Images/open-dining.webp",
   },
   {
     icon: RiShieldStarFill,
     title: "Nourishment Aligned with Nature",
-    desc: "This isn't just dining. It's nourishment aligned with nature, culture, and your inner rhythm. Welcome to Ayush — where you eat to heal, live to glow.",
+    desc: "This isn't just dining. It's nourishment aligned with nature, culture and your inner rhythm. Welcome to Ayush — where you eat to heal, live to glow.",
     img: "https://i.pinimg.com/736x/e8/df/88/e8df8852e2ff81c6d9669e15f6af1023.jpg",
   },
 ];
@@ -49,7 +49,7 @@ export default function ValuePropsSection() {
   }, []);
 
   return (
-    <section className="py-20 px-4 sm:px-6 bg-white">
+    <section className="py-20 px-4 sm:px-6 bg-[#fbf7f0]">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-alegreya  italic  font-semibold text-yellow-700">
@@ -65,7 +65,7 @@ export default function ValuePropsSection() {
           />
           <p className="max-w-3xl mx-auto mt-6 text-lg text-gray-600">
             Experience the art of mindful dining where every meal is a
-            meditation, every ingredient carries healing wisdom, and every bite
+            meditation, every ingredient carries healing wisdom and every bite
             connects you deeper to nature's abundance and your inner well-being.
           </p>
         </header>
@@ -90,7 +90,7 @@ export default function ValuePropsSection() {
               </div>
               <div className="md:w-3/5 p-8 flex flex-col justify-center">
                 <div className="flex items-center mb-4">
-                  <span className="h-11 w-11 flex items-center justify-center rounded-full bg-white shadow ring-2 ring-white/50 mr-4">
+                  <span className="h-11 w-11 flex items-center justify-center rounded-full bg-[#fbf7f0] shadow ring-2 ring-white/50 mr-4">
                     <Icon className="text-[#A67A35] text-2xl" />
                   </span>
                   <h3 className="text-xl font-semibold font-alegreya  italic text-yellow-700/90">

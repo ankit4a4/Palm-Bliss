@@ -15,7 +15,7 @@ const features = [
   {
     icon: FaSpa,
     title: "Abhyanga & Dosha Balance",
-    desc: "Warm herbal oils, traditional Abhyanga massage, and personalized dosha balancing to awaken your senses and restore holistic harmony.",
+    desc: "Warm herbal oils, traditional Abhyanga massage and personalized dosha balancing to awaken your senses and restore holistic harmony.",
   },
   {
     icon: GiStoneStack,
@@ -62,7 +62,7 @@ export default function WellnessFacilitiesSection() {
             Holistic Wellness Treatments
           </h2>
           <div
-            className="mt-4 w-24 h-1 mx-auto bg-white/50"
+            className="mt-4 w-24 h-1 mx-auto bg-[#fbf7f0]/50"
             data-aos="fade-left"
             data-aos-delay="300"
             data-aos-duration="1200"
@@ -76,10 +76,10 @@ export default function WellnessFacilitiesSection() {
               data-aos="flip-up"
               data-aos-delay={index * 50}
               data-aos-duration="800"
-              className="bg-white/10 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 border border-white/20 hover:border-white/40 hover:bg-white/15 group transform hover:-translate-y-2"
+              className="bg-[#fbf7f0]/10 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 border border-white/20 hover:border-white/40 hover:bg-[#fbf7f0]/15 group transform hover:-translate-y-2"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white text-[#A67A35] text-xl group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
+                <div className="h-12 w-12 flex items-center justify-center rounded-full bg-[#fbf7f0] text-[#A67A35] text-xl group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                   <Icon className="group-hover:text-[#8a5c1a]" />
                 </div>
                 <h3 className="text-lg font-alegreya  italic font-semibold group-hover:text-gold-100">

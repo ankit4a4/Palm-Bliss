@@ -174,7 +174,7 @@ const AllBlogsCards = () => {
           <motion.div
             key={blog.id}
             whileHover={{ scale: 1.05 }}
-            className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col"
+            className="bg-[#fbf7f0] rounded-2xl shadow-md overflow-hidden flex flex-col"
           >
             {/* Blog Image */}
             <img

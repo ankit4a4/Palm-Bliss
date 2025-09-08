@@ -87,7 +87,7 @@ export default function GallerySection() {
               Our rooms are more than a place to rest —
             </h6>
             <p>they're sanctuaries for deep sleep</p>
-            <p>holistic healing, and spiritual calm.</p>
+            <p>holistic healing and spiritual calm.</p>
           </div>
         </motion.div>
 

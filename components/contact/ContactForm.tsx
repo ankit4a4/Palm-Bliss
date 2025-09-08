@@ -56,7 +56,7 @@ const rooms = [
     id: 1,
     title: "Royal Suite",
     description:
-      "The pinnacle of luxury with panoramic mountain views, private balcony, and exclusive amenities.",
+      "The pinnacle of luxury with panoramic mountain views, private balcony and exclusive amenities.",
     image:
       "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: "₹99,999",
@@ -211,7 +211,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-[#fbf7f0]">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <motion.div
@@ -219,7 +219,7 @@ const ContactForm = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <Card className="bg-white border-gray-200 shadow-lg">
+            <Card className="bg-[#fbf7f0] border-gray-200 shadow-lg">
               <CardContent className="p-8">
                 <h2 className="text-3xl font-alegreya  italic  font-bold text-yellow-700/90 mb-6">
                   {selectedRoom ? (
@@ -343,7 +343,7 @@ const ContactForm = () => {
               </h2>
               <p className="text-lg text-gray-600 mb-8">
                 Our dedicated team is available to assist you with reservations,
-                special requests, and any questions about your stay.
+                special requests and any questions about your stay.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

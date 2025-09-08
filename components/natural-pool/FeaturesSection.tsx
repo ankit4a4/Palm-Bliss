@@ -40,7 +40,7 @@ const FeaturesSection = () => {
 
     return (
         <>
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-[#fbf7f0]">
                 <div className="container mx-auto px-4">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
@@ -66,7 +66,7 @@ const FeaturesSection = () => {
                                 whileHover={{ y: -5 }}
                                 className="group"
                             >
-                                <Card className="h-full bg-white border-gray-200 hover:shadow-xl transition-all duration-300">
+                                <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-xl transition-all duration-300">
                                     <CardContent className="p-8 text-center">
                                         <div className="w-16 h-16 bg-royal-gold/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                                             <feature.icon className="h-8 w-8 text-royal-gold" />

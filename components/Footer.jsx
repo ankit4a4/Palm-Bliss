@@ -93,14 +93,14 @@ export default function Footer() {
             <div className="flex justify-center gap-4">
               <Link
                 href="https://www.facebook.com/people/The-Palm-Bliss-Resort-Thano/61564917835095/#"
-                className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-[#fbf7f0]/20 hover:bg-[#fbf7f0]/30 rounded-full flex items-center justify-center transition-colors"
               >
                 <FaFacebook />
               </Link>
 
               <Link
                 href="https://www.instagram.com/thepalmblissresort/?hl=en"
-                className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-[#fbf7f0]/20 hover:bg-[#fbf7f0]/30 rounded-full flex items-center justify-center transition-colors"
               >
                 <svg
                   className="w-5 h-5"
@@ -112,14 +112,14 @@ export default function Footer() {
               </Link>
               <Link
                 href="https://www.tripadvisor.in/Hotel_Review-g19783920-d27516036-Reviews-The_Palm_Bliss_Resort-Thano_Dehradun_District_Uttarakhand.html"
-                className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-[#fbf7f0]/20 hover:bg-[#fbf7f0]/30 rounded-full flex items-center justify-center transition-colors"
               >
                <FaTripadvisor/>
               </Link>
 
               <Link
                 href="#"
-                className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-[#fbf7f0]/20 hover:bg-[#fbf7f0]/30 rounded-full flex items-center justify-center transition-colors"
               >
                 <svg
                   className="w-5 h-5"

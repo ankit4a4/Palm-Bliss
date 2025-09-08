@@ -44,7 +44,7 @@ const rooms = [
     id: 4,
     title: "Swiss Cottages",
     description:
-      "Relax in our luxurious Swiss cottages, where you'll find a comfortable bed, exclusive experiences, and all modern amenities.",
+      "Relax in our luxurious Swiss cottages, where you'll find a comfortable bed, exclusive experiences and all modern amenities.",
     price: "₹5,999",
     capacity: "2 Adults",
     amenities: ["Yoga Mat", "Meditation Corner", "Tv", "Sound System"],
@@ -71,7 +71,7 @@ const rooms = [
     id: 8,
     title: "Luxury Room",
     description:
-      "Finest comfort with breathtaking mountain views, modern interiors, and exquisite service.",
+      "Finest comfort with breathtaking mountain views, modern interiors and exquisite service.",
     price: "₹8,999",
     capacity: "2 Adults",
     amenities: ["Mountain View", "Balcony", "King Bed", "Sitting Area"],
@@ -84,7 +84,7 @@ const RoomsGrid = () => {
   const router = useRouter();
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-[#fbf7f0]">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {rooms.map((room, index) => (
@@ -96,7 +96,7 @@ const RoomsGrid = () => {
               whileHover={{ y: -5 }}
               className="group"
             >
-              <Card className="h-full bg-white border-gray-200 hover:shadow-2xl rounded-xl overflow-hidden transition-all duration-300 flex flex-col">
+              <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-2xl rounded-xl overflow-hidden transition-all duration-300 flex flex-col">
                 <div className="relative h-64 w-full">
                   <Image
                     src={room.images[0]}

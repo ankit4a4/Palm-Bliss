@@ -97,7 +97,7 @@ const AyushDishesShowcase = () => {
           {dishes.map((dish) => (
             <div
               key={dish.id}
-              className="group bg-white/70 backdrop-blur-sm rounded-2xl shadow-lg border border-white/50 overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="group bg-[#fbf7f0]/70 backdrop-blur-sm rounded-2xl shadow-lg border border-white/50 overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               {/* Image Container */}
               <div className="relative h-48 overflow-hidden bg-gradient-to-br from-yellow-50 to-yellow-100/30">
@@ -125,12 +125,12 @@ const AyushDishesShowcase = () => {
 
         {/* Bottom Section */}
         <div className="mt-20 text-center">
-          <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50 max-w-4xl mx-auto">
+          <div className="bg-[#fbf7f0]/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50 max-w-4xl mx-auto">
             <h3 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold mb-4">
               A Journey of Wellness Through Food
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Every meal at Ayush Dining is a celebration of health, taste, and
+              Every meal at Ayush Dining is a celebration of health, taste and
               mindfulness. Prepared with fresh, natural ingredients and served
               with love, our dishes are designed to nourish your body while
               delighting your senses.

@@ -11,7 +11,7 @@ const FacilitiesSection = () => {
     {
       icon: Heart,
       title: 'Wellness Center',
-      description: 'Rejuvenate your mind, body, and soul with our comprehensive wellness programs featuring spa treatments, meditation sessions, and holistic healing therapies.',
+      description: 'Rejuvenate your mind, body and soul with our comprehensive wellness programs featuring spa treatments, meditation sessions and holistic healing therapies.',
       features: ['Full-Service Spa', 'Meditation Gardens', 'Aromatherapy', 'Massage Therapy'],
       href: '/wellness',
       color: 'from-pink-500 to-rose-500'
@@ -35,7 +35,7 @@ const FacilitiesSection = () => {
     {
       icon: Sparkles,
       title: 'Premium Amenities',
-      description: 'Enjoy world-class amenities including fitness center, library, game room, and exclusive access to our private trails and gardens.',
+      description: 'Enjoy world-class amenities including fitness center, library, game room and exclusive access to our private trails and gardens.',
       features: ['Fitness Center', 'Library Lounge', 'Game Room', 'Private Trails'],
       href: '/amenities',
       color: 'from-purple-500 to-indigo-500'
@@ -43,7 +43,7 @@ const FacilitiesSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-[#fbf7f0]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -69,7 +69,7 @@ const FacilitiesSection = () => {
               whileHover={{ y: -5 }}
               className="group"
             >
-              <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
+              <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
                 <CardContent className="p-8">
                   <div className="flex items-center gap-4 mb-6">
                     <div className={`w-16 h-16 rounded-full bg-gradient-to-r ${facility.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>

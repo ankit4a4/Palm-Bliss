@@ -35,7 +35,7 @@ export default function USPSection() {
         {
             icon: LuCookingPot,
             title: "Healing Foods",
-            desc: "Specially formulated meals combining Ayurvedic wisdom and modern nutrition science. Each dish supports detoxification, gut health, and cellular regeneration using therapeutic ingredients.",
+            desc: "Specially formulated meals combining Ayurvedic wisdom and modern nutrition science. Each dish supports detoxification, gut health and cellular regeneration using therapeutic ingredients.",
             hoverEffect: "hover:shadow-healing",
             iconColor: "text-[#F44336]",
             bgColor: "bg-[#FFEBEE]"
@@ -49,7 +49,7 @@ export default function USPSection() {
                 {[...Array(20)].map((_, i) => (
                     <div
                         key={i}
-                        className="absolute rounded-full bg-white"
+                        className="absolute rounded-full bg-[#fbf7f0]"
                         style={{
                             width: `${Math.random() * 10 + 5}px`,
                             height: `${Math.random() * 10 + 5}px`,
@@ -82,7 +82,7 @@ export default function USPSection() {
                             key={index}
                             data-aos="zoom-in"
                             data-aos-delay={300 + index * 100}
-                            className={`group relative bg-white rounded-2xl p-8 border-2 border-transparent transition-all duration-500 hover:border-[#A67A35] hover:-translate-y-3 ${hoverEffect}`}
+                            className={`group relative bg-[#fbf7f0] rounded-2xl p-8 border-2 border-transparent transition-all duration-500 hover:border-[#A67A35] hover:-translate-y-3 ${hoverEffect}`}
                         >
                             {/* Floating icon background */}
                             <div className={`absolute -top-8 left-1/2 -translate-x-1/2 h-16 w-16 rounded-full ${bgColor} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-md`} />

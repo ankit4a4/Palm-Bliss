@@ -77,7 +77,7 @@ const AyushWellnessSection = () => {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="bg-white rounded-sm overflow-hidden hover:shadow-xl transition duration-300"
+              className="bg-[#fbf7f0] rounded-sm overflow-hidden hover:shadow-xl transition duration-300"
             >
               <div className="relative h-[450px] w-full">
                 <Image
@@ -108,10 +108,10 @@ const AyushWellnessSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="mt-16 rounded-sm py-10 border text-center bg-white"
+          className="mt-16 rounded-sm py-10 border text-center bg-[#fbf7f0]"
         >
           <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto mb-8 italic">
-            Here, time slows down, breath deepens, and nature speaks — gently guiding you back to yourself.
+            Here, time slows down, breath deepens and nature speaks — gently guiding you back to yourself.
           </p>
           
           <div className="border-t border-yellow-200 pt-8 max-w-3xl mx-auto">

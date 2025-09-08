@@ -29,7 +29,7 @@ const alegreya = Alegreya({
 // Metadata object remains the same, just without the TypeScript type annotation
 export const metadata = {
   title: 'Palm Bliss Resort - Premium Luxury Resort Experience',
-  description: 'Experience the ultimate luxury at Palm Bliss Resort. Wellness, yoga, natural pools, and world-class amenities in a serene natural setting.',
+  description: 'Experience the ultimate luxury at Palm Bliss Resort. Wellness, yoga, natural pools and world-class amenities in a serene natural setting.',
 };
 
 export default function RootLayout({

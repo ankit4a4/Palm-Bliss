@@ -43,7 +43,7 @@ export default function HomeGallery() {
   }, [selectedImage]);
 
   return (
-    <section className="md:py-[10vh] py-10 bg-white">
+    <section className="md:py-[10vh] py-10 bg-[#fbf7f0]">
       <div className="w-[90vw] max-w-[1200px] mx-auto px-[2vw]">
         <div className="text-center mb-[5vh]">
           <h2 className="text-[6vw] md:text-[3vw] capitalize font-playfair font-bold text-yellow-700/90 mb-[1.5vh]">

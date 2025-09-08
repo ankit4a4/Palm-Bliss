@@ -69,7 +69,7 @@ const RoomFeature = () => {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="bg-white rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl hover:scale-[1.03] transition duration-300"
+              className="bg-[#fbf7f0] rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl hover:scale-[1.03] transition duration-300"
             >
               <div className="flex items-center justify-center w-14 h-14 mx-auto mb-4 bg-royal-gold/10 rounded-full">
                 <feature.icon className="h-6 w-6 text-royal-gold" />

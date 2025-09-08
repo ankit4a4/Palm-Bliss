@@ -14,7 +14,7 @@ export default function Page() {
   if (!blog) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-100 to-amber-200">
-        <div className="text-center p-8 bg-white rounded-xl shadow-xl">
+        <div className="text-center p-8 bg-[#fbf7f0] rounded-xl shadow-xl">
           <h1 className="text-4xl font-bold text-amber-900 font-alegreya  italic">
             Blog Not Found
           </h1>
@@ -92,7 +92,7 @@ export default function Page() {
         <div className="flex flex-col lg:flex-row gap-10">
           {/* Blog Content */}
           <div className="w-full lg:w-8/12">
-            <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="bg-[#fbf7f0] rounded-2xl shadow-lg p-8">
               <img
                 src={blog.image}
                 alt={blog.title}
@@ -140,7 +140,7 @@ export default function Page() {
           {/* Sidebar */}
           <div className="w-full lg:w-4/12 space-y-8">
             {/* Search */}
-            <div className="bg-white rounded-2xl shadow-md p-6">
+            <div className="bg-[#fbf7f0] rounded-2xl shadow-md p-6">
               <h3 className="text-xl font-alegreya  italic font-bold text-amber-900 mb-4">
                 🔍 Search Blogs
               </h3>
@@ -179,7 +179,7 @@ export default function Page() {
             </div>
 
             {/* Related */}
-            <div className="bg-white rounded-2xl shadow-md p-6">
+            <div className="bg-[#fbf7f0] rounded-2xl shadow-md p-6">
               <h3 className="text-xl font-bold font-alegreya  italic text-amber-900 mb-5">
                 📌 Related Blogs
               </h3>
@@ -209,7 +209,7 @@ export default function Page() {
             </div>
 
             {/* Recent */}
-            <div className="bg-white rounded-2xl shadow-md p-6">
+            <div className="bg-[#fbf7f0] rounded-2xl shadow-md p-6">
               <h3 className="text-xl font-bold font-alegreya  italic text-amber-900 mb-5">
                 📰 Recent Blogs
               </h3>

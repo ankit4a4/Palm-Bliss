@@ -54,7 +54,7 @@ const BookingForm = () => {
                 type="date"
                 value={formData.checkIn}
                 onChange={(e) => handleInputChange('checkIn', e.target.value)}
-                className="bg-white/10 border-royal-gold/30 text-white"
+                className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white"
                 required
               />
             </div>
@@ -70,7 +70,7 @@ const BookingForm = () => {
                 type="date"
                 value={formData.checkOut}
                 onChange={(e) => handleInputChange('checkOut', e.target.value)}
-                className="bg-white/10 border-royal-gold/30 text-white"
+                className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white"
                 required
               />
             </div>
@@ -89,7 +89,7 @@ const BookingForm = () => {
                 placeholder="Enter your full name"
                 value={formData.fullName}
                 onChange={(e) => handleInputChange('fullName', e.target.value)}
-                className="bg-white/10 border-royal-gold/30 text-white placeholder:text-gray-400"
+                className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white placeholder:text-gray-400"
                 required
               />
             </div>
@@ -106,7 +106,7 @@ const BookingForm = () => {
                 placeholder="Enter your phone number"
                 value={formData.phoneNumber}
                 onChange={(e) => handleInputChange('phoneNumber', e.target.value)}
-                className="bg-white/10 border-royal-gold/30 text-white placeholder:text-gray-400"
+                className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white placeholder:text-gray-400"
                 required
               />
             </div>
@@ -120,7 +120,7 @@ const BookingForm = () => {
                 Rooms
               </Label>
               <Select value={formData.rooms} onValueChange={(value) => handleInputChange('rooms', value)}>
-                <SelectTrigger className="bg-white/10 border-royal-gold/30 text-white">
+                <SelectTrigger className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white">
                   <SelectValue placeholder="Select rooms" />
                 </SelectTrigger>
                 <SelectContent>
@@ -140,7 +140,7 @@ const BookingForm = () => {
                 Adults
               </Label>
               <Select value={formData.adults} onValueChange={(value) => handleInputChange('adults', value)}>
-                <SelectTrigger className="bg-white/10 border-royal-gold/30 text-white">
+                <SelectTrigger className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white">
                   <SelectValue placeholder="Select adults" />
                 </SelectTrigger>
                 <SelectContent>
@@ -157,7 +157,7 @@ const BookingForm = () => {
             <div className="space-y-2">
               <Label>Arrival Type</Label>
               <Select value={formData.arrivalType} onValueChange={(value) => handleInputChange('arrivalType', value)}>
-                <SelectTrigger className="bg-white/10 border-royal-gold/30 text-white">
+                <SelectTrigger className="bg-[#fbf7f0]/10 border-royal-gold/30 text-white">
                   <SelectValue placeholder="Select arrival type" />
                 </SelectTrigger>
                 <SelectContent>

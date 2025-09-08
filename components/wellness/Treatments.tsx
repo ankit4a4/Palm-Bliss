@@ -44,7 +44,7 @@ const Treatments = () => {
 
     return (
         <>
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-[#fbf7f0]">
                 <div className="container mx-auto px-4">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
@@ -70,7 +70,7 @@ const Treatments = () => {
                                 whileHover={{ y: -5 }}
                                 className="group"
                             >
-                                <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                                <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
                                     <div className="relative h-64">
                                         <Image
                                             src={treatment.image}

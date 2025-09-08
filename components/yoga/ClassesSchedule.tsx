@@ -52,7 +52,7 @@ const ClassesSchedule = () => {
 
     return (
         <>
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-[#fbf7f0]">
                 <div className="container mx-auto px-4">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
@@ -78,7 +78,7 @@ const ClassesSchedule = () => {
                                 whileHover={{ y: -5 }}
                                 className="group"
                             >
-                                <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                                <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
                                     <div className="relative h-64">
                                         <Image
                                             src={yogaClass.image}
@@ -92,7 +92,7 @@ const ClassesSchedule = () => {
                                             </Badge>
                                         </div>
                                         <div className="absolute top-4 left-4">
-                                            <div className="w-10 h-10 bg-white/90 rounded-full flex items-center justify-center">
+                                            <div className="w-10 h-10 bg-[#fbf7f0]/90 rounded-full flex items-center justify-center">
                                                 <yogaClass.icon className="h-5 w-5 text-royal-gold" />
                                             </div>
                                         </div>

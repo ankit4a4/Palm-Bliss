@@ -49,7 +49,7 @@ const OurPackages = () => {
             <span className="absolute -bottom-2 left-1/4 w-1/2 h-1 bg-amber-700/90 rounded-full"></span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our carefully curated wellness programs designed to rejuvenate your body, mind, and spirit.
+            Discover our carefully curated wellness programs designed to rejuvenate your body, mind and spirit.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ const OurPackages = () => {
         >
           {packages.map((pkg) => (
             <SwiperSlide key={pkg.id}>
-              <div className="group bg-white rounded-xl shadow-lg overflow-hidden text-center h-[300px] transition-all duration-500 hover:shadow-xl hover:-translate-y-2 flex flex-col">
+              <div className="group bg-[#fbf7f0] rounded-xl shadow-lg overflow-hidden text-center h-[300px] transition-all duration-500 hover:shadow-xl hover:-translate-y-2 flex flex-col">
                 <div className="relative overflow-hidden h-56">
                   <img
                     src={pkg.img.src}
@@ -96,7 +96,7 @@ const OurPackages = () => {
                   <h3 className="text-lg font-semibold text-amber-700/90">
                     {pkg.name}
                   </h3>
-                 
+
                 </div>
               </div>
             </SwiperSlide>

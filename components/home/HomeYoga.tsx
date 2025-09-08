@@ -8,17 +8,17 @@ import { useRouter } from 'next/navigation';
 const yogaData = [
     {
         title: 'Sunrise Vinyasa Flow',
-        description: `Begin your day with mindful movement and breath. Our Sunrise Vinyasa session is designed to awaken your body and mind in harmony with nature. As the first light hits the Himalayan peaks, move through energizing sequences that promote flexibility, focus, and inner calm.`,
+        description: `Begin your day with mindful movement and breath. Our Sunrise Vinyasa session is designed to awaken your body and mind in harmony with nature. As the first light hits the Himalayan peaks, move through energizing sequences that promote flexibility, focus and inner calm.`,
         img: 'https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
     {
         title: 'Meditation & Mindfulness',
-        description: `Discover serenity through guided meditation and focused mindfulness. Ideal for beginners and seasoned practitioners alike, this session offers tools to reduce stress, increase awareness, and develop a deeper connection to the self. Conducted in tranquil surroundings with calming Himalayan energies.`,
+        description: `Discover serenity through guided meditation and focused mindfulness. Ideal for beginners and seasoned practitioners alike, this session offers tools to reduce stress, increase awareness and develop a deeper connection to the self. Conducted in tranquil surroundings with calming Himalayan energies.`,
         img: 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg',
     },
     {
         title: 'Private Yoga Sessions',
-        description: `Tailored to your individual needs, our private yoga sessions offer focused attention, alignment guidance, and healing techniques. Perfect for those looking to deepen their practice, manage injuries, or explore therapeutic aspects of yoga. Conducted by certified experts in both indoor and open-air spaces.`,
+        description: `Tailored to your individual needs, our private yoga sessions offer focused attention, alignment guidance and healing techniques. Perfect for those looking to deepen their practice, manage injuries, or explore therapeutic aspects of yoga. Conducted by certified experts in both indoor and open-air spaces.`,
         img: 'https://images.pexels.com/photos/3822695/pexels-photo-3822695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
 ];
@@ -44,7 +44,7 @@ const YogaHomeSection = () => {
                     transition={{ duration: 0.6, delay: 0.1 }}
                     className="text-[2.4vh] md:text-[1.15vw] text-[#fff] mx-auto leading-relaxed"
                 >
-                    Explore our carefully curated yoga experiences crafted for healing, energy, and inner transformation.
+                    Explore our carefully curated yoga experiences crafted for healing, energy and inner transformation.
                 </motion.p>
             </div>
 
@@ -59,7 +59,7 @@ const YogaHomeSection = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: index * 0.1 }}
                         className={`flex flex-col md:flex-row ${index % 2 === 1 ? 'md:flex-row-reverse' : ''
-                            } bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.1)] transition duration-300 overflow-hidden p-5`}
+                            } bg-[#fbf7f0] rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.1)] transition duration-300 overflow-hidden p-5`}
                     >
                         <div className="relative md:w-1/2 h-[30vh] md:h-[50vh]">
                             <Image

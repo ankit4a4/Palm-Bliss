@@ -48,7 +48,7 @@ const Facilities = () => {
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 className="group"
               >
-                <Card className="h-full bg-white border-gray-200 hover:shadow-lg transition-all duration-300 overflow-hidden">
+                <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="relative h-48">
                     <Image
                       src={facility.image}
