@@ -123,10 +123,8 @@ export default function AyushDiningSection() {
 
           <div className="space-y-16">
 
-
-
             {/* First Card - Image on Left, Content on Right */}
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
             >
@@ -147,10 +145,10 @@ export default function AyushDiningSection() {
                   </p>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Second Card - Content on Left, Image on Right */}
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
             >
@@ -171,25 +169,7 @@ export default function AyushDiningSection() {
                   />
                 </div>
               </div>
-            </motion.div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </motion.div> */}
 
             {/* First Card - Image on Left, Content on Right */}
             <motion.div
