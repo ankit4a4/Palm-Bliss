@@ -172,7 +172,7 @@ const Navbar = () => {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="py-2 px-3 rounded-md text-black text-[2.2vh] font-normal hover:bg-royal-gold/10 hover:text-royal-gold transition duration-300"
+                      className="py-2 px-3 rounded-md text-black text-[2.2vh] font-normal hover:bg-[#a17633]/10 hover:text-royal-gold transition duration-300"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {item.name}

@@ -78,14 +78,14 @@ const Treatments = () => {
                                             alt={treatment.title}
                                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                                         />
-                                        <div className="absolute top-4 right-4 bg-royal-gold text-black px-3 py-1 rounded-full font-semibold">
+                                        <div className="absolute top-4 right-4 bg-[#a17633] text-black px-3 py-1 rounded-full font-semibold">
                                             {treatment.price}
                                         </div>
                                     </div>
 
                                     <CardContent className="p-6">
                                         <div className="flex items-center gap-3 mb-4">
-                                            <div className="w-10 h-10 bg-royal-gold/20 rounded-full flex items-center justify-center">
+                                            <div className="w-10 h-10 bg-[#a17633]/20 rounded-full flex items-center justify-center">
                                                 <treatment.icon className="h-5 w-5 text-royal-gold" />
                                             </div>
                                             <h3 className="text-2xl font-playfair font-bold text-black">
@@ -101,7 +101,7 @@ const Treatments = () => {
                                             <span className="text-sm text-gray-500">Duration: {treatment.duration}</span>
                                         </div>
 
-                                        <Button className="w-full bg-royal-gold hover:bg-royal-gold-dark text-black font-semibold">
+                                        <Button className="w-full bg-[#a17633] hover:bg-[#a17633]-dark text-black font-semibold">
                                             Book Treatment
                                         </Button>
                                     </CardContent>

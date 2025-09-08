@@ -65,12 +65,12 @@ const Packages = () => {
                       <ul className="text-left space-y-2 mb-8">
                         {package_item.includes.map((item, idx) => (
                           <li key={idx} className="flex items-center gap-2">
-                            <div className="w-1.5 h-1.5 bg-royal-gold rounded-full"></div>
+                            <div className="w-1.5 h-1.5 bg-[#a17633] rounded-full"></div>
                             <span className="text-gray-300">{item}</span>
                           </li>
                         ))}
                       </ul>
-                      <Button className="w-full bg-royal-gold hover:bg-royal-gold-dark text-black font-semibold">
+                      <Button className="w-full bg-[#a17633] hover:bg-[#a17633]-dark text-black font-semibold">
                         Book Package
                       </Button>
                     </CardContent>

@@ -9,22 +9,23 @@ import HomeNaturalPool from "@/components/home/HomeNaturalPool";
 import HomeGallery from "@/components/home/HomeGallery";
 import Testimonials from "@/components/home/testimonials";
 import FacilitiesGrid from "@/components/home/FacilitiesGrid";
-import  Footer from "@/components/Footer"
+import Footer from "@/components/Footer"
 import OurPackages from "@/components/home/OurPackages"
+import Facilities from "@/components/home/Facilities";
 export default function Home() {
   return (
     <div className="min-h-screen">
       <HeroSection showHeading="true" welcomeHeading="WELCOME" />
       <AboutSection />
       <HomeWellness />
-
-    <OurPackages />
+      <Facilities />
+      <OurPackages />
       {/* aur pagecages add karne hai yaha pe  */}
       {/* <HomeYoga /> */}
       <FacilitiesGrid />
       <HomeNaturalPool />
       <Testimonials />
-      <Footer/>
+      <Footer />
       {/* <ViewsSection /> */}
       {/* <CuisineSection /> */}
       {/* <FacilitiesSection /> */}

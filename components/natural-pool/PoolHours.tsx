@@ -48,7 +48,7 @@ const PoolHours = () => {
                                         "Swimming equipment rental",
                                     ].map((item, index) => (
                                         <li key={index} className="flex items-center gap-2">
-                                            <div className="w-2 h-2 bg-royal-gold rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#a17633] rounded-full"></div>
                                             <span>{item}</span>
                                         </li>
                                     ))}

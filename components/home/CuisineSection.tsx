@@ -62,7 +62,7 @@ const CuisineSection = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute top-4 right-4 flex gap-2">
-                    <Badge className="bg-royal-gold text-black">
+                    <Badge className="bg-[#a17633] text-black">
                       <Star className="h-3 w-3 mr-1" />
                       {cuisine.rating}
                     </Badge>

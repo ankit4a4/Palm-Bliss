@@ -37,7 +37,7 @@ const PrivateSessions = () => {
                                 "Choice of indoor pavilion or outdoor garden"
                             ].map((item, index) => (
                                 <div key={index} className="flex items-start gap-3">
-                                    <div className="w-2 h-2 bg-royal-gold rounded-full mt-2"></div>
+                                    <div className="w-2 h-2 bg-[#a17633] rounded-full mt-2"></div>
                                     <p className="text-gray-300">{item}</p>
                                 </div>
                             ))}

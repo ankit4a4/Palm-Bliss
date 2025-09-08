@@ -46,7 +46,7 @@ const features = [
 
 const RoomFeature = () => {
   return (
-    <section className="py-12 md:py-20 bg-royal-gold">
+    <section className="py-12 md:py-20 bg-[#a17633]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -71,7 +71,7 @@ const RoomFeature = () => {
               transition={{ duration: 0.8, delay: index * 0.1 }}
               className="bg-[#fbf7f0] rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl hover:scale-[1.03] transition duration-300"
             >
-              <div className="flex items-center justify-center w-14 h-14 mx-auto mb-4 bg-royal-gold/10 rounded-full">
+              <div className="flex items-center justify-center w-14 h-14 mx-auto mb-4 bg-[#a17633]/10 rounded-full">
                 <feature.icon className="h-6 w-6 text-royal-gold" />
               </div>
               <h3 className="text-xl font-alegreya  italic font-bold text-gray-800 mb-2">

@@ -108,7 +108,7 @@ const RoomsGrid = () => {
                     priority={index < 2}
                   />
                   <div className="absolute top-4 right-4 z-10">
-                    <Badge className="bg-royal-gold text-black font-semibold shadow-lg">
+                    <Badge className="bg-[#a17633] text-black font-semibold shadow-lg">
                       {room.price}/night
                     </Badge>
                   </div>
@@ -145,7 +145,7 @@ const RoomsGrid = () => {
                     </div>
                     <Button
                       onClick={() => router.push(`/contact?id=${room.id}`)}
-                      className="bg-royal-gold hover:bg-royal-gold-dark rounded-full px-6 font-semibold text-black shadow-lg"
+                      className="bg-[#a17633] hover:bg-[#a17633]-dark rounded-full px-6 font-semibold text-black shadow-lg"
                     >
                       Book Now
                     </Button>

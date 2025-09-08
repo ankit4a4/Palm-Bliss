@@ -91,7 +91,7 @@ const FacilitiesSection = () => {
                     <div className="grid grid-cols-2 gap-2">
                       {facility.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-royal-gold rounded-full"></div>
+                          <div className="w-2 h-2 bg-[#a17633] rounded-full"></div>
                           <span className="text-sm text-gray-600">{feature}</span>
                         </div>
                       ))}
@@ -100,7 +100,7 @@ const FacilitiesSection = () => {
 
                   <Link href={facility.href}>
                     <Button
-                      className="w-full bg-royal-gold hover:bg-royal-gold-dark text-black font-semibold group-hover:scale-105 transition-transform duration-300"
+                      className="w-full bg-[#a17633] hover:bg-[#a17633]-dark text-black font-semibold group-hover:scale-105 transition-transform duration-300"
                     >
                       Learn More
                     </Button>

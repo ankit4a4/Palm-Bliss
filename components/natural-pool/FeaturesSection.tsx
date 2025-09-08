@@ -68,7 +68,7 @@ const FeaturesSection = () => {
                             >
                                 <Card className="h-full bg-[#fbf7f0] border-gray-200 hover:shadow-xl transition-all duration-300">
                                     <CardContent className="p-8 text-center">
-                                        <div className="w-16 h-16 bg-royal-gold/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                                        <div className="w-16 h-16 bg-[#a17633]/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                                             <feature.icon className="h-8 w-8 text-royal-gold" />
                                         </div>
                                         <h3 className="text-xl font-playfair font-bold text-black mb-4">

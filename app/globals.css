@@ -111,13 +111,13 @@
   .text-royal-gold {
     color: var(--royal-gold);
   }
-  .bg-royal-gold {
+  .bg-[#a17633] {
     background-color: var(--royal-gold);
   }
   .border-royal-gold {
     border-color: var(--royal-gold);
   }
-  .hover:bg-royal-gold:hover {
+  .hover:bg-[#a17633]:hover {
     background-color: var(--royal-gold);
   }
   .hover:text-royal-gold:hover {

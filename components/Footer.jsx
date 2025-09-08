@@ -6,7 +6,7 @@ import { FaFacebook, FaTripadvisor } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className=" bg-yellow-700/90 text-white">
+    <footer className=" bg-[#a17733e7] text-white">
       {/* Newsletter Section */}
       <div className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">

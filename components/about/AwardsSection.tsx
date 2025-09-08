@@ -47,7 +47,7 @@ const AwardsSection = () => (
             transition={{ duration: 0.8, delay: index * 0.2 }}
             className="text-center bg-[#fbf7f0] shadow-lg rounded-xl p-6 hover:shadow-xl transition"
           >
-            <div className="bg-royal-gold w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="bg-[#a17633] w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
               <Award className="h-7 w-7 text-white" />
             </div>
             <div className="text-xl font-bold text-royal-gold mb-1">

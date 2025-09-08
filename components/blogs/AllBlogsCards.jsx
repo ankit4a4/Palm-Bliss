@@ -165,7 +165,7 @@ const AllBlogsCards = () => {
   const route = useRouter()
   return (
     <div className="min-h-screen bg-green-50 py-12 px-4 md:px-12">
-      <h1 className="text-3xl md:text-4xl font-bold  font-alegreya  italic text-center text-yellow-900/90 mb-10">
+      <h1 className="text-3xl md:text-4xl font-bold  font-alegreya  italic text-center text-[#a17633] mb-10">
         Blogs
       </h1>
 

@@ -77,8 +77,9 @@ export default function GallerySection() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center space-y-[5vh] mx-auto mb-12"
+          className="text-center space-y-[5vh] mx-auto mb-12 italic"
         >
+          <p className="text-3xl text-[#a17633]">शुभं निवासं अनुभवतु <br /> <span className="mt-6"> A Pure and Serene Stay </span></p>
           <h2 className="text-[6vw] md:text-[2.8vw] capitalize text-yellow-700/90 italic font-semibold leading-tight">
             Stay In <span>Harmony & Comfort</span>
           </h2>

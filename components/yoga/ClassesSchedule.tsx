@@ -87,7 +87,7 @@ const ClassesSchedule = () => {
                                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                                         />
                                         <div className="absolute top-4 right-4">
-                                            <Badge className="bg-royal-gold text-black font-semibold">
+                                            <Badge className="bg-[#a17633] text-black font-semibold">
                                                 {yogaClass.price}
                                             </Badge>
                                         </div>

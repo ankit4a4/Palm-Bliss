@@ -140,7 +140,7 @@ export default function HomeWellness() {
                 </h3>
                 <p className="text-[2vh] md:text-[1.05vw] text-[#5c5344] leading-relaxed mb-4 font-medium whitespace-pre-line">
                   {index === 0 ? (
-                    <><h2 className="text-yellow-900/90 text-lg my-3">Ancient Healing for the Modern Soul</h2>
+                    <><h2 className="text-[#a17633] text-lg my-3">Ancient Healing for the Modern Soul</h2>
 
                       <p>Step into a sanctuary where time-honored Ayurvedic wisdom meets contemporary wellness. Our Signature Ayurvedic Rituals are more than treatments — they are soulful experiences designed to restore balance, energize the body and soothe the spirit.</p>
 
@@ -148,7 +148,7 @@ export default function HomeWellness() {
 
                       <p> Each journey begins with a personalized consultation to understand your body's needs, followed by rituals crafted using traditional methods and plant-based remedies that honor the authentic soul of Ayurveda.
                       </p>
-                      <h2 className="text-yellow-900/90 text-lg my-3"> Reconnect. Rebalance. Rejuvenate.</h2>
+                      <h2 className="text-[#a17633] text-lg my-3"> Reconnect. Rebalance. Rejuvenate.</h2>
 
                       Let our Signature Ayurvedic Rituals guide you back to your natural state of wellness — where ancient traditions meet modern serenity.</>
                   ) : index === 1 ? (
