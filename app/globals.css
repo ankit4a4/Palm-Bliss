@@ -219,3 +219,8 @@ html {
 p {
   font-family: "ShanoliaRegular" , Arial, Helvetica, sans-serif;
 }
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 20px; /* cards से gap */
+}

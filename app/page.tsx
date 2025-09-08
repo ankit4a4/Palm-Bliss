@@ -10,18 +10,19 @@ import HomeGallery from "@/components/home/HomeGallery";
 import Testimonials from "@/components/home/testimonials";
 import FacilitiesGrid from "@/components/home/FacilitiesGrid";
 import  Footer from "@/components/Footer"
-import GallerySection from "@/components/home/GallerySection"
+import OurPackages from "@/components/home/OurPackages"
 export default function Home() {
   return (
     <div className="min-h-screen">
       <HeroSection showHeading="true" welcomeHeading="WELCOME" />
       <AboutSection />
       <HomeWellness />
-      {/* <HomeRooms /> */}
+
+    <OurPackages />
+      {/* aur pagecages add karne hai yaha pe  */}
       {/* <HomeYoga /> */}
       <FacilitiesGrid />
       <HomeNaturalPool />
-      {/* <HomeGallery /> */}
       <Testimonials />
       <Footer/>
       {/* <ViewsSection /> */}
