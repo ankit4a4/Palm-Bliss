@@ -110,7 +110,7 @@ const ValuesSection = () => (
 
                 {/* Duplicate images on right for third card */}
                 {index === 2 &&
-                  value.images2.map((img, imgIndex) => {
+                  value.images2?.map((img, imgIndex) => {
                     let rightPositionClass = "";
                     if (imgIndex === 0) rightPositionClass = "top-[-10%] right-[-7%] z-10";
                     else if (imgIndex === 1) rightPositionClass = "top-[24%] right-[-2%]";
@@ -125,6 +125,7 @@ const ValuesSection = () => (
                       />
                     );
                   })}
+
 
                 <div className="pl-12">
                   <h3 className="text-2xl flex gap-5 items-center font-alegreya italic font-semibold text-yellow-700/90 mb-2">
