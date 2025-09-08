@@ -15,7 +15,9 @@ export default function Page() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-100 to-amber-200">
         <div className="text-center p-8 bg-white rounded-xl shadow-xl">
-          <h1 className="text-4xl font-bold text-amber-900">Blog Not Found</h1>
+          <h1 className="text-4xl font-bold text-amber-900 font-alegreya  italic">
+            Blog Not Found
+          </h1>
           <p className="text-gray-700 mt-3">
             The blog you’re looking for doesn’t exist.
           </p>
@@ -60,7 +62,7 @@ export default function Page() {
       return (
         <div key={index} className="mb-8">
           {matchingHeading && (
-            <h3 className="text-2xl font-bold text-amber-700 mb-3 border-l-4 border-amber-500 pl-3">
+            <h3 className="text-2xl font-bold font-alegreya  italic text-amber-700 mb-3 border-l-4 border-amber-500 pl-3">
               {matchingHeading}
             </h3>
           )}
@@ -79,7 +81,7 @@ export default function Page() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-center">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg px-4">
+          <h1 className="text-5xl md:text-6xl font-extrabold font-alegreya  italic text-white drop-shadow-lg px-4">
             {blog.title}
           </h1>
         </div>
@@ -117,7 +119,9 @@ export default function Page() {
               </div>
 
               {/* Content */}
-              <div className="prose max-w-none">{renderContentWithHeadings()}</div>
+              <div className="prose max-w-none">
+                {renderContentWithHeadings()}
+              </div>
 
               {/* Tags */}
               <div className="mt-10 pt-6 border-t border-gray-200 flex flex-wrap gap-3">
@@ -137,7 +141,7 @@ export default function Page() {
           <div className="w-full lg:w-4/12 space-y-8">
             {/* Search */}
             <div className="bg-white rounded-2xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-amber-900 mb-4">
+              <h3 className="text-xl font-alegreya  italic font-bold text-amber-900 mb-4">
                 🔍 Search Blogs
               </h3>
               <input
@@ -157,7 +161,7 @@ export default function Page() {
                         href={`/blog/${blog.slug}`}
                         className="block p-3 bg-amber-50 hover:bg-amber-100 rounded-lg transition shadow-sm"
                       >
-                        <h5 className="font-semibold text-amber-800">
+                        <h5 className="font-semibold font-alegreya  italic text-amber-800">
                           {blog.title}
                         </h5>
                         <p className="text-sm text-gray-600 line-clamp-1">
@@ -176,7 +180,7 @@ export default function Page() {
 
             {/* Related */}
             <div className="bg-white rounded-2xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-amber-900 mb-5">
+              <h3 className="text-xl font-bold font-alegreya  italic text-amber-900 mb-5">
                 📌 Related Blogs
               </h3>
               <div className="space-y-4">
@@ -192,7 +196,7 @@ export default function Page() {
                       className="w-16 h-16 object-cover rounded-lg shadow-sm group-hover:scale-105 transition"
                     />
                     <div>
-                      <h4 className="font-medium text-amber-800 group-hover:text-amber-600">
+                      <h4 className="font-medium font-alegreya  italic text-amber-800 group-hover:text-amber-600">
                         {blog.title}
                       </h4>
                       <p className="text-xs text-gray-500">
@@ -206,7 +210,7 @@ export default function Page() {
 
             {/* Recent */}
             <div className="bg-white rounded-2xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-amber-900 mb-5">
+              <h3 className="text-xl font-bold font-alegreya  italic text-amber-900 mb-5">
                 📰 Recent Blogs
               </h3>
               <div className="space-y-4">
@@ -222,7 +226,7 @@ export default function Page() {
                       className="w-16 h-16 object-cover rounded-lg shadow-sm group-hover:scale-105 transition"
                     />
                     <div>
-                      <h4 className="font-medium text-amber-800 group-hover:text-amber-600">
+                      <h4 className="font-medium font-alegreya  italic text-amber-800 group-hover:text-amber-600">
                         {blog.title}
                       </h4>
                       <p className="text-xs text-gray-500">

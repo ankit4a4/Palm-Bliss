@@ -122,6 +122,75 @@ export default function AyushDiningSection() {
           </div>
 
           <div className="space-y-16">
+
+
+
+            {/* First Card - Image on Left, Content on Right */}
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
+            >
+              <div className="grid md:grid-cols-2 items-center">
+                <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
+                  <img
+                    src="/Images/ayush-dining/11.png"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
+                </div>
+                <div className="p-5">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold leading-tight mb-6">
+                    Indian Vegan Menu for Wellness Programs
+                  </h4>
+                  <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
+                    This menu blends traditional Indian flavors, regional specialties, and modern vegan cuisine while ensuring health-conscious options are available. All dishes are designed to align with the wellness retreat’s values, offering innovative, wholesome meals for Indian tourists.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Second Card - Content on Left, Image on Right */}
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-lg border border-white/50 overflow-hidden"
+            >
+              <div className="grid md:grid-cols-2 items-center">
+                <div className="p-5">
+                  <h4 className="text-yellow-700/90 font-alegreya  italic text-2xl font-bold leading-tight mb-6">
+                    Global Vegan Delights for Wellness Programs
+                  </h4>
+                  <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
+                    A curated menu featuring famous and innovative vegan dishes from around the world tailored for international guests visiting Uttarakhand. The menu blends wellness-focused meals, global flavours, and regional specialties, offering a balanced and inclusive dining experience.
+                  </p>
+                </div>
+                <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
+                  <img
+                    src="https://images.pexels.com/photos/5182119/pexels-photo-5182119.jpeg"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
+                </div>
+              </div>
+            </motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {/* First Card - Image on Left, Content on Right */}
             <motion.div
               whileHover={{ scale: 1.02 }}
