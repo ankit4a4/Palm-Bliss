@@ -2,6 +2,12 @@
 
 import { motion } from "framer-motion";
 import { Flower, HeartPulse, Smile, Leaf } from "lucide-react";
+import n1 from "../../public/Images/n1.jpg"
+import n2 from "../../public/Images/n2.jpg"
+import n3 from "../../public/Images/n3.jpg"
+import n4 from "../../public/Images/n4.jpg"
+import n5 from "../../public/Images/n5.jpg"
+import n6 from "../../public/Images/n6.jpg"
 
 const values = [
   {
@@ -32,14 +38,10 @@ const values = [
     description:
       "Where the Earth Heals, and You Reconnect\n\nStep into a world where nature is not just a backdrop, but a vital force in your healing journey. Nestled amidst the serene Shivalik foothills and the lesser Himalayas, Palm Bliss Resort offers a sanctuary where every element — air, water, earth, and light — is aligned to restore your natural balance.\n\nHere, healing begins with the rustle of leaves, the purity of mountain air, the grounding touch of mud houses, and the rhythmic wisdom of Ayurveda. Our treatments and rituals are designed to flow in harmony with nature's cycles — guiding you gently back to your inner calm, strength, and wholeness.\n\nLet the forested stillness, oxygen-rich atmosphere, and soul-soothing therapies help you slow down, breathe deeply, and live with intention.",
     images: [
-      "/images/natural1.jpg",
-      "/images/natural2.jpg",
-      "/images/natural3.jpg",
+     n1.src , n2.src  ,  n3.src
     ],
     images2: [
-      "/images/natural5.jpg",
-      "/images/natural4.jpg",
-      "/images/natural6.jpg",
+     n4.src , n5.src ,  n6.src
     ]
   },
 ];
