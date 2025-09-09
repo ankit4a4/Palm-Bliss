@@ -32,14 +32,14 @@ const values = [
     description:
       "Where the Earth Heals, and You Reconnect\n\nStep into a world where nature is not just a backdrop, but a vital force in your healing journey. Nestled amidst the serene Shivalik foothills and the lesser Himalayas, Palm Bliss Resort offers a sanctuary where every element — air, water, earth, and light — is aligned to restore your natural balance.\n\nHere, healing begins with the rustle of leaves, the purity of mountain air, the grounding touch of mud houses, and the rhythmic wisdom of Ayurveda. Our treatments and rituals are designed to flow in harmony with nature's cycles — guiding you gently back to your inner calm, strength, and wholeness.\n\nLet the forested stillness, oxygen-rich atmosphere, and soul-soothing therapies help you slow down, breathe deeply, and live with intention.",
     images: [
-      "/images/icon/natural1.jpg",
-      "/images/icon/natural2.jpg",
-      "/images/icon/natural3.jpg",
+      "/images/natural1.jpg",
+      "/images/natural2.jpg",
+      "/images/natural3.jpg",
     ],
     images2: [
-      "/images/icon/natural5.jpg",
-      "/images/icon/natural4.jpg",
-      "/images/icon/natural6.jpg",
+      "/images/natural5.jpg",
+      "/images/natural4.jpg",
+      "/images/natural6.jpg",
     ]
   },
 ];

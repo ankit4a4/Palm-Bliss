@@ -56,9 +56,7 @@ export default function HomeWellness() {
             >
               <div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-md">
                 {index === 2 ? (
-                  // Three images grid for the last section
                   <div className="space-y-4">
-                    {/* Main large image */}
                     <div className="w-full">
                       <Image
                         src={img1.src}
@@ -78,7 +76,6 @@ export default function HomeWellness() {
                       />
                     </div>
 
-                    {/* Two smaller images in a grid */}
                     <div className="grid grid-cols-1 gap-4">
                       <Image
                         src={img3.src}
@@ -97,7 +94,6 @@ export default function HomeWellness() {
                     </div>
                   </div>
                 ) : (
-                  // Single image for other sections
                   <Image
                     src={
                       index === 0
