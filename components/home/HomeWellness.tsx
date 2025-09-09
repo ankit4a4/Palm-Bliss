@@ -9,12 +9,6 @@ import {
   FaSeedling,
   FaBrain,
   FaLeaf,
-  FaFire,
-  FaPrayingHands,
-  FaRegSmileBeam,
-  FaFeatherAlt,
-  FaRegLightbulb,
-  FaYinYang,
   FaHotTub,
   FaTint,
   FaLungs,
@@ -23,9 +17,7 @@ import {
 } from "react-icons/fa";
 import { PiFlowerLotus } from "react-icons/pi";
 import { GiLotusFlower, GiMeditation } from "react-icons/gi";
-import img1 from "../../public/images/icon/body1.jpg"
-import img2 from "../../public/images/icon/body2.jpg"
-import img3 from "../../public/images/icon/body3.jpg"
+
 
 import { MdOutlineSelfImprovement } from "react-icons/md";
 
