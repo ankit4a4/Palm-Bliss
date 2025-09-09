@@ -84,9 +84,9 @@ export default function HomeWellness() {
 
                     {/* Two smaller images in a grid */}
                     <div className="grid grid-cols-1 gap-4">
-                      <Image
-                      
+                       <Image
                         src="/images/home/body3.jpg"
+                        alt="Wellness Treatment 2"
                         width={400}
                         height={300}
                         className="object-cover bg-center w-full h-[15vh] md:h-[50vh] rounded-xl"
