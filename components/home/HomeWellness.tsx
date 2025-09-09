@@ -68,7 +68,7 @@ export default function HomeWellness() {
                     {/* Main large image */}
                     <div className="w-full">
                       <Image
-                        src={img1.src}
+                        src="/images/icon/body1.jpg"
                         alt="Body Mind soulRejuvenation"
                         width={800}
                         height={400}
@@ -77,7 +77,7 @@ export default function HomeWellness() {
                     </div>
                     <div className="w-full">
                       <Image
-                        src={img2.src}
+                        src="/images/icon/body2.jpg"
                         alt="Body Mind soulRejuvenation"
                         width={800}
                         height={400}
@@ -88,7 +88,7 @@ export default function HomeWellness() {
                     {/* Two smaller images in a grid */}
                     <div className="grid grid-cols-1 gap-4">
                       <Image
-                        src={img3.src}
+                        src="/images/icon/body1.jpg"
                         alt="Wellness Treatment 2"
                         width={400}
                         height={300}
