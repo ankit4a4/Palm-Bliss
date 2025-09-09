@@ -1,6 +1,5 @@
 // components/FounderVisions.js
 
-import Image from "next/image";
 
 export default function FounderVisions({ founders }) {
   return (

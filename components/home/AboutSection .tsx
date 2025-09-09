@@ -1,8 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GiLotus, GiFlowerPot } from "react-icons/gi";
-import { FaLeaf } from "react-icons/fa";
+import { GiLotus } from "react-icons/gi";
 import { WiDaySunny } from "react-icons/wi";
 import { PiDiamondsFourFill } from "react-icons/pi";
 
@@ -120,37 +119,6 @@ const AboutSection = () => {
           </ul>
         </motion.p>
 
-        {/* Founders Paragraph */}
-        {/* <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-base md:text-lg text-[#583e27] leading-relaxed max-w-6xl mx-auto font-medium"
-        >
-          Founder <strong>Ms. Shivani Agarwal</strong> and strategic insights
-          from <strong>Mr. Kamlesh Singh</strong>, leads Atharva Ayurvedic
-          Wellness Retreat — a space rooted in holistic healing, conscious
-          design and a deep reverence for ancient Ayurvedic wisdom. Our vision
-          is to help guests not only unwind but also awaken to a higher state of
-          being.
-        </motion.p> */}
-
-        {/* Optional Quote Block */}
-        {/* 
-        <motion.blockquote
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-          className="border-l-4 border-[#C9A062] bg-[#fff8ec] text-[#4a3b2a] p-6 md:p-8 rounded-md shadow-md text-base md:text-lg italic max-w-3xl mx-auto"
-        >
-          “You don’t just stay here —{" "}
-          <span className="text-[#C9A062] font-semibold not-italic">
-            you return to yourself
-          </span>
-          . Every space is crafted to reconnect you with nature, with healing,
-          and with peace.”
-        </motion.blockquote>
-        */}
       </div>
     </section>
   );

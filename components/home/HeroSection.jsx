@@ -3,11 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { CalendarDays } from "lucide-react";
-import BlurText from "../ui/BlurText";
 
-import RotatingText from "../ui/RotatingText";
-
-// Removed TypeScript type definition for props
 const HeroSection = ({
   welcomeHeading,
   subtitle = "The Palm Bliss",
