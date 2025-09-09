@@ -2,11 +2,8 @@
 
 import HeroSection from "@/components/home/HeroSection";
 import AboutSection from "@/components/home/AboutSection ";
-import HomeRooms from "@/components/home/HomeRooms"
-import HomeYoga from "@/components/home/HomeYoga";
 import HomeWellness from "@/components/home/HomeWellness";
 import HomeNaturalPool from "@/components/home/HomeNaturalPool";
-import HomeGallery from "@/components/home/HomeGallery";
 import Testimonials from "@/components/home/testimonials";
 import FacilitiesGrid from "@/components/home/FacilitiesGrid";
 import Footer from "@/components/Footer"
@@ -20,15 +17,10 @@ export default function Home() {
       <HomeWellness />
       <Facilities />
       <OurPackages />
-      {/* aur pagecages add karne hai yaha pe  */}
-      {/* <HomeYoga /> */}
       <FacilitiesGrid />
       <HomeNaturalPool />
       <Testimonials />
       <Footer />
-      {/* <ViewsSection /> */}
-      {/* <CuisineSection /> */}
-      {/* <FacilitiesSection /> */}
     </div>
   );
 }

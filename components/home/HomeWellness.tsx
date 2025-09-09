@@ -23,7 +23,7 @@ import {
 } from "react-icons/fa";
 import { PiFlowerLotus } from "react-icons/pi";
 import { GiLotusFlower, GiMeditation } from "react-icons/gi";
-import img1 from "@/public/images/home/body1.jpg"
+import img1 from "../../public/images/home/body1.jpg"
 import img2 from "@/public/images/home/body2.jpg"
 import img3 from "@/public/images/home/body3.jpg"
 
