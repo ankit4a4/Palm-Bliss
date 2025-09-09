@@ -23,9 +23,9 @@ import {
 } from "react-icons/fa";
 import { PiFlowerLotus } from "react-icons/pi";
 import { GiLotusFlower, GiMeditation } from "react-icons/gi";
-import img1 from "../../public/images/home/body1.jpg"
-import img2 from "@/public/images/home/body2.jpg"
-import img3 from "@/public/images/home/body3.jpg"
+import img1 from "../../public/images/icon/body1.jpg"
+import img2 from "../../public/images/icon/body2.jpg"
+import img3 from "../../public/images/icon/body3.jpg"
 
 import { MdOutlineSelfImprovement } from "react-icons/md";
 
@@ -87,7 +87,7 @@ export default function HomeWellness() {
 
                     {/* Two smaller images in a grid */}
                     <div className="grid grid-cols-1 gap-4">
-                       <Image
+                      <Image
                         src={img3.src}
                         alt="Wellness Treatment 2"
                         width={400}
