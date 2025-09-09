@@ -127,7 +127,7 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-base md:text-lg text-[#583e27] leading-relaxed max-w-6xl mx-auto font-medium"
         >
-          Founder <strong>Ms. Shivani Agarwal</strong>,and strategic insights
+          Founder <strong>Ms. Shivani Agarwal</strong> and strategic insights
           from <strong>Mr. Kamlesh Singh</strong>, leads Atharva Ayurvedic
           Wellness Retreat — a space rooted in holistic healing, conscious
           design and a deep reverence for ancient Ayurvedic wisdom. Our vision

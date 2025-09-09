@@ -20,21 +20,21 @@ const values = [
     icon: HeartPulse,
     title: "Stress-Free Living",
     description:
-      "Step into a world where time slows down and serenity takes over. At a wellness retreat, stress-free living means waking up to the sounds of nature, moving gently through yoga or meditation, and nourishing your body with wholesome meals prepared with care. There's no rush, no pressure—just space to breathe, reflect, and heal.\n\nHere, your mind unwinds, your body restores, and your soul reconnects. Digital distractions fade, replaced by deep rest, mindful practices, and heart-centered community. Every moment invites you to live lightly, joyfully, and with intention.\n\nIt's not just a break—it's a gentle reset to help you return to your life more centered, more grounded, and more you.",
+      "Step into a world where time slows down and serenity takes over. At a wellness retreat, stress-free living means waking up to the sounds of nature, moving gently through yoga or meditation and nourishing your body with wholesome meals prepared with care. There's no rush, no pressure—just space to breathe, reflect and heal.\n\nHere, your mind unwinds, your body restores and your soul reconnects. Digital distractions fade, replaced by deep rest, mindful practices and heart-centered community. Every moment invites you to live lightly, joyfully and with intention.\n\nIt's not just a break—it's a gentle reset to help you return to your life more centered, more grounded and more you.",
     images: [s1.src, s2.src, s3.src],
   },
   {
     icon: Smile,
     title: "Calm & Comfort: A Mud-House Escape",
     description:
-      "Tucked away from the rush of the world, there's a quiet kind of magic in mud houses. Earthy, grounding, and deeply peaceful — they hold the soul of wellness retreats.\n\nStep inside, and the walls breathe coolness. The air feels soft, the silence kind. No harsh edges, no loud colors — just the gentle hum of nature. Mud homes aren't just structures; they're sanctuaries built from the earth itself.\n\nHere, calm isn't an idea — it's a feeling. You wake up to birdsong, stretch under open skies, and let time slow down. The comfort isn't from luxury, but from simplicity. Natural materials, soft lighting, and cozy corners make you feel held — like home, but lighter.\n\nIn a world that runs fast, the mud house reminds you how to pause. How to listen to your breath. How to just be.\n\nAnd that's the gift of this wellness retreat — calm and comfort, one breath at a time.",
+      "Tucked away from the rush of the world, there's a quiet kind of magic in mud houses. Earthy, grounding and deeply peaceful — they hold the soul of wellness retreats.\n\nStep inside and the walls breathe coolness. The air feels soft, the silence kind. No harsh edges, no loud colors — just the gentle hum of nature. Mud homes aren't just structures; they're sanctuaries built from the earth itself.\n\nHere, calm isn't an idea — it's a feeling. You wake up to birdsong, stretch under open skies and let time slow down. The comfort isn't from luxury, but from simplicity. Natural materials, soft lighting and cozy corners make you feel held — like home, but lighter.\n\nIn a world that runs fast, the mud house reminds you how to pause. How to listen to your breath. How to just be.\n\nAnd that's the gift of this wellness retreat — calm and comfort, one breath at a time.",
     images: [m1.src, m2.src, m3.src],
   },
   {
     icon: Leaf,
     title: "Nature-Aligned Healing",
     description:
-      "Where the Earth Heals, and You Reconnect\n\nStep into a world where nature is not just a backdrop, but a vital force in your healing journey. Nestled amidst the serene Shivalik foothills and the lesser Himalayas, Palm Bliss Resort offers a sanctuary where every element — air, water, earth, and light — is aligned to restore your natural balance.\n\nHere, healing begins with the rustle of leaves, the purity of mountain air, the grounding touch of mud houses, and the rhythmic wisdom of Ayurveda. Our treatments and rituals are designed to flow in harmony with nature's cycles — guiding you gently back to your inner calm, strength, and wholeness.\n\nLet the forested stillness, oxygen-rich atmosphere, and soul-soothing therapies help you slow down, breathe deeply, and live with intention.",
+      "Where the Earth Heals and You Reconnect\n\nStep into a world where nature is not just a backdrop, but a vital force in your healing journey. Nestled amidst the serene Shivalik foothills and the lesser Himalayas, Palm Bliss Resort offers a sanctuary where every element — air, water, earth and light — is aligned to restore your natural balance.\n\nHere, healing begins with the rustle of leaves, the purity of mountain air, the grounding touch of mud houses and the rhythmic wisdom of Ayurveda. Our treatments and rituals are designed to flow in harmony with nature's cycles — guiding you gently back to your inner calm, strength and wholeness.\n\nLet the forested stillness, oxygen-rich atmosphere and soul-soothing therapies help you slow down, breathe deeply and live with intention.",
     images: [n1.src, n2.src, n3.src],
     images2: [n4.src, n5.src, n6.src],
   },
@@ -53,7 +53,7 @@ const ValuesSection = () => (
           Our <span className="text-white/80 drop-shadow-md">Core Values</span>
         </h2>
         <p className="text-lg text-white/90 max-w-2xl mx-auto">
-          Rooted in wellness, nature, and inner balance — the essence of Palm Bliss.
+          Rooted in wellness, nature and inner balance — the essence of Palm Bliss.
         </p>
       </motion.div>
 

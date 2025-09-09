@@ -49,7 +49,7 @@ Nice ambience❤️`,
     title: "",
     image: "/Images/reviews/6.png",
     message:
-      "I recently stayed at Palm Bliss Resort, Thano, and it was an unforgettable experience! The serene location amidst lush greenery provides the perfect escape from city life. ",
+      "I recently stayed at Palm Bliss Resort, Thano and it was an unforgettable experience! The serene location amidst lush greenery provides the perfect escape from city life. ",
   },
   {
     rated: "5/5",
