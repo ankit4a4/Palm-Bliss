@@ -17,9 +17,8 @@ import {
 } from "react-icons/fa";
 import { PiFlowerLotus } from "react-icons/pi";
 import { GiLotusFlower, GiMeditation } from "react-icons/gi";
+import img1 from "../../public/Images/b.jpg"
 
-
-import { MdOutlineSelfImprovement } from "react-icons/md";
 
 export default function HomeWellness() {
   const router = useRouter();
@@ -60,7 +59,7 @@ export default function HomeWellness() {
                     {/* Main large image */}
                     <div className="w-full">
                       <Image
-                        src="/images/icon/body1.jpg"
+                        src={img1.src}
                         alt="Body Mind soulRejuvenation"
                         width={800}
                         height={400}
@@ -80,7 +79,7 @@ export default function HomeWellness() {
                     {/* Two smaller images in a grid */}
                     <div className="grid grid-cols-1 gap-4">
                       <Image
-                        src="/images/icon/body1.jpg"
+                        src="/images/icon/body3.jpg"
                         alt="Wellness Treatment 2"
                         width={400}
                         height={300}
