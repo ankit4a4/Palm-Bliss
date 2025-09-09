@@ -16,7 +16,7 @@ import { MdOutlineNature } from "react-icons/md";
 const items = [
   {
     title: "Mud House Stay",
-     image: ["/Images/AllPhotos/mud1.webp", "/"],
+     image: "/Images/AllPhotos/mud-house.webp",
     description:
       "Experience traditional living in eco-friendly mud houses, blending comfort with nature's embrace.",
     detailedDescription:
