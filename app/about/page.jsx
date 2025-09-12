@@ -32,7 +32,6 @@ const foundersData = [
       <StorySection />
       <FounderVisions/>
       <ValuesSection />
-      {/* <AwardsSection /> */}
     </>
   );
 }

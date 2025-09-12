@@ -35,7 +35,7 @@ const values = [
     title: "Nature-Aligned Healing",
     description:
       "Where the Earth Heals and You Reconnect\n\nStep into a world where nature is not just a backdrop, but a vital force in your healing journey. Nestled amidst the serene Shivalik foothills and the lesser Himalayas, Palm Bliss Resort offers a sanctuary where every element — air, water, earth and light — is aligned to restore your natural balance.\n\nHere, healing begins with the rustle of leaves, the purity of mountain air, the grounding touch of mud houses and the rhythmic wisdom of Ayurveda. Our treatments and rituals are designed to flow in harmony with nature's cycles — guiding you gently back to your inner calm, strength and wholeness.\n\nLet the forested stillness, oxygen-rich atmosphere and soul-soothing therapies help you slow down, breathe deeply and live with intention.",
-    images: [n1.src, n2.src, n3.src],
+    images: [n2.src, n1.src, n3.src],
     images2: [n4.src, n5.src, n6.src],
   },
 ];
@@ -64,9 +64,8 @@ const ValuesSection = () => (
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: index * 0.15 }}
-            className={`relative z-10 ${
-              index % 2 === 0 ? "md:pl-32 md:pr-4" : "md:pr-32 md:pl-4"
-            }`}
+            className={`relative z-10 ${index % 2 === 0 ? "md:pl-32 md:pr-4" : "md:pr-32 md:pl-4"
+              }`}
           >
             <div className="bg-white/80 relative backdrop-blur-md border-none shadow-xl hover:shadow-2xl transition duration-300 rounded-2xl">
               <div className="p-8 relative">
@@ -80,15 +79,15 @@ const ValuesSection = () => (
                         imgIndex === 0
                           ? "top-[-25%] left-[-18%] z-20"
                           : imgIndex === 1
-                          ? "top-[16%] left-[-13%]"
-                          : "bottom-[-10%] left-[-18%]";
+                            ? "top-[16%] left-[-13%]"
+                            : "bottom-[-10%] left-[-18%]";
                     } else if (index === 1) {
                       positionClass =
                         imgIndex === 0
                           ? "top-[-7%] right-[-12%] z-20"
                           : imgIndex === 1
-                          ? "top-[28%] right-[-17%]"
-                          : "bottom-[-3%] right-[-13%]";
+                            ? "top-[28%] right-[-17%]"
+                            : "bottom-[-3%] right-[-13%]";
                     } else if (index === 2) {
                       if (imgIndex === 0) positionClass = "top-[-10%] left-[-18%] z-10";
                       else if (imgIndex === 1) positionClass = "top-[24%] left-[-13%]";
@@ -109,7 +108,7 @@ const ValuesSection = () => (
                     value.images2?.map((img, imgIndex) => {
                       let rightPositionClass = "";
                       if (imgIndex === 0) rightPositionClass = "top-[-10%] right-[-7%] z-10";
-                      else if (imgIndex === 1) rightPositionClass = "top-[24%] right-[-2%]";
+                      else if (imgIndex === 1) rightPositionClass = "top-[29%] right-[-2%]";
                       else rightPositionClass = "bottom-[-12%] right-[-7%]";
 
                       return (
@@ -117,7 +116,7 @@ const ValuesSection = () => (
                           key={`right-${imgIndex}`}
                           src={img}
                           alt=""
-                          className={`absolute h-[200px] w-[150px] rounded-lg transition-all duration-500 ${rightPositionClass}`}
+                          className={`absolute h-[190px] w-[150px] rounded-lg transition-all duration-500 ${rightPositionClass}`}
                         />
                       );
                     })}
@@ -152,9 +151,8 @@ const ValuesSection = () => (
                     </div>
                   </h3>
                   <p
-                    className={`text-gray-600 leading-relaxed whitespace-pre-line ${
-                      index == 2 ? "pr-[0px] md:pr-[120px]" : "pr-0 md:pr-20"
-                    }`}
+                    className={`text-gray-600 leading-relaxed whitespace-pre-line ${index == 2 ? "pr-[0px] md:pr-[120px]" : "pr-0 md:pr-20"
+                      }`}
                   >
                     {value.description}
                   </p>

@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const testimonials = [
   {
     name: "SK Yadav",
+    designation : "Senior DR. Ayurveda in national hospital.",
     rated: "5/5",
     title: "Yoga Enthusiast",
     image: "/Images/reviews/2.png",
@@ -132,6 +133,7 @@ export default function Testimonials() {
                     <h4 className="text-[4vw] md:text-[1.2vw] h-max font-semibold text-black">
                       {t.name}
                     </h4>
+                    <p className="text-[12px] text-gray-600">{t?.designation}</p>
                     <p className="text-[3vw] md:text-[0.9vw] text-gray-500">
                       {t.rated}
                     </p>

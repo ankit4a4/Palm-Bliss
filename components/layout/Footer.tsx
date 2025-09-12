@@ -147,6 +147,24 @@ const Footer = () => {
           </motion.div>
         </div>
 
+
+        <div className="max-w-2xl  rounded-md py-2 mx-auto">
+          <h3 className="text-xl md:text-2xl font-semibold mb-4 text-center text-[#f3e9cb]">
+            Get Latest Update
+          </h3>
+
+          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto mb-8">
+            <input
+              type="email"
+              placeholder="Enter email"
+              className="flex-1 px-4 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+            />
+            <button className="bg-yellow-900 text-[#f3e9cb] hover:bg-yellow-800 px-6 py-3 rounded-full font-medium transition-colors">
+              Submit
+            </button>
+          </div>
+
+        </div>
         {/* Bottom Bar */}
         <motion.div
           initial={{ opacity: 0 }}

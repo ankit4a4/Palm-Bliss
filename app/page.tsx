@@ -20,7 +20,6 @@ export default function Home() {
       <FacilitiesGrid />
       <HomeNaturalPool />
       <Testimonials />
-      <Footer />
     </div>
   );
 }

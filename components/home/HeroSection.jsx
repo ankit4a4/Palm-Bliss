@@ -103,12 +103,8 @@ const HeroSection = ({
           rotationInterval={3000}
         /> */}
         <div className="flex text-white gap-1 -mt-2 ">
-          <p className="font-playfair text-[39px] ">
-            Atharva Ayurvedic
-          </p>
-          <p className="font-playfair text-[39px] ">
-            {" "}
-            Wellness Retreat
+          <p className="font-playfair text-2xl md:text-[39px] ">
+            Atharva Ayurvedic Wellness Retreat
           </p>
         </div>
       </div>
