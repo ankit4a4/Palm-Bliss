@@ -13,7 +13,7 @@ export default function Facilities() {
         },
         {
             img: "/Images/icon/pickdrop.png",
-            title: "FREE PICK & DROP",
+            title: "Pick & drop facilities",
         },
         {
             img: "/Images/icon/doctor.jpg",
