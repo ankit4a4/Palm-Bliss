@@ -56,7 +56,7 @@ export default function WellnessFacilitiesSection() {
 
   return (
     <section className="bg-[#A67A35] py-20 px-4 sm:px-6 overflow-hidden">
-      <div className="max-w-7xl mx-auto text-white">
+      <div className="max-w-7xl mx-auto text-[#f3e9cb]">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-alegreya  italic font-semibold">
             Holistic Wellness Treatments
@@ -86,7 +86,7 @@ export default function WellnessFacilitiesSection() {
                   {title}
                 </h3>
               </div>
-              <p className="text-sm text-white/90 leading-relaxed group-hover:text-white transition-colors duration-300">
+              <p className="text-sm text-[#f3e9cb]/90 leading-relaxed group-hover:text-[#f3e9cb] transition-colors duration-300">
                 {desc}
               </p>
 

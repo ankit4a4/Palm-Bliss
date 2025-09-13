@@ -122,7 +122,7 @@ const items = [
     ),
   },
   {
-    title: "Ayush Dining",
+    title: "Ayush bhoj (Dinning)",
     image: "/Images/gallery/13.webp",
     description:
       "Savor wholesome, healthy meals crafted with Ayurvedic principles, nourishing your well-being.",
@@ -133,14 +133,14 @@ const items = [
     modalContent: (
       <div className="text-gray-800 leading-relaxed">
         <p className="mb-4 font-semibold text-lg text-yellow-700/80">
-          Ayush Dining – A Sacred Meal, A Healing Moment
+          Ayush bhoj (Dinning) – A Sacred Meal, A Healing Moment
         </p>
 
         <p className="">
           At Palm Bliss Resort & Atharva Ayurveda Wellness Retreat
         </p>
         <p className="my-1">
-          Step into Ayush Dining, where food becomes medicine, memory and
+          Step into Ayush bhoj (Dinning), where food becomes medicine, memory and
           meditation. Rooted in Ayurvedic principles and crafted with love, each
           meal is a celebration of purity, balance and seasonal nourishment.
         </p>
@@ -468,7 +468,7 @@ const FacilitiesGrid = () => {
                 className="absolute inset-0 z-0 group-hover:opacity-100 transition-opacity duration-500"
               />
               <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-              <div className="relative z-20 text-white ">
+              <div className="relative z-20 text-[#f3e9cb] ">
                 <h3 className="text-xl md:text-2xl font-sans font-bold mb-2 drop-shadow-md">
                   {item.title}
                 </h3>
@@ -476,7 +476,7 @@ const FacilitiesGrid = () => {
                   {item.description}
                 </p>
                 <button
-                  className="px-2 py-1 text-sm bg-yellow-700 mt-2 text-white rounded"
+                  className="px-2 py-1 text-sm bg-yellow-700 mt-2 text-[#f3e9cb] rounded"
                   style={{
                     animation: "blink 1s infinite",
                     // Optional: fallback for smooth opacity change
@@ -514,7 +514,7 @@ const FacilitiesGrid = () => {
             <div className="relative z-20 text-black md:p-1">
               <Link
                 href="/contact"
-                className="text-xl flex items-center gap-2 md:text-2xl font-sans font-bold mb-2 border rounded-sm my-2 px-4 border-yellow-700 py-2 hover:bg-yellow-700 hover:text-white transition-all duration-300"
+                className="text-xl flex items-center gap-2 md:text-2xl font-sans font-bold mb-2 border rounded-sm my-2 px-4 border-yellow-700 py-2 hover:bg-yellow-700 hover:text-[#f3e9cb] transition-all duration-300"
               >
                 Book Now
                 <ExternalLink />

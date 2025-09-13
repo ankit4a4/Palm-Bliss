@@ -33,8 +33,8 @@ export default function HomeWellness() {
           transition={{ duration: 0.8 }}
           className="text-center mb-[10vh]"
         >
-          <h2 className="text-[6vw] md:text-[2.8vw] capitalize font-playfair font-semibold text-white leading-tight">
-            Discover The <span className="text-white">healing power </span> of
+          <h2 className="text-[6vw] md:text-[2.8vw] capitalize font-playfair font-semibold text-[#f3e9cb] leading-tight">
+            Discover The <span className="text-[#f3e9cb]">healing power </span> of
             wellness
           </h2>
           <p className="text-[2.3vh] md:text-[1.1vw] text-gray-200 mx-auto mt-4 font-medium">
@@ -299,7 +299,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
         >
           <Button
             onClick={() => router.push("/wellness")}
-            className="bg-[#3c2f23] hover:bg-[#2c241b] text-white text-[2.1vh] md:text-[1.2vw] font-medium px-8 py-3 md:px-[3vw] md:py-[1.2vw] rounded-full transition duration-200"
+            className="bg-[#3c2f23] hover:bg-[#2c241b] text-[#f3e9cb] text-[2.1vh] md:text-[1.2vw] font-medium px-8 py-3 md:px-[3vw] md:py-[1.2vw] rounded-full transition duration-200"
           >
             Explore Wellness
           </Button>

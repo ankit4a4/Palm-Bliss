@@ -49,10 +49,10 @@ const ValuesSection = () => (
         transition={{ duration: 0.7 }}
         className="text-center mb-20"
       >
-        <h2 className="text-4xl md:text-5xl font-alegreya italic font-bold text-white mb-4">
-          Our <span className="text-white/80 drop-shadow-md">Core Values</span>
+        <h2 className="text-4xl md:text-5xl font-alegreya italic font-bold text-[#f3e9cb] mb-4">
+          Our <span className="text-[#f3e9cb]/80 drop-shadow-md">Core Values</span>
         </h2>
-        <p className="text-lg text-white/90 max-w-2xl mx-auto">
+        <p className="text-lg text-[#f3e9cb]/90 max-w-2xl mx-auto">
           Rooted in wellness, nature and inner balance — the essence of Palm Bliss.
         </p>
       </motion.div>

@@ -11,7 +11,7 @@ import Facilities from "@/components/home/Facilities";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <HeroSection showHeading="true" welcomeHeading="WELCOME" />
+      <HeroSection showHeading="true" welcomeHeading="Namastey" />
       <AboutSection />
       <HomeWellness />
       <Facilities />

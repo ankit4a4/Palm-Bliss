@@ -6,7 +6,7 @@ import { FaFacebook, FaTripadvisor } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className=" bg-[#a17733e7] text-white">
+    <footer className=" bg-[#a17733e7] text-[#f3e9cb]">
       {/* Newsletter Section */}
       <div className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -35,7 +35,7 @@ export default function Footer() {
                   href="/ayush-dining"
                   className="hover:text-yellow-200 transition-colors"
                 >
-                  Ayush Dining
+                  Ayush bhoj (Dinning)
                 </Link>
               </li>
               <li>

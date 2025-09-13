@@ -147,14 +147,14 @@ export default function WellnessPackagesSection() {
                                     />
                                     {highlight && (
                                         <div 
-                                            className="absolute top-4 right-4 bg-[#A67A35] text-white text-xs font-bold px-3 py-1 rounded-full z-10 
+                                            className="absolute top-4 right-4 bg-[#A67A35] text-[#f3e9cb] text-xs font-bold px-3 py-1 rounded-full z-10 
                                             transform group-hover:scale-110 group-hover:-rotate-6 transition-transform duration-300"
                                         >
                                             {highlight}
                                         </div>
                                     )}
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
-                                    <div className="absolute bottom-4 left-4 text-white z-10">
+                                    <div className="absolute bottom-4 left-4 text-[#f3e9cb] z-10">
                                         <span className="text-sm font-medium bg-[#A67A35] px-2 py-1 rounded 
                                             group-hover:bg-[#D4AF37] transition-colors duration-300">
                                             {duration}
@@ -174,7 +174,7 @@ export default function WellnessPackagesSection() {
                                         <span className="text-lg font-bold text-[#8B5A2B] group-hover:text-[#A67A35] transition-colors duration-300">
                                             {price}
                                         </span>
-                                        <button className="px-4 py-2 bg-[#A67A35] hover:bg-[#8B5A2B] text-white text-sm font-medium rounded-lg 
+                                        <button className="px-4 py-2 bg-[#A67A35] hover:bg-[#8B5A2B] text-[#f3e9cb] text-sm font-medium rounded-lg 
                                             transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-[#A67A35]/30">
                                             Book Now
                                             <span className="ml-2 inline-block group-hover:translate-x-1 transition-transform duration-300">→</span>

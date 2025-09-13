@@ -79,7 +79,7 @@ const StorySection = () => (
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 bg-[#fbf7f0]/90 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2 shadow-md">
               <MapPin className="w-4 h-4 text-[#8A6D3B]" />
-              <span className="text-sm font-medium text-gray-800">Himalayan Foothills</span>
+              <span className="text-sm font-medium text-gray-800">Shivalik foot hills</span>
             </div>
           </div>
         </motion.div>

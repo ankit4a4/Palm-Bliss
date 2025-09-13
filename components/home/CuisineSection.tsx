@@ -27,7 +27,7 @@ const CuisineSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-black text-white">
+    <section className="py-20 bg-black text-[#f3e9cb]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -72,7 +72,7 @@ const CuisineSection = () => {
                 <CardContent className="p-6">
                   <div className="flex items-center gap-2 mb-3">
                     <Utensils className="h-5 w-5 text-royal-gold" />
-                    <h3 className="text-2xl font-playfair font-bold text-white">
+                    <h3 className="text-2xl font-playfair font-bold text-[#f3e9cb]">
                       {cuisine.title}
                     </h3>
                   </div>

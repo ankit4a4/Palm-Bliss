@@ -178,7 +178,7 @@ export default function GallerySection() {
                       initial={{ y: 20 }}
                       animate={{ y: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="text-white"
+                      className="text-[#f3e9cb]"
                     >
                       {/* Optional caption */}
                     </motion.div>
@@ -199,7 +199,7 @@ export default function GallerySection() {
             <button
               onClick={loadMore}
               disabled={isLoadingMore}
-              className={`px-8 py-3 bg-amber-600 text-white font-medium rounded-full transition-all ${
+              className={`px-8 py-3 bg-amber-600 text-[#f3e9cb] font-medium rounded-full transition-all ${
                 isLoadingMore
                   ? "opacity-75"
                   : "hover:bg-amber-700 hover:shadow-lg"

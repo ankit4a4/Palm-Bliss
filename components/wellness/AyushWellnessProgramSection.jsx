@@ -164,10 +164,10 @@ export default function AyushWellnessProgramSection() {
                   </div>
                   <div>
                     <h4 className="text-yellow-600 font-alegreya  italic font-semibold text-lg mb-2">
-                       Ayush Dining
+                       Ayush bhoj (Dinning)
                     </h4>
                     <p className="text-black leading-relaxed mb-3">
-                      Experience sattvic food that heals from within, served with love and mountain air
+                      Experience Sattvic bhoj that heals from within, served with love and mountain air
                     </p>
                     <p className="text-black/80 text-sm leading-relaxed mb-3">
                       Nourish your body with carefully prepared meals using natural, locally sourced ingredients that balance your doshas. Each dish is mindfully crafted according to Ayurvedic principles to support your healing journey and enhance digestive fire.
@@ -274,7 +274,7 @@ export default function AyushWellnessProgramSection() {
             transition={{ duration: 0.8, delay: 1.4 }}
             className="text-center"
           >
-            <button className="px-10 py-4 bg-yellow-700/90 text-white rounded-2xl hover:bg-yellow-700 transition-all duration-300 hover:scale-105 hover:shadow-xl font-semibold text-lg">
+            <button className="px-10 py-4 bg-yellow-700/90 text-[#f3e9cb] rounded-2xl hover:bg-yellow-700 transition-all duration-300 hover:scale-105 hover:shadow-xl font-semibold text-lg">
               Begin Your Ayush Journey
             </button>
           </motion.div>

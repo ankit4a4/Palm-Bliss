@@ -7,7 +7,7 @@ import AyushDishesShowcase  from "@/components/AyushDishesShowcase"
 const page = () => {
   return (
     <>
-      <HeroSection welcomeHeading="Ayush Dining" showHeading="false" />
+      <HeroSection welcomeHeading="Ayush bhoj (Dinning)" showHeading="false" />
 
       <AyushDiningSection />
       <AyushDishesShowcase />

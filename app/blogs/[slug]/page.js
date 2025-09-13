@@ -23,7 +23,7 @@ export default function Page() {
           </p>
           <Link
             href="/"
-            className="mt-5 inline-block px-6 py-2 bg-amber-600 text-white rounded-lg shadow-md hover:bg-amber-700 transition"
+            className="mt-5 inline-block px-6 py-2 bg-amber-600 text-[#f3e9cb] rounded-lg shadow-md hover:bg-amber-700 transition"
           >
             Go Back Home
           </Link>
@@ -81,7 +81,7 @@ export default function Page() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-center">
-          <h1 className="text-5xl md:text-6xl font-extrabold font-alegreya  italic text-white drop-shadow-lg px-4">
+          <h1 className="text-5xl md:text-6xl font-extrabold font-alegreya  italic text-[#f3e9cb] drop-shadow-lg px-4">
             {blog.title}
           </h1>
         </div>
@@ -111,7 +111,7 @@ export default function Page() {
                 {blog.categories.map((category, index) => (
                   <span
                     key={index}
-                    className="px-4 py-1 rounded-full text-sm font-semibold bg-gradient-to-r from-amber-400 to-amber-600 text-white shadow-sm"
+                    className="px-4 py-1 rounded-full text-sm font-semibold bg-gradient-to-r from-amber-400 to-amber-600 text-[#f3e9cb] shadow-sm"
                   >
                     {category}
                   </span>

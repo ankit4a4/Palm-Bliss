@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const PoolHours = () => {
     return (
-        <section className="py-20 bg-black text-white">
+        <section className="py-20 bg-black text-[#f3e9cb]">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div

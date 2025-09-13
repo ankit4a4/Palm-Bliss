@@ -92,7 +92,7 @@ const YogaHomeSection = () => {
             >
                 <Button
                     onClick={() => router.push('/yoga')}
-                    className="bg-[#C9A062] hover:bg-[#b88d4f] text-white text-[2vh] md:text-[1.2vw] font-medium px-8 py-3 md:px-[3vw] md:py-[1vw] rounded-full transition duration-200">
+                    className="bg-[#C9A062] hover:bg-[#b88d4f] text-[#f3e9cb] text-[2vh] md:text-[1.2vw] font-medium px-8 py-3 md:px-[3vw] md:py-[1vw] rounded-full transition duration-200">
                     Explore All Yoga Offerings
                 </Button>
             </motion.div>

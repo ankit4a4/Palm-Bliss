@@ -126,12 +126,12 @@ export default function FounderVisions({ founders }) {
         {/* Closing Section */}
         <div className="mb-16">
           <div className="relative rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 bg-amber-900 opacity-90"></div>
+            <div className="absolute inset-0 bg-[#a17633] opacity-90"></div>
             <div className="relative py-12 px-8 md:px-16 text-center">
               <p className="italic text-amber-100 text-xl mb-6">
                 "In Silence, You Heal. In Nature, You Awaken."
               </p>
-              <p className="text-white leading-relaxed max-w-3xl mx-auto">
+              <p className="text-[#f3e9cb] leading-relaxed max-w-3xl mx-auto">
                 Palm Bliss Resort was born from the vision of its founder — a soul
                 deeply moved by the ancient wisdom of Yoga and Naturopathy and the
                 need for true stillness in today's chaotic world. Set deep within a

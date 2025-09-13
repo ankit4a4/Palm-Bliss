@@ -321,7 +321,7 @@ const ContactForm = () => {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full font-alegreya  italic bg-yellow-700/90 text-white font-semibold"
+                    className="w-full font-alegreya  italic bg-yellow-700/90 text-[#f3e9cb] font-semibold"
                   >
                     {selectedRoom ? "Book Now" : "Send Message"}
                   </Button>
@@ -358,7 +358,7 @@ const ContactForm = () => {
                     <CardContent className="p-6">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="w-10 h-10 bg-yellow-700/90 rounded-full flex items-center justify-center">
-                          <info.icon className="h-5 w-5 text-white" />
+                          <info.icon className="h-5 w-5 text-[#f3e9cb]" />
                         </div>
                         <h3 className="text-lg font-alegreya  italic font-bold text-black">
                           {info.title}

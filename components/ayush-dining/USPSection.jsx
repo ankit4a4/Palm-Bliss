@@ -64,11 +64,11 @@ export default function USPSection() {
 
             <div className="max-w-7xl mx-auto text-center relative z-10">
                 <h2
-                    className="text-4xl md:text-5xl font-alegreya  italic font-bold text-white mb-6"
+                    className="text-4xl md:text-5xl font-alegreya  italic font-bold text-[#f3e9cb] mb-6"
                     data-aos="fade-down"
                     data-aos-delay="100"
                 >
-                    Our Core <span className="text-white/90">Wellness Principles</span>
+                    Our Core <span className="text-[#f3e9cb]/90">Wellness Principles</span>
                 </h2>
                 <div
                     className="w-24 h-1.5 mx-auto bg-gradient-to-r from-transparent via-white to-transparent rounded-full"

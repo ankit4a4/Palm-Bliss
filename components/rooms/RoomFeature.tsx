@@ -54,10 +54,10 @@ const RoomFeature = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl  font-bold font-alegreya  italic text-white mb-4">
+          <h2 className="text-4xl md:text-5xl  font-bold font-alegreya  italic text-[#f3e9cb] mb-4">
             Room <span>Features</span>
           </h2>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
+          <p className="text-lg text-[#f3e9cb]/90 max-w-2xl mx-auto">
             Thoughtfully curated amenities designed to enhance your stay at Palm Bliss.
           </p>
         </motion.div>

@@ -72,7 +72,7 @@ export default function HomeGallery() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="absolute bottom-[2vh] left-[2vw] text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute bottom-[2vh] left-[2vw] text-[#f3e9cb] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="text-[3.5vw] md:text-[1.2vw] font-semibold">
                   View Image
                 </p>
@@ -80,7 +80,7 @@ export default function HomeGallery() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center my-10 border px-3 py-2 w-max mx-auto border-yellow-700 hover:bg-yellow-700 hover:text-white ">
+        <div className="flex justify-center my-10 border px-3 py-2 w-max mx-auto border-yellow-700 hover:bg-yellow-700 hover:text-[#f3e9cb] ">
           <Link href="/gallery">See More</Link>
         </div>
       </div>
@@ -99,7 +99,7 @@ export default function HomeGallery() {
               />
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute right-[-5vw] top-[-5vw] md:top-[-3vh] md:right-[-8vh] bg-red-600 text-white text-[4vw] md:text-[1.5vw] rounded-full w-[7vw] h-[7vw] md:w-[3vw] md:h-[3vw] flex items-center justify-center shadow-lg hover:bg-red-700 transition"
+                className="absolute right-[-5vw] top-[-5vw] md:top-[-3vh] md:right-[-8vh] bg-red-600 text-[#f3e9cb] text-[4vw] md:text-[1.5vw] rounded-full w-[7vw] h-[7vw] md:w-[3vw] md:h-[3vw] flex items-center justify-center shadow-lg hover:bg-red-700 transition"
               >
                 ×
               </button>

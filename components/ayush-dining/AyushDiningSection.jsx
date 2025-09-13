@@ -37,7 +37,7 @@ export default function AyushDiningSection() {
             {/* Main Heading */}
             <div className="space-y-6 flex justify-center items-center flex-col">
               <h1 className="text-yellow-700/90 text-5xl font-alegreya  italic lg:text-7xl font-bold leading-[0.9] tracking-tight">
-                Ayush Dining
+                Ayush bhoj (Dinning)
               </h1>
               <GiLotus className="text-3xl text-yellow-700/90" />
               <div className="space-y-2">
@@ -53,11 +53,11 @@ export default function AyushDiningSection() {
             {/* Main Description */}
             <div className="bg-[#fbf7f0]/60 backdrop-blur-sm px-8 py-3 rounded-2xl shadow-lg border border-white/70 max-w-4xl">
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed tracking-wide">
-                Step into Ayush Dining, where food becomes healthy, memory and
+                Step into Ayush bhoj (Dinning), where food becomes healthy, memory and
                 meditation.
               </p>
               <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
-                At Ayush Dining, every meal is a soulful ritual. Set against the
+                At Ayush bhoj (Dinning), every meal is a soulful ritual. Set against the
                 tranquil embrace of the Shivalik ranges, our open-air dining
                 space welcomes you with the scent of fresh herbs, the golden
                 glow of evening light and the gentle hum of nature
@@ -86,9 +86,9 @@ export default function AyushDiningSection() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-12 py-5 bg-gradient-to-r from-yellow-600 to-yellow-700/90 text-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold text-lg tracking-wide"
+              className="px-12 py-5 bg-gradient-to-r from-yellow-600 to-yellow-700/90 text-[#f3e9cb] rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold text-lg tracking-wide"
             >
-              <a href="/contact">Experience Ayush Dining</a>
+              <a href="/contact">Experience Ayush bhoj (Dinning)</a>
             </motion.button>
           </motion.div>
         </div>
@@ -303,7 +303,7 @@ export default function AyushDiningSection() {
                     A Feast for the Senses
                   </h4>
                   <p className="text-gray-800 text-base leading-relaxed tracking-wide">
-                    From the first aroma to the final taste, Ayush Dining is a
+                    From the first aroma to the final taste, Ayush bhoj (Dinning) is a
                     mindful journey—where flavors bloom, hearts feel lighter,
                     and the soul feels at home.
                   </p>

@@ -73,7 +73,7 @@ const FacilitiesSection = () => {
                 <CardContent className="p-8">
                   <div className="flex items-center gap-4 mb-6">
                     <div className={`w-16 h-16 rounded-full bg-gradient-to-r ${facility.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                      <facility.icon className="h-8 w-8 text-white" />
+                      <facility.icon className="h-8 w-8 text-[#f3e9cb]" />
                     </div>
                     <h3 className="text-2xl font-playfair font-bold text-black">
                       {facility.title}
@@ -123,7 +123,7 @@ const FacilitiesSection = () => {
               <div className="text-4xl md:text-5xl font-bold text-royal-gold mb-2">
                 50+
               </div>
-              <div className="text-white text-sm md:text-base">
+              <div className="text-[#f3e9cb] text-sm md:text-base">
                 Premium Amenities
               </div>
             </div>
@@ -131,7 +131,7 @@ const FacilitiesSection = () => {
               <div className="text-4xl md:text-5xl font-bold text-royal-gold mb-2">
                 24/7
               </div>
-              <div className="text-white text-sm md:text-base">
+              <div className="text-[#f3e9cb] text-sm md:text-base">
                 Concierge Service
               </div>
             </div>
@@ -139,7 +139,7 @@ const FacilitiesSection = () => {
               <div className="text-4xl md:text-5xl font-bold text-royal-gold mb-2">
                 5★
               </div>
-              <div className="text-white text-sm md:text-base">
+              <div className="text-[#f3e9cb] text-sm md:text-base">
                 Luxury Rating
               </div>
             </div>
@@ -147,7 +147,7 @@ const FacilitiesSection = () => {
               <div className="text-4xl md:text-5xl font-bold text-royal-gold mb-2">
                 100%
               </div>
-              <div className="text-white text-sm md:text-base">
+              <div className="text-[#f3e9cb] text-sm md:text-base">
                 Guest Satisfaction
               </div>
             </div>

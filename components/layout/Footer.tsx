@@ -55,7 +55,7 @@ const Footer = () => {
                 { name: "About Us", href: "/about" },
                 { name: "Our Legacy", href: "/about" },
                 { name: "Accommodation", href: "/rooms" },
-                { name: "Ayush Dining", href: "/ayush-dining" },
+                { name: "Ayush bhoj (Dinning)", href: "/ayush-dining" },
                 { name: "Ayush Wellness", href: "/wellness" },
                 { name: "Wellness Packages", href: "/wellness-packages" },
                 { name: "Gallery", href: "/gallery" },

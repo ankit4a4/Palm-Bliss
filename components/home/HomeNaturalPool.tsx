@@ -26,7 +26,7 @@ export default function HomeNaturalPool() {
           </p>
           <Button
             onClick={() => router.push("/natural-pool")}
-            className="bg-yellow-700/90 text-white hover:bg-yellow-600 px-6 py-3 text-base md:text-lg"
+            className="bg-yellow-700/90 text-[#f3e9cb] hover:bg-yellow-600 px-6 py-3 text-base md:text-lg"
           >
             Book Now
           </Button>

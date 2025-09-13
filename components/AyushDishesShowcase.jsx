@@ -130,7 +130,7 @@ const AyushDishesShowcase = () => {
               A Journey of Wellness Through Food
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Every meal at Ayush Dining is a celebration of health, taste and
+              Every meal at Ayush bhoj (Dinning) is a celebration of health, taste and
               mindfulness. Prepared with fresh, natural ingredients and served
               with love, our dishes are designed to nourish your body while
               delighting your senses.

@@ -52,7 +52,7 @@ const Directions = () => {
                   <CardContent className="p-8">
                     <div className="flex items-center gap-4 mb-6">
                       <div className="w-12 h-12 bg-yellow-700/80 rounded-full flex items-center justify-center">
-                        <direction.icon className="h-6 w-6 text-white" />
+                        <direction.icon className="h-6 w-6 text-[#f3e9cb]" />
                       </div>
                       <div>
                         <h3 className="text-xl font-alegreya  italic font-bold text-black">

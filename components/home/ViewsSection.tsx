@@ -63,7 +63,7 @@ const ViewsSection = () => {
                 className="object-cover transition-all duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-              <div className="absolute bottom-6 left-6 text-white">
+              <div className="absolute bottom-6 left-6 text-[#f3e9cb]">
                 <h3 className="text-2xl font-playfair font-bold mb-2">
                   {images[selectedImage].title}
                 </h3>
@@ -101,7 +101,7 @@ const ViewsSection = () => {
                 />
                 <div className="absolute inset-0 bg-black/20 hover:bg-black/10 transition-colors duration-300" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white font-semibold text-sm">
+                  <span className="text-[#f3e9cb] font-semibold text-sm">
                     {image.title}
                   </span>
                 </div>

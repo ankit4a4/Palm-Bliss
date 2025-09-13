@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const PrivateSessions = () => {
     return (
-        <section className="py-20 bg-black text-white">
+        <section className="py-20 bg-black text-[#f3e9cb]">
             <div className="container mx-auto px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

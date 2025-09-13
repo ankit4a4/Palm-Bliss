@@ -6,7 +6,7 @@ import { Button } from '../ui/button'
 const Packages = () => {
   return (
     <>
-      <section className="py-20 bg-black text-white">
+      <section className="py-20 bg-black text-[#f3e9cb]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -53,7 +53,7 @@ const Packages = () => {
                 >
                   <Card className="h-full bg-gray-900 border-gray-800 hover:shadow-2xl transition-all duration-300">
                     <CardContent className="p-8 text-center">
-                      <h3 className="text-2xl font-playfair font-bold text-white mb-2">
+                      <h3 className="text-2xl font-playfair font-bold text-[#f3e9cb] mb-2">
                         {package_item.title}
                       </h3>
                       <div className="text-3xl font-bold text-royal-gold mb-2">

@@ -35,7 +35,7 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Our Legacy", href: "/about" },
     { name: "Accommodation", href: "/rooms" },
-    { name: "Ayush Dining", href: "/ayush-dining" },
+    { name: "Ayush bhoj (Dinning)", href: "/ayush-dining" },
   ];
 
   const navItemsRight = [
@@ -67,7 +67,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`${isScrolled ? "text-black" : "text-white"
+                className={`${isScrolled ? "text-black" : "text-[#f3e9cb]"
                   } font-normal hover:text-royal-gold transition-colors text-[1vw]`}
                 style={{
                   color: pathname === item.href ? "#d4af37" : "",
@@ -91,7 +91,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`${isScrolled ? "text-black" : "text-white"
+                className={`${isScrolled ? "text-black" : "text-[#f3e9cb]"
                   } font-normal hover:text-royal-gold transition-colors text-[1vw]`}
                 style={{
                   color: pathname === item.href ? "#d4af37" : "",
@@ -116,7 +116,7 @@ const Navbar = () => {
           <Button
             variant="ghost"
             size="icon"
-            className={`${isScrolled ? "text-black" : "text-white"
+            className={`${isScrolled ? "text-black" : "text-[#f3e9cb]"
               } hover:text-royal-gold`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >

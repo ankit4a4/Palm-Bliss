@@ -56,20 +56,23 @@ const HeroSection = ({
       <div className="absolute inset-0 bg-black/40 z-0"></div>
 
       {/* Heading & Subtitle */}
-      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-white text-[6vh] md:text-[5vw] font-bold drop-shadow-lg"
-        >
-          {welcomeHeading}
-        </motion.h1>
-        {showHeading == "true" && (
-          <h1 className="text-white text-xl -mt-2">
+      <div className="absolute md:pl-24 inset-0 z-10 flex flex-col items-start justify-center text-center px-4">
+
+        <div className="flex flex-col justify-center mb-2 items-center">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-[#f3e9cb] text-[6vh] md:text-[5vw] font-bold drop-shadow-lg"
+          >
+            {welcomeHeading}
+          </motion.h1>
+
+          <h1 className="text-[#f3e9cb] text-xl -mt-2">
             To <br />
           </h1>
-        )}
+
+        </div>
 
         <div className="flex flex-col justify-center mb-2 items-center">
           {/* <BlurText
@@ -78,9 +81,9 @@ const HeroSection = ({
             animateBy="words"
             direction="top"
             onAnimationComplete={handleAnimationComplete}
-            className="text-4xl text-white font-playfair text-center tracking-widest"
+            className="text-4xl text-[#f3e9cb] font-playfair text-center tracking-widest"
           /> */}
-          <h1 className="text-2xl lg:text-4xl text-white font-playfair text-center tracking-widest">
+          <h1 className="text-2xl lg:text-4xl text-[#f3e9cb] font-playfair text-center tracking-widest">
             The Palm Bliss Resort
           </h1>
           <h1 className="text-gray-200 text-4xl text-center font-tangerine mt-1">
@@ -92,7 +95,7 @@ const HeroSection = ({
           texts={[
            
           ]}
-          mainClassName="px-2 sm:px-2 md:px-3 bg-yellow-600/20 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
+          mainClassName="px-2 sm:px-2 md:px-3 bg-yellow-600/20 text-[#f3e9cb] overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
           staggerFrom={"last"}
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
@@ -102,11 +105,17 @@ const HeroSection = ({
           transition={{ type: "spring", damping: 60, stiffness: 400 }}
           rotationInterval={3000}
         /> */}
-        <div className="flex text-white gap-1 -mt-2 ">
+        <div className="flex text-[#f3e9cb] gap-1 -mt-2 ">
           <p className="font-playfair text-2xl md:text-[39px] ">
             Atharva Ayurvedic Wellness Retreat
           </p>
         </div>
+        <button className="px-7 py-3 mt-6 rounded-lg text-[#f3e9cb] 
+  bg-[#a67a35]/40 border border-white/20 
+  backdrop-blur-md shadow-lg hover:bg-[#fff]/60 transition">
+          Select your goal
+        </button>
+
       </div>
 
       {/* Mobile Toggle */}
@@ -124,13 +133,12 @@ const HeroSection = ({
         initial={{ opacity: 0, y: 60 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className={`z-10 w-full max-w-[94vw] mx-auto px-[2vh] md:px-[2vw] pb-[4vh] md:pb-[4vh] ${
-          showMobileForm ? "block" : "hidden"
-        } md:block`}
+        className={`z-10 w-full max-w-[94vw] mx-auto px-[2vh] md:px-[2vw] pb-[4vh] md:pb-[4vh] ${showMobileForm ? "block" : "hidden"
+          } md:block`}
       >
         <form
           onSubmit={handleSubmit}
-          className="grid grid-cols-2 md:grid-cols-8 gap-px overflow-hidden bg-[#fbf7f0]/5 backdrop-blur-md border border-white/10 rounded-[2vh] md:rounded-[1vw] shadow-[0_4px_30px_rgba(0,0,0,0.4)] text-white font-medium text-[1.6vh] md:text-[1vw]"
+          className="grid grid-cols-2 md:grid-cols-8 gap-px overflow-hidden bg-[#fbf7f0]/5 backdrop-blur-md border border-white/10 rounded-[2vh] md:rounded-[1vw] shadow-[0_4px_30px_rgba(0,0,0,0.4)] text-[#f3e9cb] font-medium text-[1.6vh] md:text-[1vw]"
         >
           {/* Name & Phone */}
           {[
@@ -151,7 +159,7 @@ const HeroSection = ({
               key={name}
               className="bg-black/60 px-[2vh] py-[2vh] md:px-[2vw] md:py-[1vw] flex flex-col gap-[1vh] md:gap-[1vw]"
             >
-              <label className="text-white/80 text-[1.4vh] md:text-[1vw]">
+              <label className="text-[#f3e9cb]/80 text-[1.4vh] md:text-[1vw]">
                 {label}
               </label>
               <input
@@ -160,7 +168,7 @@ const HeroSection = ({
                 value={formData[name]} // Added value prop for controlled component
                 onChange={handleChange}
                 placeholder={placeholder}
-                className="bg-transparent border-b border-white/30 focus:border-[#c1a47a] placeholder:text-white/40 focus:outline-none transition-all text-[1.5vh] md:text-[1vw]"
+                className="bg-transparent border-b border-white/30 focus:border-[#c1a47a] placeholder:text-[#f3e9cb]/40 focus:outline-none transition-all text-[1.5vh] md:text-[1vw]"
               />
             </div>
           ))}
@@ -174,7 +182,7 @@ const HeroSection = ({
               key={name}
               className="bg-black/60 px-[2vh] py-[2vh] md:px-[2vw] md:py-[1vw] flex flex-col gap-[1vh] md:gap-[1vw]"
             >
-              <label className="text-white/80 text-[1.4vh] md:text-[1vw]">
+              <label className="text-[#f3e9cb]/80 text-[1.4vh] md:text-[1vw]">
                 {label}
               </label>
               <div className="flex items-center border-b border-white/30">
@@ -183,9 +191,9 @@ const HeroSection = ({
                   name={name}
                   value={formData[name]} // Added value prop for controlled component
                   onChange={handleChange}
-                  className="bg-transparent w-full text-white placeholder:text-white/40 focus:outline-none text-[1.5vh] md:text-[1vw]"
+                  className="bg-transparent w-full text-[#f3e9cb] placeholder:text-[#f3e9cb]/40 focus:outline-none text-[1.5vh] md:text-[1vw]"
                 />
-                <CalendarDays className="ml-2 w-[2vh] h-[2vh] md:w-[1.2vw] md:h-[1.2vw] text-white/60" />
+                <CalendarDays className="ml-2 w-[2vh] h-[2vh] md:w-[1.2vw] md:h-[1.2vw] text-[#f3e9cb]/60" />
               </div>
             </div>
           ))}
@@ -200,14 +208,14 @@ const HeroSection = ({
               key={name}
               className="bg-black/60 px-[2vh] py-[2vh] md:px-[2vw] md:py-[1vw] flex flex-col gap-[1vh] md:gap-[1vw]"
             >
-              <label className="text-white/80 text-[1.4vh] md:text-[1vw]">
+              <label className="text-[#f3e9cb]/80 text-[1.4vh] md:text-[1vw]">
                 {label}
               </label>
               <select
                 name={name}
                 value={formData[name]} // Added value prop for controlled component
                 onChange={handleChange}
-                className="bg-transparent border-b border-white/30 text-white focus:outline-none appearance-none text-[1.5vh] md:text-[1vw]"
+                className="bg-transparent border-b border-white/30 text-[#f3e9cb] focus:outline-none appearance-none text-[1.5vh] md:text-[1vw]"
               >
                 {options.map((opt) => (
                   <option key={opt} value={opt} className="text-black">

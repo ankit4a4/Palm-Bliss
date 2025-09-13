@@ -136,7 +136,7 @@ export default function GallerySection() {
         >
           <Link 
             href="/rooms" 
-            className="inline-block bg-yellow-700/90 hover:bg-yellow-800 text-white px-6 py-3 rounded-lg transition-colors duration-300 font-medium"
+            className="inline-block bg-yellow-700/90 hover:bg-yellow-800 text-[#f3e9cb] px-6 py-3 rounded-lg transition-colors duration-300 font-medium"
           >
             View All Rooms
           </Link>

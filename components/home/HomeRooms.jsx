@@ -362,7 +362,7 @@ function RoomDetailedModal({ room, open, onClose }) {
                 </Button>
                 <Button
                   variant="outline"
-                  className="flex-1 border-[#A67A35] text-[#A67A35] hover:bg-[#A67A35] hover:text-white"
+                  className="flex-1 border-[#A67A35] text-[#A67A35] hover:bg-[#A67A35] hover:text-[#f3e9cb]"
                   onClick={onClose}
                 >
                   Close
@@ -414,7 +414,7 @@ export default function RoomsSection() {
                   {room.title}
                 </h3>
                 <div className="mb-2">
-                  <Badge className="bg-yellow-700/90 text-white font-semibold">
+                  <Badge className="bg-yellow-700/90 text-[#f3e9cb] font-semibold">
                     {room.price}/night
                   </Badge>
                 </div>
@@ -452,7 +452,7 @@ export default function RoomsSection() {
                       e.stopPropagation();
                       // router.push(`/contact?id=${room.id}`);
                     }}
-                    className="flex-1 bg-yellow-700/90 hover:bg-[#8c672d] text-white font-semibold"
+                    className="flex-1 bg-yellow-700/90 hover:bg-[#8c672d] text-[#f3e9cb] font-semibold"
                   >
                     Book Now
                   </Button>
@@ -462,7 +462,7 @@ export default function RoomsSection() {
                       setDetailedOpenIdx(idx);
                     }}
                     variant="outline"
-                    className="flex-1 border-[#A67A35] text-[#A67A35] hover:bg-[#A67A35] hover:text-white"
+                    className="flex-1 border-[#A67A35] text-[#A67A35] hover:bg-[#A67A35] hover:text-[#f3e9cb]"
                   >
                     Learn More
                   </Button>

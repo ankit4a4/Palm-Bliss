@@ -62,7 +62,7 @@ const PoolGallery = () => {
                                     className="object-cover transition-transform duration-300 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                                <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div className="absolute bottom-4 left-4 text-[#f3e9cb] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <h3 className="text-lg font-playfair font-semibold">
                                         {image.title}
                                     </h3>

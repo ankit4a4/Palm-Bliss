@@ -1,4 +1,4 @@
-// ValuePropsSection.jsx – Ayush Dining (USPs moved to separate section)
+// ValuePropsSection.jsx – Ayush bhoj (Dinning) (USPs moved to separate section)
 
 "use client";
 
